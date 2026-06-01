@@ -1,0 +1,102 @@
+name: Update Duty Roster JSON
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 10 * * *"
+      timezone: "Pacific/Auckland"
+    - cron: "30 18 * * *"
+      timezone: "Pacific/Auckland"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-duty-roster-json
+  cancel-in-progress: true
+
+jobs:
+  update-roster:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Download latest roster JSON from SharePoint
+        run: |
+          curl -L --fail --silent --show-error \
+            "${SHAREPOINT_ROSTER_URL}" \
+            -o duty-shifts-updated-event-team.min.json
+        env:
+          SHAREPOINT_ROSTER_URL: ${{ secrets.SHAREPOINT_ROSTER_URL }}
+
+      - name: Validate roster JSON
+        run: |
+          node <<'NODE'
+          const fs = require("fs");
+
+          const filePath = "duty-shifts-updated-event-team.min.json";
+          const text = fs.readFileSync(filePath, "utf8").trim();
+
+          if (!text) {
+            throw new Error("Downloaded file is empty.");
+          }
+
+          if (text.startsWith("<!DOCTYPE") || text.startsWith("<html") || text.includes("<body")) {
+            throw new Error("Downloaded HTML instead of JSON. The SharePoint download link may have expired or changed.");
+          }
+
+          let data;
+          try {
+            data = JSON.parse(text);
+          } catch (error) {
+            throw new Error("Downloaded file is not valid JSON: " + error.message);
+          }
+
+          if (!data || typeof data !== "object" || Array.isArray(data)) {
+            throw new Error("Roster JSON must be a top-level object.");
+          }
+
+          if (!Array.isArray(data.shifts)) {
+            throw new Error("Missing or invalid shifts array.");
+          }
+
+          if (!Array.isArray(data.paycycle_entries)) {
+            throw new Error("Missing or invalid paycycle_entries array.");
+          }
+
+          if (!Array.isArray(data.event_team)) {
+            throw new Error("Missing or invalid event_team array.");
+          }
+
+          if (data.shifts.length === 0) {
+            throw new Error("shifts array is empty.");
+          }
+
+          if (data.paycycle_entries.length === 0) {
+            throw new Error("paycycle_entries array is empty.");
+          }
+
+          const minified = JSON.stringify(data);
+          fs.writeFileSync(filePath, minified);
+
+          console.log(`Valid roster JSON.`);
+          console.log(`shifts: ${data.shifts.length}`);
+          console.log(`paycycle_entries: ${data.paycycle_entries.length}`);
+          console.log(`event_team: ${data.event_team.length}`);
+          NODE
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add duty-shifts-updated-event-team.min.json
+
+          if git diff --cached --quiet; then
+            echo "No roster changes to commit."
+          else
+            git commit -m "Auto-update duty roster"
+            git push
+          fi
