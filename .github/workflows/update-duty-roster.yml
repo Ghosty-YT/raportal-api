@@ -3,11 +3,11 @@ name: Update Duty Roster JSON
 on:
   workflow_dispatch:
   schedule:
-    # Runs at 10:30am Auckland time
+    # 10:30am Auckland time
     - cron: "30 10 * * *"
       timezone: "Pacific/Auckland"
 
-    # Runs at 6:30pm Auckland time
+    # 6:30pm Auckland time
     - cron: "30 18 * * *"
       timezone: "Pacific/Auckland"
 
@@ -31,86 +31,151 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Debug SharePoint access
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install Playwright
         run: |
-          echo "Testing SharePoint download without exposing the secret URL..."
-          echo "Secret URL length: ${#SHAREPOINT_ROSTER_URL}"
+          npm init -y
+          npm install playwright
+          npx playwright install --with-deps chromium
 
-          STATUS=$(curl -L --silent --show-error \
-            -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
-            -H "Accept: application/json,text/plain,*/*" \
-            -H "Accept-Language: en-US,en;q=0.9" \
-            -H "Referer: https://uoa-my.sharepoint.com/" \
-            -D debug_headers.txt \
-            -o debug_response.txt \
-            -w "%{http_code}" \
-            "${SHAREPOINT_ROSTER_URL}" || true)
-
-          echo "HTTP status: ${STATUS}"
-
-          CONTENT_TYPE=$(awk 'BEGIN{IGNORECASE=1} /^content-type:/ {ct=$0} END {gsub(/\r/,"",ct); print ct}' debug_headers.txt)
-          echo "Content type: ${CONTENT_TYPE:-unknown}"
-
-          BYTES=$(wc -c < debug_response.txt | tr -d ' ')
-          echo "Bytes downloaded in debug test: ${BYTES}"
-
+      - name: Download roster JSON using browser
+        run: |
           node <<'NODE'
           const fs = require("fs");
+          const { chromium } = require("playwright");
 
-          const file = "debug_response.txt";
-          if (!fs.existsSync(file)) {
-            console.log("No debug response file created.");
-            process.exit(0);
+          const sharepointUrl = process.env.SHAREPOINT_ROSTER_URL;
+          const outputFile = process.env.ROSTER_FILE || "duty-shifts-updated-event-team.min.json";
+
+          if (!sharepointUrl) {
+            throw new Error("Missing SHAREPOINT_ROSTER_URL secret.");
           }
 
-          const text = fs.readFileSync(file, "utf8").trim();
-
-          if (!text) {
-            console.log("Debug response is empty.");
-            process.exit(0);
+          function withoutDownloadParam(rawUrl) {
+            const url = new URL(rawUrl);
+            url.searchParams.delete("download");
+            return url.toString();
           }
 
-          if (text.startsWith("<")) {
-            const preview = text
-              .slice(0, 500)
-              .replace(/\s+/g, " ")
-              .replace(/https?:\/\/[^\s"'<>]+/g, "[URL hidden]");
-            console.log("Debug response looks like HTML, preview:");
-            console.log(preview);
-            process.exit(0);
+          async function saveDownload(download, outputFile) {
+            await download.saveAs(outputFile);
+
+            const size = fs.statSync(outputFile).size;
+            console.log(`Downloaded file size: ${size} bytes`);
+
+            if (size === 0) {
+              throw new Error("Downloaded file is empty.");
+            }
           }
 
-          try {
-            const data = JSON.parse(text);
-            console.log("Debug response looks like valid JSON.");
-            console.log("Top-level keys:", Object.keys(data).join(", "));
-            if (Array.isArray(data.shifts)) console.log("shifts:", data.shifts.length);
-            if (Array.isArray(data.paycycle_entries)) console.log("paycycle_entries:", data.paycycle_entries.length);
-            if (Array.isArray(data.event_team)) console.log("event_team:", data.event_team.length);
-          } catch (error) {
-            console.log("Debug response is not HTML and not valid JSON.");
-            console.log("First 300 characters:");
-            console.log(text.slice(0, 300));
+          async function main() {
+            const browser = await chromium.launch({
+              headless: true
+            });
+
+            const context = await browser.newContext({
+              acceptDownloads: true,
+              userAgent:
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+              viewport: { width: 1366, height: 900 }
+            });
+
+            const page = await context.newPage();
+
+            console.log("Attempt 1: open direct download URL in browser.");
+
+            let downloaded = false;
+
+            try {
+              const download = await Promise.race([
+                page.waitForEvent("download", { timeout: 45000 }),
+                page.goto(sharepointUrl, {
+                  waitUntil: "domcontentloaded",
+                  timeout: 60000
+                }).then(() => null).catch(() => null)
+              ]);
+
+              if (download) {
+                await saveDownload(download, outputFile);
+                downloaded = true;
+              }
+            } catch (error) {
+              console.log("Direct browser-download attempt did not complete:", error.message);
+            }
+
+            if (!downloaded) {
+              console.log("Attempt 2: open SharePoint viewer and click Download.");
+
+              const viewerUrl = withoutDownloadParam(sharepointUrl);
+
+              await page.goto(viewerUrl, {
+                waitUntil: "domcontentloaded",
+                timeout: 60000
+              });
+
+              await page.waitForTimeout(5000);
+
+              const possibleButtons = [
+                page.getByRole("button", { name: /download/i }),
+                page.locator('[aria-label*="Download"]').first(),
+                page.locator('button:has-text("Download")').first(),
+                page.locator('a:has-text("Download")').first()
+              ];
+
+              let clicked = false;
+
+              for (const locator of possibleButtons) {
+                try {
+                  await locator.waitFor({ state: "visible", timeout: 10000 });
+
+                  const downloadPromise = page.waitForEvent("download", {
+                    timeout: 60000
+                  });
+
+                  await locator.click();
+
+                  const download = await downloadPromise;
+                  await saveDownload(download, outputFile);
+
+                  clicked = true;
+                  downloaded = true;
+                  break;
+                } catch (error) {
+                  console.log("Download button attempt failed:", error.message);
+                }
+              }
+
+              if (!clicked) {
+                const htmlPreview = await page.content();
+                const safePreview = htmlPreview
+                  .slice(0, 1000)
+                  .replace(/\s+/g, " ")
+                  .replace(/https?:\/\/[^\s"'<>]+/g, "[URL hidden]");
+
+                console.log("Could not find/click Download. Page preview:");
+                console.log(safePreview);
+
+                await page.screenshot({
+                  path: "sharepoint-debug.png",
+                  fullPage: true
+                });
+
+                throw new Error("Browser could not download the SharePoint file.");
+              }
+            }
+
+            await browser.close();
           }
+
+          main().catch(error => {
+            console.error(error);
+            process.exit(1);
+          });
           NODE
-        env:
-          SHAREPOINT_ROSTER_URL: ${{ secrets.SHAREPOINT_ROSTER_URL }}
-
-      - name: Test and download latest roster JSON from SharePoint
-        run: |
-          curl -L --fail --silent --show-error \
-            --retry 3 \
-            --retry-delay 10 \
-            --retry-all-errors \
-            -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
-            -H "Accept: application/json,text/plain,*/*" \
-            -H "Accept-Language: en-US,en;q=0.9" \
-            -H "Referer: https://uoa-my.sharepoint.com/" \
-            "${SHAREPOINT_ROSTER_URL}" \
-            -o "${ROSTER_FILE}"
-
-          echo "Downloaded file size:"
-          wc -c "${ROSTER_FILE}"
         env:
           SHAREPOINT_ROSTER_URL: ${{ secrets.SHAREPOINT_ROSTER_URL }}
 
@@ -133,7 +198,7 @@ jobs:
             text.includes("Sign in") ||
             text.includes("Access denied")
           ) {
-            throw new Error("Downloaded HTML/login/error page instead of JSON. Check the SharePoint download link.");
+            throw new Error("Downloaded HTML/login/error page instead of JSON.");
           }
 
           let data;
@@ -167,7 +232,6 @@ jobs:
             throw new Error("paycycle_entries array is empty.");
           }
 
-          // Minify to keep the API file small and stable.
           fs.writeFileSync(filePath, JSON.stringify(data));
 
           console.log("Valid roster JSON.");
@@ -175,6 +239,14 @@ jobs:
           console.log("paycycle_entries:", data.paycycle_entries.length);
           console.log("event_team:", data.event_team.length);
           NODE
+
+      - name: Upload SharePoint debug screenshot if failed
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sharepoint-debug
+          path: sharepoint-debug.png
+          if-no-files-found: ignore
 
       - name: Commit and push if changed
         run: |
