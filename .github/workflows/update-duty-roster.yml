@@ -3,8 +3,11 @@ name: Update Duty Roster JSON
 on:
   workflow_dispatch:
   schedule:
+    # Runs at 10:30am Auckland time
     - cron: "30 10 * * *"
       timezone: "Pacific/Auckland"
+
+    # Runs at 6:30pm Auckland time
     - cron: "30 18 * * *"
       timezone: "Pacific/Auckland"
 
@@ -15,6 +18,9 @@ concurrency:
   group: update-duty-roster-json
   cancel-in-progress: true
 
+env:
+  ROSTER_FILE: duty-shifts-updated-event-team.min.json
+
 jobs:
   update-roster:
     runs-on: ubuntu-latest
@@ -22,12 +28,89 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Download latest roster JSON from SharePoint
+      - name: Debug SharePoint access
+        run: |
+          echo "Testing SharePoint download without exposing the secret URL..."
+          echo "Secret URL length: ${#SHAREPOINT_ROSTER_URL}"
+
+          STATUS=$(curl -L --silent --show-error \
+            -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
+            -H "Accept: application/json,text/plain,*/*" \
+            -H "Accept-Language: en-US,en;q=0.9" \
+            -H "Referer: https://uoa-my.sharepoint.com/" \
+            -D debug_headers.txt \
+            -o debug_response.txt \
+            -w "%{http_code}" \
+            "${SHAREPOINT_ROSTER_URL}" || true)
+
+          echo "HTTP status: ${STATUS}"
+
+          CONTENT_TYPE=$(awk 'BEGIN{IGNORECASE=1} /^content-type:/ {ct=$0} END {gsub(/\r/,"",ct); print ct}' debug_headers.txt)
+          echo "Content type: ${CONTENT_TYPE:-unknown}"
+
+          BYTES=$(wc -c < debug_response.txt | tr -d ' ')
+          echo "Bytes downloaded in debug test: ${BYTES}"
+
+          node <<'NODE'
+          const fs = require("fs");
+
+          const file = "debug_response.txt";
+          if (!fs.existsSync(file)) {
+            console.log("No debug response file created.");
+            process.exit(0);
+          }
+
+          const text = fs.readFileSync(file, "utf8").trim();
+
+          if (!text) {
+            console.log("Debug response is empty.");
+            process.exit(0);
+          }
+
+          if (text.startsWith("<")) {
+            const preview = text
+              .slice(0, 500)
+              .replace(/\s+/g, " ")
+              .replace(/https?:\/\/[^\s"'<>]+/g, "[URL hidden]");
+            console.log("Debug response looks like HTML, preview:");
+            console.log(preview);
+            process.exit(0);
+          }
+
+          try {
+            const data = JSON.parse(text);
+            console.log("Debug response looks like valid JSON.");
+            console.log("Top-level keys:", Object.keys(data).join(", "));
+            if (Array.isArray(data.shifts)) console.log("shifts:", data.shifts.length);
+            if (Array.isArray(data.paycycle_entries)) console.log("paycycle_entries:", data.paycycle_entries.length);
+            if (Array.isArray(data.event_team)) console.log("event_team:", data.event_team.length);
+          } catch (error) {
+            console.log("Debug response is not HTML and not valid JSON.");
+            console.log("First 300 characters:");
+            console.log(text.slice(0, 300));
+          }
+          NODE
+        env:
+          SHAREPOINT_ROSTER_URL: ${{ secrets.SHAREPOINT_ROSTER_URL }}
+
+      - name: Test and download latest roster JSON from SharePoint
         run: |
           curl -L --fail --silent --show-error \
+            --retry 3 \
+            --retry-delay 10 \
+            --retry-all-errors \
+            -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
+            -H "Accept: application/json,text/plain,*/*" \
+            -H "Accept-Language: en-US,en;q=0.9" \
+            -H "Referer: https://uoa-my.sharepoint.com/" \
             "${SHAREPOINT_ROSTER_URL}" \
-            -o duty-shifts-updated-event-team.min.json
+            -o "${ROSTER_FILE}"
+
+          echo "Downloaded file size:"
+          wc -c "${ROSTER_FILE}"
         env:
           SHAREPOINT_ROSTER_URL: ${{ secrets.SHAREPOINT_ROSTER_URL }}
 
@@ -36,15 +119,21 @@ jobs:
           node <<'NODE'
           const fs = require("fs");
 
-          const filePath = "duty-shifts-updated-event-team.min.json";
+          const filePath = process.env.ROSTER_FILE;
           const text = fs.readFileSync(filePath, "utf8").trim();
 
           if (!text) {
             throw new Error("Downloaded file is empty.");
           }
 
-          if (text.startsWith("<!DOCTYPE") || text.startsWith("<html") || text.includes("<body")) {
-            throw new Error("Downloaded HTML instead of JSON. The SharePoint download link may have expired or changed.");
+          if (
+            text.startsWith("<!DOCTYPE") ||
+            text.startsWith("<html") ||
+            text.includes("<body") ||
+            text.includes("Sign in") ||
+            text.includes("Access denied")
+          ) {
+            throw new Error("Downloaded HTML/login/error page instead of JSON. Check the SharePoint download link.");
           }
 
           let data;
@@ -78,13 +167,13 @@ jobs:
             throw new Error("paycycle_entries array is empty.");
           }
 
-          const minified = JSON.stringify(data);
-          fs.writeFileSync(filePath, minified);
+          // Minify to keep the API file small and stable.
+          fs.writeFileSync(filePath, JSON.stringify(data));
 
-          console.log(`Valid roster JSON.`);
-          console.log(`shifts: ${data.shifts.length}`);
-          console.log(`paycycle_entries: ${data.paycycle_entries.length}`);
-          console.log(`event_team: ${data.event_team.length}`);
+          console.log("Valid roster JSON.");
+          console.log("shifts:", data.shifts.length);
+          console.log("paycycle_entries:", data.paycycle_entries.length);
+          console.log("event_team:", data.event_team.length);
           NODE
 
       - name: Commit and push if changed
@@ -92,7 +181,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add duty-shifts-updated-event-team.min.json
+          git add "${ROSTER_FILE}"
 
           if git diff --cached --quiet; then
             echo "No roster changes to commit."
