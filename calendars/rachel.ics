@@ -6,8 +6,40 @@ METHOD:PUBLISH
 X-WR-CALNAME:UHT RA Calendar — Rachel
 X-WR-TIMEZONE:Pacific/Auckland
 BEGIN:VEVENT
-UID:event-2026-02-21-rachel-move-in-day@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-02-16-rachel-ra-training-ra-training@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260216
+SUMMARY:UHT Work — RA Training
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Training\\nDate: Monday 2026-02-16\
+ \nHours: 7.5\\nPaycycle: Paycycle 1\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:work-2026-02-17-rachel-ra-training-ra-training@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260217
+SUMMARY:UHT Work — RA Training
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Training\\nDate: Tuesday 2026-02-17
+ \\nHours: 7.5\\nPaycycle: Paycycle 1\\nSemester: Semester 1\\nSource: Admi
+ n
+END:VEVENT
+BEGIN:VEVENT
+UID:work-2026-02-18-rachel-ra-training-ra-training@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260218
+SUMMARY:UHT Work — RA Training
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Training\\nDate: Wednesday 2026-02-
+ 18\\nHours: 7.5\\nPaycycle: Paycycle 1\\nSemester: Semester 1\\nSource: Ad
+ min
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-02-21-rachel-move-in-day-move-in-day@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260220T190000Z
 DTEND:20260221T043000Z
 SUMMARY:UHT Event — Move In Day
@@ -17,8 +49,8 @@ DESCRIPTION:Type: Event\\nEvent: Move In Day\\nRole: Event Team\\nDate: Sat
  nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-02-22-rachel-hawk-hound-hunt@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-02-22-rachel-hawk-hound-hunt-hawk-hound-hunt@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260221T230000Z
 DTEND:20260222T030000Z
 SUMMARY:UHT Event — Hawk & Hound Hunt
@@ -28,8 +60,8 @@ DESCRIPTION:Type: Event\\nEvent: Hawk & Hound Hunt\\nRole: Event Team\\nDat
   1\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-02-22-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-02-22-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260222T050000Z
 DTEND:20260222T070000Z
 SUMMARY:UHT Duty — Backup
@@ -39,8 +71,9 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-02-22\\nTime: 18:
  t on duty date: Hawk & Hound Hunt\\nNotes: Move In Day
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-02-23-rachel-uht-friends-at-first-sight@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-02-23-rachel-uht-friends-at-first-sight-uht-friends-at-first
+ -sight@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260223T060000Z
 DTEND:20260223T100000Z
 SUMMARY:UHT Event — UHT Friends at First Sight
@@ -50,8 +83,8 @@ DESCRIPTION:Type: Event\\nEvent: UHT Friends at First Sight\\nRole: Event T
   Paycycle 1\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-02-24-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-02-24-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260224T040000Z
 DTEND:20260224T100000Z
 SUMMARY:UHT Duty — Backup
@@ -61,8 +94,9 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-02-24\\nTime: 17
  nt on duty date: Quiz Night
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-02-25-rachel-battle-of-the-colours@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-02-25-rachel-battle-of-the-colours-battle-of-the-colours@uht
+ -ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260224T230000Z
 DTEND:20260225T030000Z
 SUMMARY:UHT Event — Battle of the Colours
@@ -72,8 +106,9 @@ DESCRIPTION:Type: Event\\nEvent: Battle of the Colours\\nRole: Event Team\\
  aycycle 1\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-02-26-rachel-cyoa-mt-eden-hike@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-02-26-rachel-cyoa-mt-eden-hike-cyoa-mt-eden-hike@uht-ra-port
+ al
+DTSTAMP:20260616T094656Z
 DTSTART:20260226T050000Z
 DTEND:20260226T070000Z
 SUMMARY:UHT Event — CYOA - Mt Eden Hike
@@ -83,8 +118,8 @@ DESCRIPTION:Type: Event\\nEvent: CYOA - Mt Eden Hike\\nRole: Event Team\\nD
  ycle 1\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-02-28-rachel-wecan@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-02-28-rachel-wecan-wecan@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260228T010000Z
 DTEND:20260228T030000Z
 SUMMARY:UHT Event — WECan
@@ -94,8 +129,8 @@ DESCRIPTION:Type: Event\\nEvent: WECan\\nRole: Event Team\\nDate: Saturday
  ter: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-03-01-rachel-halls-day-out@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-03-01-rachel-halls-day-out-halls-day-out@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260228T230000Z
 DTEND:20260301T030000Z
 SUMMARY:UHT Event — Halls Day Out
@@ -105,8 +140,8 @@ DESCRIPTION:Type: Event\\nEvent: Halls Day Out\\nRole: Event Team\\nDate: S
  nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-03-02-rachel-toga-night@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-03-02-rachel-toga-night-toga-night@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260302T053000Z
 DTEND:20260302T100000Z
 SUMMARY:UHT Event — Toga Night
@@ -116,8 +151,19 @@ DESCRIPTION:Type: Event\\nEvent: Toga Night\\nRole: Event Team\\nDate: Mond
  mester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-03-04-rachel-toitu-tauira-maori@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-03-03-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260303
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-03-03\
+ \nHours: 1\\nPaycycle: Paycycle 2\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-04-rachel-toitu-tauira-maori-toitu-tauira-maori@uht-ra-po
+ rtal
+DTSTAMP:20260616T094656Z
 DTSTART:20260304T040000Z
 DTEND:20260304T060000Z
 SUMMARY:UHT Event — Toitu Tauira Maori
@@ -127,8 +173,8 @@ DESCRIPTION:Type: Event\\nEvent: Toitu Tauira Maori\\nRole: Event Team\\nDa
  ycle 2\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-03-05-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-03-05-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260305T043000Z
 DTEND:20260305T100000Z
 SUMMARY:UHT Duty — Secondary
@@ -137,8 +183,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Thursday 2026-03-05\\nTime
  : 17:30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 2\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-03-07-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-03-07-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260307T040000Z
 DTEND:20260307T100000Z
 SUMMARY:UHT Duty — Backup
@@ -147,8 +193,18 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-03-07\\nTime: 1
  7:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 2\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-03-12-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-03-10-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260310
+DTEND;VALUE=DATE:20260310
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-03-10\
+ \nHours: 1\\nPaycycle: Paycycle 2\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-12-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260312T060000Z
 DTEND:20260312T100000Z
 SUMMARY:UHT Duty — Backup
@@ -157,8 +213,9 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Thursday 2026-03-12\\nTime: 1
  9:00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 2\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-03-13-rachel-wkh-meet-the-team-with-ice-cream@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-03-13-rachel-wkh-meet-the-team-with-ice-cream-wkh-meet-the-t
+ eam-with-ice-cream@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260313T033000Z
 DTEND:20260313T063000Z
 SUMMARY:UHT Event — WKH Meet the Team with Ice Cream
@@ -168,8 +225,8 @@ DESCRIPTION:Type: Event\\nEvent: WKH Meet the Team with Ice Cream\\nRole: E
  cycle: Paycycle 2\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-03-15-rachel-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-03-15-rachel-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260315T063000Z
 DTEND:20260315T100000Z
 SUMMARY:UHT Duty — Primary
@@ -178,8 +235,29 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Sunday 2026-03-15\\nTime: 19
  :30 – 23:00\\nHours: 3.5\\nPaycycle: Paycycle 2\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-03-22-rachel-inter-res-volleyball@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-03-17-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260317
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-03-17\
+ \nHours: 1\\nPaycycle: Paycycle 3\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-19-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260319
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Thursday 2026-03-19\\nPaycycl
+ e: Paycycle 3\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-22-rachel-inter-res-volleyball-inter-res-volleyball@uht-r
+ a-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260321T203000Z
 DTEND:20260322T030000Z
 SUMMARY:UHT Event — Inter-Res Volleyball
@@ -189,8 +267,63 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Volleyball\\nRole: Event Team\\n
  cle 3\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-03-31-rachel-inter-res-debating@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-03-22-rachel-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260322
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Sunday 2026-03-22\\nPaycycle
+ : Paycycle 3\\nSemester: Semester 1\\nEvent on duty date: Inter-Res Volley
+ ball
+END:VEVENT
+BEGIN:VEVENT
+UID:work-2026-03-24-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260324
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-03-24\
+ \nHours: 1\\nPaycycle: Paycycle 3\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-28-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260328
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-03-28\\nPaycycl
+ e: Paycycle 3\\nSemester: Semester 1\\nEvent on duty date: Green Your Room
+ /Flat
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-28-rachel-green-your-room-flat-green-your-room-flat@uht-r
+ a-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260328
+SUMMARY:UHT Event — Green Your Room/Flat
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Green Your Room/Flat\\nRole: Event Team\\n
+ Date: Saturday 2026-03-28\\nHours: 2\\nPaycycle: Paycycle 3\\nSemester: Se
+ mester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:work-2026-03-31-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260331
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-03-31\
+ \nHours: 1\\nPaycycle: Paycycle 4\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-31-rachel-inter-res-debating-inter-res-debating@uht-ra-po
+ rtal
+DTSTAMP:20260616T094656Z
 DTSTART:20260331T040000Z
 DTEND:20260331T093000Z
 SUMMARY:UHT Event — Inter-Res Debating
@@ -200,8 +333,8 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Debating\\nRole: Event Team\\nDa
  le 4\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-04-01-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-04-01-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260401T033000Z
 DTEND:20260401T100000Z
 SUMMARY:UHT Duty — Secondary
@@ -211,8 +344,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Wednesday 2026-04-01\\nTim
  1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-04-04-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-04-04-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260404T043000Z
 DTEND:20260404T100000Z
 SUMMARY:UHT Duty — Secondary
@@ -221,8 +354,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Saturday 2026-04-04\\nTime
  : 17:30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 4\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-04-06-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-04-06-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260405T203000Z
 DTEND:20260406T040000Z
 SUMMARY:UHT Duty — Backup
@@ -232,8 +365,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-04-06\\nTime: 08:
  tes: Easter Monday
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-04-16-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-04-16-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260416T050000Z
 DTEND:20260416T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -243,8 +376,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Thursday 2026-04-16\\nTime
  nEvent on duty date: Sick (5.5 hours)
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-04-18-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-04-18-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260418T050000Z
 DTEND:20260418T110000Z
 SUMMARY:UHT Duty — Backup
@@ -253,8 +386,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-04-18\\nTime: 1
  7:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 5\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-04-20-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-04-20-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260420T050000Z
 DTEND:20260420T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -263,8 +396,18 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Monday 2026-04-20\\nTime:
  17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 5\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-04-23-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-04-21-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260421
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-04-21\
+ \nHours: 1\\nPaycycle: Paycycle 5\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-04-23-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260423T050000Z
 DTEND:20260423T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -273,8 +416,18 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Thursday 2026-04-23\\nTime
  : 17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 5\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-05-04-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-04-28-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260428
+DTEND;VALUE=DATE:20260428
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-04-28\
+ \nHours: 1\\nPaycycle: Paycycle 6\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-04-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260504T070000Z
 DTEND:20260504T110000Z
 SUMMARY:UHT Duty — Backup
@@ -283,8 +436,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-05-04\\nTime: 19:
  00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 6\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-05-06-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-05-06-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260506T063000Z
 DTEND:20260506T110000Z
 SUMMARY:UHT Duty — Backup
@@ -293,8 +446,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-05-06\\nTime:
  18:30 – 23:00\\nHours: 4.5\\nPaycycle: Paycycle 6\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-05-07-rachel-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-05-07-rachel-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260507T050000Z
 DTEND:20260507T110000Z
 SUMMARY:UHT Duty — Primary
@@ -303,8 +456,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Thursday 2026-05-07\\nTime:
  17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 6\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-05-09-rachel-arts-culture-day@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-05-09-rachel-arts-culture-day-arts-culture-day@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260509T070000Z
 DTEND:20260509T103000Z
 SUMMARY:UHT Event — Arts & Culture Day
@@ -314,8 +467,9 @@ DESCRIPTION:Type: Event\\nEvent: Arts & Culture Day\\nRole: Event Team\\nDa
  cycle 6\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-05-10-rachel-inter-res-swimming-carnival@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-05-10-rachel-inter-res-swimming-carnival-inter-res-swimming-
+ carnival@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260509T210000Z
 DTEND:20260510T040000Z
 SUMMARY:UHT Event — Inter-Res Swimming Carnival
@@ -325,8 +479,8 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Swimming Carnival\\nRole: Event
  le: Paycycle 6\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-05-10-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-05-10-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260510T060000Z
 DTEND:20260510T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -336,8 +490,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Sunday 2026-05-10\\nTime:
  vent on duty date: Inter-Res Swimming Carnival
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-05-11-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-05-11-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260511T080000Z
 DTEND:20260511T110000Z
 SUMMARY:UHT Duty — Backup
@@ -346,8 +500,18 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-05-11\\nTime: 20:
  00 – 23:00\\nHours: 3\\nPaycycle: Paycycle 7\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-05-12-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-05-12-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260512
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-05-12\
+ \nHours: 1\\nPaycycle: Paycycle 7\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-12-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260512T050000Z
 DTEND:20260512T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -356,8 +520,21 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Tuesday 2026-05-12\\nTime:
   17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 7\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-05-24-rachel-inter-res-indoor-netball@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-05-16-rachel-wkh-pink-cupcake-decorating-wkh-pink-cupcake-de
+ corating@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260516
+SUMMARY:UHT Event — WKH Pink Cupcake Decorating
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: WKH Pink Cupcake Decorating\\nRole: Floor 
+ Events\\nDate: Saturday 2026-05-16\\nHours: 3\\nPaycycle: Paycycle 7\\nSem
+ ester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-05-24-rachel-inter-res-indoor-netball-inter-res-indoor-netba
+ ll@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260523T210000Z
 DTEND:20260524T040000Z
 SUMMARY:UHT Event — Inter-Res Indoor Netball
@@ -367,8 +544,18 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Indoor Netball\\nRole: Event Tea
   Paycycle 7\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-05-29-rachel-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-05-26-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260526
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-05-26\
+ \nHours: 1\\nPaycycle: Paycycle 8\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-29-rachel-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260529T050000Z
 DTEND:20260529T110000Z
 SUMMARY:UHT Duty — Primary
@@ -377,8 +564,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Friday 2026-05-29\\nTime: 17
  :00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 8\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-05-31-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-05-31-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260531T043000Z
 DTEND:20260531T110000Z
 SUMMARY:UHT Duty — Backup
@@ -387,8 +574,18 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-05-31\\nTime: 16:
  30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 8\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-06-04-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-06-02-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260602
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-06-02\
+ \nHours: 1\\nPaycycle: Paycycle 8\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-04-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260604T050000Z
 DTEND:20260604T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -397,8 +594,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Thursday 2026-06-04\\nTime
  : 17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 8\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-06-05-rachel-uh-eos-event@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-06-05-rachel-uh-eos-event-uh-eos-event@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260605T050000Z
 DTEND:20260605T110000Z
 SUMMARY:UHT Event — UH EOS Event
@@ -408,8 +605,8 @@ DESCRIPTION:Type: Event\\nEvent: UH EOS Event\\nRole: Event Team\\nDate: Fr
  \nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-06-07-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-06-07-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260607T060000Z
 DTEND:20260607T110000Z
 SUMMARY:UHT Duty — Backup
@@ -418,8 +615,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-06-07\\nTime: 18:
  00 – 23:00\\nHours: 5\\nPaycycle: Paycycle 8\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-06-09-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-06-09-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260609T043000Z
 DTEND:20260609T110000Z
 SUMMARY:UHT Duty — Backup
@@ -428,8 +625,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-06-09\\nTime: 16
  :30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 9\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-06-12-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-06-12-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260612T043000Z
 DTEND:20260612T110000Z
 SUMMARY:UHT Duty — Backup
@@ -438,8 +635,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-06-12\\nTime: 16:
  30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 9\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-06-15-rachel-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-06-15-rachel-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260615T043000Z
 DTEND:20260615T110000Z
 SUMMARY:UHT Duty — Primary
@@ -448,8 +645,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Monday 2026-06-15\\nTime: 16
  :30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 9\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-06-19-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-06-19-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260619T043000Z
 DTEND:20260619T110000Z
 SUMMARY:UHT Duty — Backup
@@ -458,8 +655,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-06-19\\nTime: 16:
  30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 9\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-06-24-rachel-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-06-24-rachel-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260624T043000Z
 DTEND:20260624T110000Z
 SUMMARY:UHT Duty — Primary
@@ -468,8 +665,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Wednesday 2026-06-24\\nTime:
   16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 10\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-01-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-07-01-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260701T043000Z
 DTEND:20260701T110000Z
 SUMMARY:UHT Duty — Backup
@@ -478,8 +675,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-07-01\\nTime:
  16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 10\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-02-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-07-02-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260702T043000Z
 DTEND:20260702T110000Z
 SUMMARY:UHT Duty — Backup
@@ -488,8 +685,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Thursday 2026-07-02\\nTime: 1
  6:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 10\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-04-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-07-04-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260704T043000Z
 DTEND:20260704T110000Z
 SUMMARY:UHT Duty — Backup
@@ -498,8 +695,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-07-04\\nTime: 1
  6:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 10\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-07-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-07-07-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260707T080000Z
 DTEND:20260707T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -508,8 +705,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Tuesday 2026-07-07\\nTime:
   20:00 – 23:00\\nHours: 3\\nPaycycle: Paycycle 11\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-09-rachel-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-07-09-rachel-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260709T063000Z
 DTEND:20260709T110000Z
 SUMMARY:UHT Duty — Primary
@@ -518,8 +715,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Thursday 2026-07-09\\nTime:
  18:30 – 23:00\\nHours: 4.5\\nPaycycle: Paycycle 11\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-10-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-07-10-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260709T203000Z
 DTEND:20260710T033000Z
 SUMMARY:UHT Duty — Backup
@@ -529,8 +726,19 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-07-10\\nTime: 08:
  es: Matariki
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-14-rachel-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-07-14-rachel-ra-training-ra-training@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260714
+SUMMARY:UHT Work — RA Training
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Training\\nDate: Tuesday 2026-07-14
+ \\nHours: 7.5\\nPaycycle: Paycycle 11\\nSemester: Semester 2\\nSource: Adm
+ in
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-14-rachel-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260714T070000Z
 DTEND:20260714T110000Z
 SUMMARY:UHT Duty — Primary
@@ -539,8 +747,30 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Tuesday 2026-07-14\\nTime: 1
  9:00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 11\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-21-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-07-19-rachel-residential-experience-residential-experience@u
+ ht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260719
+SUMMARY:UHT Event — Residential Experience
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Residential Experience\\nRole: Event Team\
+ \nDate: Sunday 2026-07-19\\nHours: 5\\nPaycycle: Paycycle 11\\nSemester: S
+ emester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:work-2026-07-21-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260721
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-07-21\
+ \nHours: 1\\nPaycycle: Paycycle 12\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-21-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260721T070000Z
 DTEND:20260721T110000Z
 SUMMARY:UHT Duty — Backup
@@ -549,8 +779,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-07-21\\nTime: 19
  :00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 12\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-22-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-07-22-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260722T073000Z
 DTEND:20260722T110000Z
 SUMMARY:UHT Duty — Backup
@@ -559,8 +789,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-07-22\\nTime:
  19:30 – 23:00\\nHours: 3.5\\nPaycycle: Paycycle 12\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-23-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-07-23-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260723T050000Z
 DTEND:20260723T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -570,8 +800,19 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Thursday 2026-07-23\\nTime
  \nEvent on duty date: Crafts Night
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-25-rachel-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-07-25-rachel-quiz-night-quiz-night@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260725
+SUMMARY:UHT Event — Quiz Night
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Quiz Night\\nRole: Appreciation Week\\nDat
+ e: Saturday 2026-07-25\\nHours: 3\\nPaycycle: Paycycle 12\\nSemester: Seme
+ ster 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-25-rachel-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260725T043000Z
 DTEND:20260725T110000Z
 SUMMARY:UHT Duty — Primary
@@ -581,8 +822,18 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Saturday 2026-07-25\\nTime:
  \nEvent on duty date: Quiz Night
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-08-02-rachel-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-07-28-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260728
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-07-28\
+ \nHours: 1\\nPaycycle: Paycycle 12\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-02-rachel-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260802T043000Z
 DTEND:20260802T110000Z
 SUMMARY:UHT Duty — Primary
@@ -591,8 +842,19 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Sunday 2026-08-02\\nTime: 16
  :30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 12\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-08-05-rachel-uht-bracelet-making@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-08-04-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260804
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-08-04\
+ \nHours: 1\\nPaycycle: Paycycle 13\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-08-05-rachel-uht-bracelet-making-uht-bracelet-making@uht-ra-
+ portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260805T070000Z
 DTEND:20260805T103000Z
 SUMMARY:UHT Event — UHT Bracelet Making
@@ -602,8 +864,9 @@ DESCRIPTION:Type: Event\\nEvent: UHT Bracelet Making\\nRole: Event Team\\nD
  aycycle 13\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-08-08-rachel-inter-res-talent-quest@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-08-08-rachel-inter-res-talent-quest-inter-res-talent-quest@u
+ ht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260808T050000Z
 DTEND:20260808T110000Z
 SUMMARY:UHT Event — Inter-Res Talent Quest
@@ -613,8 +876,8 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Talent Quest\\nRole: Event Team\
   Paycycle 13\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-08-09-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-08-09-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260809T043000Z
 DTEND:20260809T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -623,8 +886,18 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Sunday 2026-08-09\\nTime:
  16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 13\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-08-14-rachel-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-08-11-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260811
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-08-11\
+ \nHours: 1\\nPaycycle: Paycycle 13\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-14-rachel-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260814T043000Z
 DTEND:20260814T110000Z
 SUMMARY:UHT Duty — Primary
@@ -633,8 +906,18 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Friday 2026-08-14\\nTime: 16
  :30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 13\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-08-19-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-08-18-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260818
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-08-18\
+ \nHours: 1\\nPaycycle: Paycycle 14\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-19-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260819T040000Z
 DTEND:20260819T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -643,8 +926,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Wednesday 2026-08-19\\nTim
  e: 16:00 – 23:00\\nHours: 7\\nPaycycle: Paycycle 14\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-08-22-rachel-ball@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-08-22-rachel-ball-ball@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260822T050000Z
 DTEND:20260822T110000Z
 SUMMARY:UHT Event — Ball
@@ -654,8 +937,8 @@ DESCRIPTION:Type: Event\\nEvent: Ball\\nRole: Event Team\\nDate: Saturday 2
  ester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-08-23-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-08-23-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260823T040000Z
 DTEND:20260823T110000Z
 SUMMARY:UHT Duty — Backup
@@ -664,8 +947,18 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-08-23\\nTime: 16:
  00 – 23:00\\nHours: 7\\nPaycycle: Paycycle 14\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-08-29-rachel-manawa-mai@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-08-25-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260825
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-08-25\
+ \nHours: 1\\nPaycycle: Paycycle 14\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-08-29-rachel-manawa-mai-manawa-mai@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260828T200000Z
 DTEND:20260829T050000Z
 SUMMARY:UHT Event — Manawa Mai
@@ -675,8 +968,8 @@ DESCRIPTION:Type: Event\\nEvent: Manawa Mai\\nRole: Event Team\\nDate: Satu
  \\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-09-01-rachel-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-09-01-rachel-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260901T050000Z
 DTEND:20260901T110000Z
 SUMMARY:UHT Duty — Primary
@@ -685,8 +978,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Tuesday 2026-09-01\\nTime: 1
  7:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 15\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-09-05-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-09-05-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260905T053000Z
 DTEND:20260905T110000Z
 SUMMARY:UHT Duty — Backup
@@ -695,8 +988,19 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-09-05\\nTime: 1
  7:30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 15\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-09-07-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-09-06-rachel-steptember-count-steptember-count@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260906
+SUMMARY:UHT Event — STEPtember Count
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: STEPtember Count\\nRole: Event Team\\nDate
+ : Sunday 2026-09-06\\nHours: 1\\nPaycycle: Paycycle 15\\nSemester: Semeste
+ r 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-07-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260907T050000Z
 DTEND:20260907T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -705,8 +1009,29 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Monday 2026-09-07\\nTime:
  17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 15\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-09-15-rachel-m-ori-quiz-night@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-09-13-rachel-steptember-count-steptember-count@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260913
+SUMMARY:UHT Event — STEPtember Count
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: STEPtember Count\\nRole: Event Team\\nDate
+ : Sunday 2026-09-13\\nHours: 1\\nPaycycle: Paycycle 15\\nSemester: Semeste
+ r 2
+END:VEVENT
+BEGIN:VEVENT
+UID:work-2026-09-15-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260915
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-09-15\
+ \nHours: 1\\nPaycycle: Paycycle 16\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-09-15-rachel-m-ori-quiz-night-m-ori-quiz-night@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260915T070000Z
 DTEND:20260915T103000Z
 SUMMARY:UHT Event — Māori Quiz Night
@@ -716,8 +1041,8 @@ DESCRIPTION:Type: Event\\nEvent: Māori Quiz Night\\nRole: Event Team\\nDate
  le 16\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-09-16-rachel-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-09-16-rachel-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260916T063000Z
 DTEND:20260916T110000Z
 SUMMARY:UHT Duty — Primary
@@ -727,8 +1052,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Wednesday 2026-09-16\\nTime:
  \\nEvent on duty date: Harakeke
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-09-17-rachel-p-ahurea-m-ori@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-09-17-rachel-p-ahurea-m-ori-p-ahurea-m-ori@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260917T050000Z
 DTEND:20260917T110000Z
 SUMMARY:UHT Event — Pō Ahurea Māori
@@ -738,8 +1063,19 @@ DESCRIPTION:Type: Event\\nEvent: Pō Ahurea Māori\\nRole: Event Team\\nDate:
  le 16\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-09-21-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-09-20-rachel-steptember-count-steptember-count@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260920
+SUMMARY:UHT Event — STEPtember Count
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: STEPtember Count\\nRole: Event Team\\nDate
+ : Sunday 2026-09-20\\nHours: 1\\nPaycycle: Paycycle 16\\nSemester: Semeste
+ r 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-21-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260921T080000Z
 DTEND:20260921T110000Z
 SUMMARY:UHT Duty — Backup
@@ -748,8 +1084,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-09-21\\nTime: 20:
  00 – 23:00\\nHours: 3\\nPaycycle: Paycycle 16\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-09-22-rachel-inter-res-quiz@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-09-22-rachel-inter-res-quiz-inter-res-quiz@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260922T060000Z
 DTEND:20260922T100000Z
 SUMMARY:UHT Event — Inter-Res Quiz
@@ -759,8 +1095,20 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Quiz\\nRole: Event Team\\nDate:
  6\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-09-27-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-09-27-rachel-steptember-stair-race-steptember-stair-race@uht
+ -ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260927
+SUMMARY:UHT Event — STEPtember Stair Race
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: STEPtember Stair Race\\nRole: STEPtember C
+ ount\\nDate: Sunday 2026-09-27\\nHours: 1\\nPaycycle: Paycycle 16\\nSemest
+ er: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-27-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260927T033000Z
 DTEND:20260927T100000Z
 SUMMARY:UHT Duty — Secondary
@@ -770,8 +1118,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Sunday 2026-09-27\\nTime:
  \nEvent on duty date: STEPtember Stair Race
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-09-28-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-09-28-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260928T050000Z
 DTEND:20260928T100000Z
 SUMMARY:UHT Duty — Backup
@@ -780,8 +1128,18 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-09-28\\nTime: 18:
  00 – 23:00\\nHours: 5\\nPaycycle: Paycycle 17\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-10-02-rachel-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-09-29-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260929
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-09-29\
+ \nHours: 1\\nPaycycle: Paycycle 17\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-02-rachel-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261002T050000Z
 DTEND:20261002T100000Z
 SUMMARY:UHT Duty — Primary
@@ -790,8 +1148,21 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Friday 2026-10-02\\nTime: 18
  :00 – 23:00\\nHours: 5\\nPaycycle: Paycycle 17\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-10-04-rachel-inter-res-specialty-event@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-10-03-rachel-inter-res-talent-quest-inter-res-talent-quest@u
+ ht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261003
+SUMMARY:UHT Event — Inter-Res Talent Quest
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Inter-Res Talent Quest\\nRole: STEPtember 
+ Count\\nDate: Saturday 2026-10-03\\nHours: 1\\nPaycycle: Paycycle 17\\nSem
+ ester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-10-04-rachel-inter-res-specialty-event-inter-res-specialty-e
+ vent@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261003T203000Z
 DTEND:20261004T023000Z
 SUMMARY:UHT Event — Inter-Res Specialty Event
@@ -801,8 +1172,18 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Specialty Event\\nRole: Event Te
  : Paycycle 17\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-10-07-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-10-06-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261006
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-10-06\
+ \nHours: 1\\nPaycycle: Paycycle 17\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-07-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261007T063000Z
 DTEND:20261007T100000Z
 SUMMARY:UHT Duty — Backup
@@ -812,8 +1193,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-10-07\\nTime:
  \nEvent on duty date: SC EOY Event
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-10-09-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-10-09-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261009T043000Z
 DTEND:20261009T100000Z
 SUMMARY:UHT Duty — Backup
@@ -822,8 +1203,18 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-10-09\\nTime: 17:
  30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 17\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-10-16-rachel-gumboot-friday@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-10-13-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261013
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-10-13\
+ \nHours: 1\\nPaycycle: Paycycle 18\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-10-16-rachel-gumboot-friday-gumboot-friday@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261016T000000Z
 DTEND:20261016T030000Z
 SUMMARY:UHT Event — Gumboot Friday
@@ -833,8 +1224,8 @@ DESCRIPTION:Type: Event\\nEvent: Gumboot Friday\\nRole: Event Team\\nDate:
  \\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-10-18-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-10-18-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261018T033000Z
 DTEND:20261018T100000Z
 SUMMARY:UHT Duty — Backup
@@ -843,8 +1234,18 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-10-18\\nTime: 16:
  30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 18\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-10-22-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-10-20-rachel-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261020
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-10-20\
+ \nHours: 1\\nPaycycle: Paycycle 18\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-22-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261022T033000Z
 DTEND:20261022T100000Z
 SUMMARY:UHT Duty — Secondary
@@ -854,8 +1255,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Thursday 2026-10-22\\nTime
  2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-10-23-rachel-uht-eos-event@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-10-23-rachel-uht-eos-event-uht-eos-event@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261023T040000Z
 DTEND:20261023T100000Z
 SUMMARY:UHT Event — UHT EOS Event
@@ -865,8 +1266,8 @@ DESCRIPTION:Type: Event\\nEvent: UHT EOS Event\\nRole: Event Team\\nDate: F
  8\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-10-25-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-10-25-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261025T030000Z
 DTEND:20261025T100000Z
 SUMMARY:UHT Duty — Backup
@@ -875,8 +1276,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-10-25\\nTime: 16:
  00 – 23:00\\nHours: 7\\nPaycycle: Paycycle 18\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-10-27-rachel-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-10-27-rachel-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261027T033000Z
 DTEND:20261027T100000Z
 SUMMARY:UHT Duty — Backup
@@ -885,8 +1286,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-10-27\\nTime: 16
  :30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 19\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-11-02-rachel-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-11-02-rachel-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261102T050000Z
 DTEND:20261102T100000Z
 SUMMARY:UHT Duty — Primary
@@ -895,8 +1296,9 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Monday 2026-11-02\\nTime: 18
  :00 – 23:00\\nHours: 5\\nPaycycle: Paycycle 19\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-11-07-rachel-move-out-duty-rachel@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-11-07-rachel-move-out-duty-rachel-move-out-duty-rachel@uht-r
+ a-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261106T193000Z
 DTEND:20261107T033000Z
 SUMMARY:UHT Event — Move Out Duty - Rachel
@@ -906,8 +1308,20 @@ DESCRIPTION:Type: Event\\nEvent: Move Out Duty - Rachel\\nRole: Event Team\
   Paycycle 19\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-11-11-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-11-08-rachel-move-out-duty-matthew-move-out-duty-matthew@uht
+ -ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261108
+SUMMARY:UHT Event — Move Out Duty - Matthew
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Move Out Duty - Matthew\\nRole: Move Out T
+ asks\\nDate: Sunday 2026-11-08\\nHours: 12\\nPaycycle: Paycycle 19\\nSemes
+ ter: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-11-11-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261111T033000Z
 DTEND:20261111T100000Z
 SUMMARY:UHT Duty — Secondary
@@ -917,8 +1331,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Wednesday 2026-11-11\\nTim
   2\\nEvent on duty date: Move Out Duty - Matilde
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-11-15-rachel-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-11-15-rachel-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261115T063000Z
 DTEND:20261115T100000Z
 SUMMARY:UHT Duty — Secondary
@@ -928,8 +1342,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Sunday 2026-11-15\\nTime:
  \nEvent on duty date: Move Out Duty -  Leo
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-11-19-rachel-manager-tasks@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-11-19-rachel-manager-tasks-manager-tasks@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261119T040000Z
 DTEND:20261119T070000Z
 SUMMARY:UHT Event — Manager Tasks
@@ -939,8 +1353,8 @@ DESCRIPTION:Type: Event\\nEvent: Manager Tasks\\nRole: Event Team\\nDate: T
  0\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-11-20-rachel-move-out-day@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-11-20-rachel-move-out-day-move-out-day@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261119T190000Z
 DTEND:20261120T030000Z
 SUMMARY:UHT Event — Move Out Day
@@ -950,8 +1364,8 @@ DESCRIPTION:Type: Event\\nEvent: Move Out Day\\nRole: Event Team\\nDate: Fr
  \\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-11-21-rachel-hall-reset@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-11-21-rachel-hall-reset-hall-reset@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261120T200000Z
 DTEND:20261121T040000Z
 SUMMARY:UHT Event — Hall Reset
@@ -961,8 +1375,8 @@ DESCRIPTION:Type: Event\\nEvent: Hall Reset\\nRole: Event Team\\nDate: Satu
  \\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-11-21-rachel-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-11-21-rachel-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261121T043000Z
 DTEND:20261121T100000Z
 SUMMARY:UHT Duty — Primary

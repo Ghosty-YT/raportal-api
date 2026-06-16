@@ -6,8 +6,40 @@ METHOD:PUBLISH
 X-WR-CALNAME:UHT RA Calendar — Aaron
 X-WR-TIMEZONE:Pacific/Auckland
 BEGIN:VEVENT
-UID:event-2026-02-21-aaron-move-in-day@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-02-16-aaron-ra-training-ra-training@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260216
+SUMMARY:UHT Work — RA Training
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Training\\nDate: Monday 2026-02-16\
+ \nHours: 7.5\\nPaycycle: Paycycle 1\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:work-2026-02-17-aaron-ra-training-ra-training@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260217
+SUMMARY:UHT Work — RA Training
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Training\\nDate: Tuesday 2026-02-17
+ \\nHours: 7.5\\nPaycycle: Paycycle 1\\nSemester: Semester 1\\nSource: Admi
+ n
+END:VEVENT
+BEGIN:VEVENT
+UID:work-2026-02-18-aaron-ra-training-ra-training@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260218
+SUMMARY:UHT Work — RA Training
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Training\\nDate: Wednesday 2026-02-
+ 18\\nHours: 7.5\\nPaycycle: Paycycle 1\\nSemester: Semester 1\\nSource: Ad
+ min
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-02-21-aaron-move-in-day-move-in-day@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260220T190000Z
 DTEND:20260221T043000Z
 SUMMARY:UHT Event — Move In Day
@@ -17,8 +49,8 @@ DESCRIPTION:Type: Event\\nEvent: Move In Day\\nRole: Event Team\\nDate: Sat
  nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-02-22-aaron-hawk-hound-hunt@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-02-22-aaron-hawk-hound-hunt-hawk-hound-hunt@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260221T230000Z
 DTEND:20260222T030000Z
 SUMMARY:UHT Event — Hawk & Hound Hunt
@@ -28,8 +60,8 @@ DESCRIPTION:Type: Event\\nEvent: Hawk & Hound Hunt\\nRole: Event Team\\nDat
   1\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-02-22-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-02-22-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260222T033000Z
 DTEND:20260222T100000Z
 SUMMARY:UHT Duty — Primary
@@ -39,8 +71,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Sunday 2026-02-22\\nTime: 16
  vent on duty date: Hawk & Hound Hunt\\nNotes: Move In Day
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-02-23-aaron-unismart@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-02-23-aaron-unismart-unismart@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260223T000000Z
 DTEND:20260223T030000Z
 SUMMARY:UHT Event — UniSmart
@@ -50,8 +82,9 @@ DESCRIPTION:Type: Event\\nEvent: UniSmart\\nRole: Event Team\\nDate: Monday
  ster: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-02-26-aaron-cyoa-mt-eden-hike@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-02-26-aaron-cyoa-mt-eden-hike-cyoa-mt-eden-hike@uht-ra-porta
+ l
+DTSTAMP:20260616T094656Z
 DTSTART:20260226T050000Z
 DTEND:20260226T070000Z
 SUMMARY:UHT Event — CYOA - Mt Eden Hike
@@ -61,8 +94,8 @@ DESCRIPTION:Type: Event\\nEvent: CYOA - Mt Eden Hike\\nRole: Event Team\\nD
  ycle 1\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-02-28-aaron-wecan@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-02-28-aaron-wecan-wecan@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260228T010000Z
 DTEND:20260228T030000Z
 SUMMARY:UHT Event — WECan
@@ -72,8 +105,8 @@ DESCRIPTION:Type: Event\\nEvent: WECan\\nRole: Event Team\\nDate: Saturday
  ter: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-03-01-aaron-halls-day-out@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-03-01-aaron-halls-day-out-halls-day-out@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260228T230000Z
 DTEND:20260301T030000Z
 SUMMARY:UHT Event — Halls Day Out
@@ -83,8 +116,8 @@ DESCRIPTION:Type: Event\\nEvent: Halls Day Out\\nRole: Event Team\\nDate: S
  nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-03-01-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-03-01-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260301T033000Z
 DTEND:20260301T100000Z
 SUMMARY:UHT Duty — Backup
@@ -94,8 +127,61 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-03-01\\nTime: 16:
  ent on duty date: Halls Day Out
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-03-13-aaron-wkh-meet-the-team-with-ice-cream@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-03-02-aaron-toga-night-toga-night@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260302
+DTEND;VALUE=DATE:20260302
+SUMMARY:UHT Event — Toga Night
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Toga Night\\nRole: Sick 4 Hours\\nDate: Mo
+ nday 2026-03-02\\nHours: 4\\nPaycycle: Paycycle 2\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:work-2026-03-03-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260303
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-03-03\
+ \nHours: 1\\nPaycycle: Paycycle 2\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-04-aaron-toitu-tauira-maori-toitu-tauira-maori@uht-ra-por
+ tal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260304
+DTEND;VALUE=DATE:20260304
+SUMMARY:UHT Event — Toitu Tauira Maori
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Toitu Tauira Maori\\nRole: Sick 2 hours\\n
+ Date: Wednesday 2026-03-04\\nHours: 2\\nPaycycle: Paycycle 2\\nSemester: S
+ emester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-06-aaron-sick-6-hours-sick-6-hours@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260306
+DTEND;VALUE=DATE:20260306
+SUMMARY:UHT Event — Sick 6 hours
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Sick 6 hours\\nRole: Event Team\\nDate: Fr
+ iday 2026-03-06\\nHours: 6\\nPaycycle: Paycycle 2\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-10-aaron-sick-6-hours-sick-6-hours@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260310
+DTEND;VALUE=DATE:20260310
+SUMMARY:UHT Event — Sick 6 Hours
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Sick 6 Hours\\nRole: Event Team\\nDate: Tu
+ esday 2026-03-10\\nHours: 6\\nPaycycle: Paycycle 2\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-13-aaron-wkh-meet-the-team-with-ice-cream-wkh-meet-the-te
+ am-with-ice-cream@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260313T033000Z
 DTEND:20260313T063000Z
 SUMMARY:UHT Event — WKH Meet the Team with Ice Cream
@@ -105,8 +191,8 @@ DESCRIPTION:Type: Event\\nEvent: WKH Meet the Team with Ice Cream\\nRole: E
  cycle: Paycycle 2\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-03-13-aaron-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-03-13-aaron-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260313T053000Z
 DTEND:20260313T100000Z
 SUMMARY:UHT Duty — Secondary
@@ -116,8 +202,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Friday 2026-03-13\\nTime:
  nEvent on duty date: WKH Meet the Team with Ice Cream
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-03-14-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-03-14-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260314T033000Z
 DTEND:20260314T100000Z
 SUMMARY:UHT Duty — Backup
@@ -127,8 +213,18 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-03-14\\nTime: 1
  Event on duty date: UHT Presidential Elections
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-03-18-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-03-17-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260317
+DTEND;VALUE=DATE:20260317
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-03-17\
+ \nHours: 1\\nPaycycle: Paycycle 3\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-18-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260318T070000Z
 DTEND:20260318T100000Z
 SUMMARY:UHT Duty — Backup
@@ -137,8 +233,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-03-18\\nTime:
  20:00 – 23:00\\nHours: 3\\nPaycycle: Paycycle 3\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-03-20-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-03-20-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260320T033000Z
 DTEND:20260320T100000Z
 SUMMARY:UHT Duty — Backup
@@ -147,8 +243,9 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-03-20\\nTime: 16:
  30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 3\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-03-22-aaron-inter-res-volleyball@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-03-22-aaron-inter-res-volleyball-inter-res-volleyball@uht-ra
+ -portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260321T203000Z
 DTEND:20260322T030000Z
 SUMMARY:UHT Event — Inter-Res Volleyball
@@ -158,8 +255,30 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Volleyball\\nRole: Event Team\\n
  cle 3\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-03-28-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-03-24-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260324
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-03-24\
+ \nHours: 1\\nPaycycle: Paycycle 3\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-28-aaron-green-your-room-flat-green-your-room-flat@uht-ra
+ -portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260328
+SUMMARY:UHT Event — Green Your Room/Flat
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Green Your Room/Flat\\nRole: Event Team\\n
+ Date: Saturday 2026-03-28\\nHours: 2\\nPaycycle: Paycycle 3\\nSemester: Se
+ mester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-28-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260328T060000Z
 DTEND:20260328T100000Z
 SUMMARY:UHT Duty — Backup
@@ -169,8 +288,19 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-03-28\\nTime: 1
  ent on duty date: Green Your Room/Flat
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-03-31-aaron-inter-res-debating@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-03-31-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260331
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-03-31\
+ \nHours: 1\\nPaycycle: Paycycle 4\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-31-aaron-inter-res-debating-inter-res-debating@uht-ra-por
+ tal
+DTSTAMP:20260616T094656Z
 DTSTART:20260331T040000Z
 DTEND:20260331T093000Z
 SUMMARY:UHT Event — Inter-Res Debating
@@ -180,8 +310,8 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Debating\\nRole: Event Team\\nDa
  le 4\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-04-01-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-04-01-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260401T033000Z
 DTEND:20260401T100000Z
 SUMMARY:UHT Duty — Backup
@@ -190,8 +320,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-04-01\\nTime:
  16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 4\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-04-04-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-04-04-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260403T193000Z
 DTEND:20260404T020000Z
 SUMMARY:UHT Duty — Primary
@@ -200,8 +330,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Saturday 2026-04-04\\nTime:
  08:30 – 15:00\\nHours: 6.5\\nPaycycle: Paycycle 4\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-04-12-aaron-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-04-12-aaron-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260412T043000Z
 DTEND:20260412T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -210,8 +340,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Sunday 2026-04-12\\nTime:
  16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 4\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-04-14-aaron-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-04-14-aaron-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260414T043000Z
 DTEND:20260414T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -220,8 +350,29 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Tuesday 2026-04-14\\nTime:
   16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 5\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-04-21-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-04-16-aaron-sick-5-5-hours-sick-5-5-hours@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260416
+DTEND;VALUE=DATE:20260416
+SUMMARY:UHT Event — Sick (5.5 hours)
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Sick (5.5 hours)\\nRole: Event Team\\nDate
+ : Thursday 2026-04-16\\nHours: 5.5\\nPaycycle: Paycycle 5\\nSemester: Seme
+ ster 1
+END:VEVENT
+BEGIN:VEVENT
+UID:work-2026-04-21-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260421
+DTEND;VALUE=DATE:20260421
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-04-21\
+ \nHours: 1\\nPaycycle: Paycycle 5\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-04-21-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260421T050000Z
 DTEND:20260421T110000Z
 SUMMARY:UHT Duty — Primary
@@ -230,8 +381,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Tuesday 2026-04-21\\nTime: 1
  7:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 5\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-04-26-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-04-26-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260426T043000Z
 DTEND:20260426T110000Z
 SUMMARY:UHT Duty — Backup
@@ -240,8 +391,18 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-04-26\\nTime: 16:
  30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 5\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-04-30-aaron-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-04-28-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260428
+DTEND;VALUE=DATE:20260428
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-04-28\
+ \nHours: 1\\nPaycycle: Paycycle 6\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-04-30-aaron-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260430T070000Z
 DTEND:20260430T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -250,8 +411,9 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Thursday 2026-04-30\\nTime
  : 19:00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 6\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-05-02-aaron-capture-the-flag-domain@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-05-02-aaron-capture-the-flag-domain-capture-the-flag-domain@
+ uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260502T000000Z
 DTEND:20260502T040000Z
 SUMMARY:UHT Event — Capture the Flag - Domain
@@ -261,8 +423,8 @@ DESCRIPTION:Type: Event\\nEvent: Capture the Flag - Domain\\nRole: Event Te
  : Paycycle 6\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-05-05-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-05-05-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260505T070000Z
 DTEND:20260505T110000Z
 SUMMARY:UHT Duty — Backup
@@ -271,8 +433,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-05-05\\nTime: 19
  :00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 6\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-05-09-aaron-arts-culture-day@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-05-09-aaron-arts-culture-day-arts-culture-day@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260509T070000Z
 DTEND:20260509T103000Z
 SUMMARY:UHT Event — Arts & Culture Day
@@ -282,8 +444,9 @@ DESCRIPTION:Type: Event\\nEvent: Arts & Culture Day\\nRole: Event Team\\nDa
  cycle 6\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-05-10-aaron-inter-res-swimming-carnival@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-05-10-aaron-inter-res-swimming-carnival-inter-res-swimming-c
+ arnival@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260509T210000Z
 DTEND:20260510T040000Z
 SUMMARY:UHT Event — Inter-Res Swimming Carnival
@@ -293,8 +456,8 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Swimming Carnival\\nRole: Event
  le: Paycycle 6\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-05-10-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-05-10-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260510T043000Z
 DTEND:20260510T110000Z
 SUMMARY:UHT Duty — Primary
@@ -304,8 +467,29 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Sunday 2026-05-10\\nTime: 16
  vent on duty date: Inter-Res Swimming Carnival
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-05-15-aaron-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-05-12-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260512
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-05-12\
+ \nHours: 1\\nPaycycle: Paycycle 7\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-05-14-aaron-uh-talent-quest-uh-talent-quest@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260514
+SUMMARY:UHT Event — UH Talent Quest
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: UH Talent Quest\\nRole: SICK 5 Hours\\nDat
+ e: Thursday 2026-05-14\\nHours: 5\\nPaycycle: Paycycle 7\\nSemester: Semes
+ ter 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-15-aaron-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260515T050000Z
 DTEND:20260515T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -315,8 +499,30 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Friday 2026-05-15\\nTime:
  vent on duty date: Pink Shirt Day
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-05-22-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-05-16-aaron-wkh-pink-cupcake-decorating-wkh-pink-cupcake-dec
+ orating@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260516
+SUMMARY:UHT Event — WKH Pink Cupcake Decorating
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: WKH Pink Cupcake Decorating\\nRole: Floor 
+ Events\\nDate: Saturday 2026-05-16\\nHours: 3\\nPaycycle: Paycycle 7\\nSem
+ ester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:work-2026-05-19-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260519
+DTEND;VALUE=DATE:20260519
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-05-19\
+ \nHours: 1\\nPaycycle: Paycycle 7\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-22-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260522T053000Z
 DTEND:20260522T110000Z
 SUMMARY:UHT Duty — Primary
@@ -325,8 +531,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Friday 2026-05-22\\nTime: 17
  :30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 7\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-05-23-aaron-uh-shave-day@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-05-23-aaron-uh-shave-day-uh-shave-day@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260523T030000Z
 DTEND:20260523T050000Z
 SUMMARY:UHT Event — UH Shave Day
@@ -336,8 +542,9 @@ DESCRIPTION:Type: Event\\nEvent: UH Shave Day\\nRole: Event Team\\nDate: Sa
  \nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-05-24-aaron-inter-res-indoor-netball@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-05-24-aaron-inter-res-indoor-netball-inter-res-indoor-netbal
+ l@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260523T210000Z
 DTEND:20260524T040000Z
 SUMMARY:UHT Event — Inter-Res Indoor Netball
@@ -347,8 +554,18 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Indoor Netball\\nRole: Event Tea
   Paycycle 7\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-05-26-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-05-26-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260526
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-05-26\
+ \nHours: 1\\nPaycycle: Paycycle 8\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-26-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260526T043000Z
 DTEND:20260526T110000Z
 SUMMARY:UHT Duty — Primary
@@ -357,8 +574,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Tuesday 2026-05-26\\nTime: 1
  6:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 8\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-06-01-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-06-01-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260531T203000Z
 DTEND:20260601T023000Z
 SUMMARY:UHT Duty — Backup
@@ -368,8 +585,18 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-06-01\\nTime: 08:
  s: King's Birthday
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-06-04-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-06-02-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260602
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-06-02\
+ \nHours: 1\\nPaycycle: Paycycle 8\\nSemester: Semester 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-04-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260604T050000Z
 DTEND:20260604T110000Z
 SUMMARY:UHT Duty — Primary
@@ -378,8 +605,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Thursday 2026-06-04\\nTime:
  17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 8\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-06-05-aaron-uh-eos-event@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-06-05-aaron-uh-eos-event-uh-eos-event@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260605T050000Z
 DTEND:20260605T110000Z
 SUMMARY:UHT Event — UH EOS Event
@@ -389,8 +616,8 @@ DESCRIPTION:Type: Event\\nEvent: UH EOS Event\\nRole: Event Team\\nDate: Fr
  \nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-06-07-aaron-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-06-07-aaron-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260607T050000Z
 DTEND:20260607T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -399,8 +626,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Sunday 2026-06-07\\nTime:
  17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 8\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-06-09-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-06-09-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260609T043000Z
 DTEND:20260609T110000Z
 SUMMARY:UHT Duty — Primary
@@ -409,8 +636,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Tuesday 2026-06-09\\nTime: 1
  6:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 9\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-06-13-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-06-13-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260613T043000Z
 DTEND:20260613T110000Z
 SUMMARY:UHT Duty — Backup
@@ -419,8 +646,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-06-13\\nTime: 1
  6:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 9\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-06-15-aaron-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-06-15-aaron-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260615T043000Z
 DTEND:20260615T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -429,8 +656,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Monday 2026-06-15\\nTime:
  16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 9\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-06-19-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-06-19-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260619T043000Z
 DTEND:20260619T110000Z
 SUMMARY:UHT Duty — Backup
@@ -439,8 +666,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-06-19\\nTime: 16:
  30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 9\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-06-28-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-06-28-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260628T043000Z
 DTEND:20260628T110000Z
 SUMMARY:UHT Duty — Primary
@@ -449,8 +676,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Sunday 2026-06-28\\nTime: 16
  :30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 10\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-06-30-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-06-30-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260630T043000Z
 DTEND:20260630T110000Z
 SUMMARY:UHT Duty — Backup
@@ -460,8 +687,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-06-30\\nTime: 16
  Notes: Inter-Semester Break Begins
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-04-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-07-04-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260704T043000Z
 DTEND:20260704T110000Z
 SUMMARY:UHT Duty — Backup
@@ -470,8 +697,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-07-04\\nTime: 1
  6:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 10\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-11-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-07-11-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260711T043000Z
 DTEND:20260711T110000Z
 SUMMARY:UHT Duty — Backup
@@ -481,8 +708,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-07-11\\nTime: 1
  nEvent on duty date: WKH Potted Plants
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-13-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-07-13-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260713T050000Z
 DTEND:20260713T110000Z
 SUMMARY:UHT Duty — Backup
@@ -491,8 +718,19 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-07-13\\nTime: 17:
  00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 11\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-14-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-07-14-aaron-ra-training-ra-training@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260714
+SUMMARY:UHT Work — RA Training
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Training\\nDate: Tuesday 2026-07-14
+ \\nHours: 7.5\\nPaycycle: Paycycle 11\\nSemester: Semester 2\\nSource: Adm
+ in
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-14-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260714T043000Z
 DTEND:20260714T110000Z
 SUMMARY:UHT Duty — Backup
@@ -501,8 +739,30 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-07-14\\nTime: 16
  :30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 11\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-21-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-07-19-aaron-residential-experience-residential-experience@uh
+ t-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260719
+SUMMARY:UHT Event — Residential Experience
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Residential Experience\\nRole: Event Team\
+ \nDate: Sunday 2026-07-19\\nHours: 5\\nPaycycle: Paycycle 11\\nSemester: S
+ emester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:work-2026-07-21-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260721
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-07-21\
+ \nHours: 1\\nPaycycle: Paycycle 12\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-21-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260721T050000Z
 DTEND:20260721T110000Z
 SUMMARY:UHT Duty — Backup
@@ -511,8 +771,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-07-21\\nTime: 17
  :00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 12\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-07-23-aaron-crafts-night@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-07-23-aaron-crafts-night-crafts-night@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260723T070000Z
 DTEND:20260723T103000Z
 SUMMARY:UHT Event — Crafts Night
@@ -522,8 +782,8 @@ DESCRIPTION:Type: Event\\nEvent: Crafts Night\\nRole: Event Team\\nDate: Th
  12\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-24-aaron-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-07-24-aaron-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260724T043000Z
 DTEND:20260724T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -532,8 +792,29 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Friday 2026-07-24\\nTime:
  16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 12\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-28-aaron-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-07-25-aaron-quiz-night-quiz-night@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260725
+SUMMARY:UHT Event — Quiz Night
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Quiz Night\\nRole: Appreciation Week\\nDat
+ e: Saturday 2026-07-25\\nHours: 3\\nPaycycle: Paycycle 12\\nSemester: Seme
+ ster 2
+END:VEVENT
+BEGIN:VEVENT
+UID:work-2026-07-28-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260728
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-07-28\
+ \nHours: 1\\nPaycycle: Paycycle 12\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-28-aaron-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260728T043000Z
 DTEND:20260728T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -542,8 +823,9 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Tuesday 2026-07-28\\nTime:
   16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 12\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-07-31-aaron-uht-tapas-tasting@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-07-31-aaron-uht-tapas-tasting-uht-tapas-tasting@uht-ra-porta
+ l
+DTSTAMP:20260616T094656Z
 DTSTART:20260731T050000Z
 DTEND:20260731T073000Z
 SUMMARY:UHT Event — UHT Tapas Tasting
@@ -553,8 +835,8 @@ DESCRIPTION:Type: Event\\nEvent: UHT Tapas Tasting\\nRole: Event Team\\nDat
  le 12\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-07-31-aaron-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-07-31-aaron-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260731T053000Z
 DTEND:20260731T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -564,8 +846,19 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Friday 2026-07-31\\nTime:
  \nEvent on duty date: UHT Tapas Tasting
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-08-08-aaron-inter-res-talent-quest@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-08-04-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260804
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-08-04\
+ \nHours: 1\\nPaycycle: Paycycle 13\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-08-08-aaron-inter-res-talent-quest-inter-res-talent-quest@uh
+ t-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260808T050000Z
 DTEND:20260808T110000Z
 SUMMARY:UHT Event — Inter-Res Talent Quest
@@ -575,8 +868,18 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Talent Quest\\nRole: Event Team\
   Paycycle 13\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-08-12-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-08-11-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260811
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-08-11\
+ \nHours: 1\\nPaycycle: Paycycle 13\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-12-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260812T043000Z
 DTEND:20260812T110000Z
 SUMMARY:UHT Duty — Primary
@@ -585,8 +888,9 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Wednesday 2026-08-12\\nTime:
   16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 13\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-08-15-aaron-wkh-storytime-sweet-treats@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-08-15-aaron-wkh-storytime-sweet-treats-wkh-storytime-sweet-t
+ reats@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260815T000000Z
 DTEND:20260815T030000Z
 SUMMARY:UHT Event — WKH Storytime & Sweet Treats
@@ -596,8 +900,8 @@ DESCRIPTION:Type: Event\\nEvent: WKH Storytime & Sweet Treats\\nRole: Event
  cle: Paycycle 13\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-08-16-aaron-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-08-16-aaron-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260816T040000Z
 DTEND:20260816T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -606,8 +910,18 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Sunday 2026-08-16\\nTime:
  16:00 – 23:00\\nHours: 7\\nPaycycle: Paycycle 13\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-08-20-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-08-18-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260818
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-08-18\
+ \nHours: 1\\nPaycycle: Paycycle 14\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-20-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260820T073000Z
 DTEND:20260820T110000Z
 SUMMARY:UHT Duty — Primary
@@ -616,8 +930,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Thursday 2026-08-20\\nTime:
  19:30 – 23:00\\nHours: 3.5\\nPaycycle: Paycycle 14\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-08-22-aaron-ball@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-08-22-aaron-ball-ball@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260822T050000Z
 DTEND:20260822T110000Z
 SUMMARY:UHT Event — Ball
@@ -627,8 +941,18 @@ DESCRIPTION:Type: Event\\nEvent: Ball\\nRole: Event Team\\nDate: Saturday 2
  ester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-08-25-aaron-cake-pop-making@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-08-25-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260825
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-08-25\
+ \nHours: 1\\nPaycycle: Paycycle 14\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-08-25-aaron-cake-pop-making-cake-pop-making@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260825T070000Z
 DTEND:20260825T110000Z
 SUMMARY:UHT Event — Cake Pop Making
@@ -638,8 +962,8 @@ DESCRIPTION:Type: Event\\nEvent: Cake Pop Making\\nRole: Event Team\\nDate:
  14\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-08-29-aaron-manawa-mai@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-08-29-aaron-manawa-mai-manawa-mai@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260828T200000Z
 DTEND:20260829T050000Z
 SUMMARY:UHT Event — Manawa Mai
@@ -649,8 +973,8 @@ DESCRIPTION:Type: Event\\nEvent: Manawa Mai\\nRole: Event Team\\nDate: Satu
  \\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-08-30-aaron-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-08-30-aaron-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260830T050000Z
 DTEND:20260830T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -659,8 +983,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Sunday 2026-08-30\\nTime:
  17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 14\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-09-03-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-09-03-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260903T050000Z
 DTEND:20260903T110000Z
 SUMMARY:UHT Duty — Backup
@@ -669,8 +993,19 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Thursday 2026-09-03\\nTime: 1
  7:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 15\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-09-08-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-09-06-aaron-steptember-count-steptember-count@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260906
+SUMMARY:UHT Event — STEPtember Count
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: STEPtember Count\\nRole: Event Team\\nDate
+ : Sunday 2026-09-06\\nHours: 1\\nPaycycle: Paycycle 15\\nSemester: Semeste
+ r 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-08-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260908T053000Z
 DTEND:20260908T110000Z
 SUMMARY:UHT Duty — Primary
@@ -679,8 +1014,19 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Tuesday 2026-09-08\\nTime: 1
  7:30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 15\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-09-13-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-09-13-aaron-steptember-count-steptember-count@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260913
+SUMMARY:UHT Event — STEPtember Count
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: STEPtember Count\\nRole: Event Team\\nDate
+ : Sunday 2026-09-13\\nHours: 1\\nPaycycle: Paycycle 15\\nSemester: Semeste
+ r 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-13-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260913T050000Z
 DTEND:20260913T110000Z
 SUMMARY:UHT Duty — Primary
@@ -690,8 +1036,18 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Sunday 2026-09-13\\nTime: 17
  ent on duty date: STEPtember Count\\nNotes: Mid-Semester Break Ends
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-09-17-aaron-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-09-15-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260915
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-09-15\
+ \nHours: 1\\nPaycycle: Paycycle 16\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-17-aaron-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260917T043000Z
 DTEND:20260917T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -701,8 +1057,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Thursday 2026-09-17\\nTime
  2\\nEvent on duty date: Pō Ahurea Māori
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-09-17-aaron-p-ahurea-m-ori@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-09-17-aaron-p-ahurea-m-ori-p-ahurea-m-ori@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260917T050000Z
 DTEND:20260917T110000Z
 SUMMARY:UHT Event — Pō Ahurea Māori
@@ -712,8 +1068,9 @@ DESCRIPTION:Type: Event\\nEvent: Pō Ahurea Māori\\nRole: Event Team\\nDate:
  le 16\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-09-18-aaron-wkh-games-pepeha-night@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-09-18-aaron-wkh-games-pepeha-night-wkh-games-pepeha-night@uh
+ t-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260918T043000Z
 DTEND:20260918T063000Z
 SUMMARY:UHT Event — WKH Games & Pepeha Night
@@ -723,8 +1080,19 @@ DESCRIPTION:Type: Event\\nEvent: WKH Games & Pepeha Night\\nRole: Event Tea
  aycycle 16\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-09-20-aaron-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-09-20-aaron-steptember-count-steptember-count@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260920
+SUMMARY:UHT Event — STEPtember Count
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: STEPtember Count\\nRole: Event Team\\nDate
+ : Sunday 2026-09-20\\nHours: 1\\nPaycycle: Paycycle 16\\nSemester: Semeste
+ r 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-20-aaron-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260920T043000Z
 DTEND:20260920T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -734,8 +1102,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Sunday 2026-09-20\\nTime:
  \nEvent on duty date: STEPtember Count
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-09-22-aaron-inter-res-quiz@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-09-22-aaron-inter-res-quiz-inter-res-quiz@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260922T060000Z
 DTEND:20260922T100000Z
 SUMMARY:UHT Event — Inter-Res Quiz
@@ -745,8 +1113,8 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Quiz\\nRole: Event Team\\nDate:
  6\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-09-23-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-09-23-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260923T080000Z
 DTEND:20260923T110000Z
 SUMMARY:UHT Duty — Backup
@@ -756,8 +1124,20 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-09-23\\nTime:
  Event on duty date: UHA Beeswax Wraps
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-09-27-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-09-27-aaron-steptember-stair-race-steptember-stair-race@uht-
+ ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260927
+SUMMARY:UHT Event — STEPtember Stair Race
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: STEPtember Stair Race\\nRole: STEPtember C
+ ount\\nDate: Sunday 2026-09-27\\nHours: 1\\nPaycycle: Paycycle 16\\nSemest
+ er: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-27-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20260927T043000Z
 DTEND:20260927T100000Z
 SUMMARY:UHT Duty — Primary
@@ -767,8 +1147,18 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Sunday 2026-09-27\\nTime: 17
  Event on duty date: STEPtember Stair Race
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-10-01-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-09-29-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260929
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-09-29\
+ \nHours: 1\\nPaycycle: Paycycle 17\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-01-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261001T063000Z
 DTEND:20261001T100000Z
 SUMMARY:UHT Duty — Backup
@@ -777,8 +1167,21 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Thursday 2026-10-01\\nTime: 1
  9:30 – 23:00\\nHours: 3.5\\nPaycycle: Paycycle 17\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-10-04-aaron-inter-res-specialty-event@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-10-03-aaron-inter-res-talent-quest-inter-res-talent-quest@uh
+ t-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261003
+SUMMARY:UHT Event — Inter-Res Talent Quest
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Inter-Res Talent Quest\\nRole: STEPtember 
+ Count\\nDate: Saturday 2026-10-03\\nHours: 1\\nPaycycle: Paycycle 17\\nSem
+ ester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-10-04-aaron-inter-res-specialty-event-inter-res-specialty-ev
+ ent@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261003T203000Z
 DTEND:20261004T023000Z
 SUMMARY:UHT Event — Inter-Res Specialty Event
@@ -788,8 +1191,8 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Specialty Event\\nRole: Event Te
  : Paycycle 17\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-10-04-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-10-04-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261004T033000Z
 DTEND:20261004T100000Z
 SUMMARY:UHT Duty — Backup
@@ -799,8 +1202,18 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-10-04\\nTime: 16:
  vent on duty date: Inter-Res Specialty Event
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-10-06-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-10-06-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261006
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-10-06\
+ \nHours: 1\\nPaycycle: Paycycle 17\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-06-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261006T050000Z
 DTEND:20261006T100000Z
 SUMMARY:UHT Duty — Backup
@@ -809,8 +1222,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-10-06\\nTime: 18
  :00 – 23:00\\nHours: 5\\nPaycycle: Paycycle 17\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-10-09-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-10-09-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261009T050000Z
 DTEND:20261009T100000Z
 SUMMARY:UHT Duty — Primary
@@ -819,8 +1232,18 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Friday 2026-10-09\\nTime: 18
  :00 – 23:00\\nHours: 5\\nPaycycle: Paycycle 17\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-10-14-aaron-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-10-13-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261013
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-10-13\
+ \nHours: 1\\nPaycycle: Paycycle 18\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-14-aaron-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261014T033000Z
 DTEND:20261014T100000Z
 SUMMARY:UHT Duty — Secondary
@@ -830,8 +1253,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Wednesday 2026-10-14\\nTim
   2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-10-16-aaron-gumboot-friday@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-10-16-aaron-gumboot-friday-gumboot-friday@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261016T000000Z
 DTEND:20261016T030000Z
 SUMMARY:UHT Event — Gumboot Friday
@@ -841,8 +1264,8 @@ DESCRIPTION:Type: Event\\nEvent: Gumboot Friday\\nRole: Event Team\\nDate:
  \\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-10-19-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-10-19-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261019T030000Z
 DTEND:20261019T100000Z
 SUMMARY:UHT Duty — Backup
@@ -851,8 +1274,18 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-10-19\\nTime: 16:
  00 – 23:00\\nHours: 7\\nPaycycle: Paycycle 18\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-10-22-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:work-2026-10-20-aaron-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261020
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-10-20\
+ \nHours: 1\\nPaycycle: Paycycle 18\\nSemester: Semester 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-22-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261022T033000Z
 DTEND:20261022T100000Z
 SUMMARY:UHT Duty — Primary
@@ -861,8 +1294,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Thursday 2026-10-22\\nTime:
  16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 18\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-10-23-aaron-uht-eos-event@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-10-23-aaron-uht-eos-event-uht-eos-event@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261023T040000Z
 DTEND:20261023T100000Z
 SUMMARY:UHT Event — UHT EOS Event
@@ -872,8 +1305,8 @@ DESCRIPTION:Type: Event\\nEvent: UHT EOS Event\\nRole: Event Team\\nDate: F
  8\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-10-27-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-10-27-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261027T033000Z
 DTEND:20261027T100000Z
 SUMMARY:UHT Duty — Primary
@@ -882,8 +1315,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Tuesday 2026-10-27\\nTime: 1
  6:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 19\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-10-31-aaron-backup@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-10-31-aaron-duty-backup-backup@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261031T033000Z
 DTEND:20261031T100000Z
 SUMMARY:UHT Duty — Backup
@@ -893,8 +1326,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-10-31\\nTime: 1
  nEvent on duty date: WKH Trick or Treating
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-11-02-aaron-secondary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:duty-2026-11-02-aaron-duty-secondary-secondary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261102T033000Z
 DTEND:20261102T100000Z
 SUMMARY:UHT Duty — Secondary
@@ -903,8 +1336,20 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Monday 2026-11-02\\nTime:
  16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 19\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:duty-2026-11-11-aaron-primary@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-11-08-aaron-move-out-duty-matthew-move-out-duty-matthew@uht-
+ ra-portal
+DTSTAMP:20260616T094656Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261108
+SUMMARY:UHT Event — Move Out Duty - Matthew
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Move Out Duty - Matthew\\nRole: Move Out T
+ asks\\nDate: Sunday 2026-11-08\\nHours: 12\\nPaycycle: Paycycle 19\\nSemes
+ ter: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-11-11-aaron-duty-primary-primary@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261111T050000Z
 DTEND:20261111T100000Z
 SUMMARY:UHT Duty — Primary
@@ -914,8 +1359,8 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Wednesday 2026-11-11\\nTime:
  nEvent on duty date: Move Out Duty - Matilde
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-11-18-aaron-manager-tasks@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-11-18-aaron-manager-tasks-manager-tasks@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261118T040000Z
 DTEND:20261118T070000Z
 SUMMARY:UHT Event — Manager Tasks
@@ -925,8 +1370,9 @@ DESCRIPTION:Type: Event\\nEvent: Manager Tasks\\nRole: Event Team\\nDate: W
  20\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-11-19-aaron-move-out-duty-aaron@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-11-19-aaron-move-out-duty-aaron-move-out-duty-aaron@uht-ra-p
+ ortal
+DTSTAMP:20260616T094656Z
 DTSTART:20261118T193000Z
 DTEND:20261119T033000Z
 SUMMARY:UHT Event — Move Out Duty - Aaron
@@ -936,8 +1382,8 @@ DESCRIPTION:Type: Event\\nEvent: Move Out Duty - Aaron\\nRole: Event Team\\
  Paycycle 20\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-11-20-aaron-move-out-day@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-11-20-aaron-move-out-day-move-out-day@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261119T190000Z
 DTEND:20261120T030000Z
 SUMMARY:UHT Event — Move Out Day
@@ -947,8 +1393,8 @@ DESCRIPTION:Type: Event\\nEvent: Move Out Day\\nRole: Event Team\\nDate: Fr
  \\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:event-2026-11-21-aaron-hall-reset@uht-ra-portal
-DTSTAMP:20260616T085343Z
+UID:event-2026-11-21-aaron-hall-reset-hall-reset@uht-ra-portal
+DTSTAMP:20260616T094656Z
 DTSTART:20261120T200000Z
 DTEND:20261121T040000Z
 SUMMARY:UHT Event — Hall Reset
