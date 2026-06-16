@@ -1,0 +1,1060 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UHT RA Portal//Duty Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UHT RA Calendar — Atahu
+X-WR-TIMEZONE:Pacific/Auckland
+BEGIN:VEVENT
+UID:event-2026-02-21-atahu-move-in-day@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260220T190000Z
+DTEND:20260221T043000Z
+SUMMARY:UHT Event — Move In Day
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Move In Day\\nRole: Event Team\\nDate: Sat
+ urday 2026-02-21\\nTime: 08:00 – 17:30\\nHours: 9\\nPaycycle: Paycycle 1\\
+ nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-02-21-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260221T043000Z
+DTEND:20260221T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-02-21\\nTime: 1
+ 7:30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 1\\nSemester: Semester 1\\n
+ Event on duty date: Move In Day
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-02-22-atahu-hawk-hound-hunt@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260221T230000Z
+DTEND:20260222T030000Z
+SUMMARY:UHT Event — Hawk & Hound Hunt
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Hawk & Hound Hunt\\nRole: Event Team\\nDat
+ e: Sunday 2026-02-22\\nTime: 12:00 – 16:00\\nHours: 4\\nPaycycle: Paycycle
+  1\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-02-23-atahu-unismart@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260223T000000Z
+DTEND:20260223T030000Z
+SUMMARY:UHT Event — UniSmart
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: UniSmart\\nRole: Event Team\\nDate: Monday
+  2026-02-23\\nTime: 13:00 – 16:00\\nHours: 3\\nPaycycle: Paycycle 1\\nSeme
+ ster: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-02-25-atahu-battle-of-the-colours@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260224T230000Z
+DTEND:20260225T030000Z
+SUMMARY:UHT Event — Battle of the Colours
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Battle of the Colours\\nRole: Event Team\\
+ nDate: Wednesday 2026-02-25\\nTime: 12:00 – 16:00\\nHours: 4\\nPaycycle: P
+ aycycle 1\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-02-26-atahu-cyoa-waterfront-walk@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260226T050000Z
+DTEND:20260226T070000Z
+SUMMARY:UHT Event — CYOA - Waterfront Walk
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: CYOA - Waterfront Walk\\nRole: Event Team\
+ \nDate: Thursday 2026-02-26\\nTime: 18:00 – 20:00\\nHours: 2\\nPaycycle: P
+ aycycle 1\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-02-27-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260227T040000Z
+DTEND:20260227T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-02-27\\nTime: 17:
+ 00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 1\\nSemester: Semester 1\\nEven
+ t on duty date: UHA Meet\, Greet\, Repeat
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-02-28-atahu-wecan@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260228T010000Z
+DTEND:20260228T030000Z
+SUMMARY:UHT Event — WECan
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: WECan\\nRole: Event Team\\nDate: Saturday 
+ 2026-02-28\\nTime: 14:00 – 16:00\\nHours: 2\\nPaycycle: Paycycle 1\\nSemes
+ ter: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-02-28-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260228T083000Z
+DTEND:20260228T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-02-28\\nTime: 2
+ 1:30 – 23:00\\nHours: 1.5\\nPaycycle: Paycycle 1\\nSemester: Semester 1\\n
+ Event on duty date: WECan
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-01-atahu-halls-day-out@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260228T230000Z
+DTEND:20260301T030000Z
+SUMMARY:UHT Event — Halls Day Out
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Halls Day Out\\nRole: Event Team\\nDate: S
+ unday 2026-03-01\\nTime: 12:00 – 16:00\\nHours: 4\\nPaycycle: Paycycle 1\\
+ nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-02-atahu-toga-night@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260302T053000Z
+DTEND:20260302T100000Z
+SUMMARY:UHT Event — Toga Night
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Toga Night\\nRole: Event Team\\nDate: Mond
+ ay 2026-03-02\\nTime: 18:30 – 23:00\\nHours: 4\\nPaycycle: Paycycle 2\\nSe
+ mester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-03-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260303T043000Z
+DTEND:20260303T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-03-03\\nTime: 17
+ :30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 2\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-04-atahu-toitu-tauira-maori@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260304T040000Z
+DTEND:20260304T060000Z
+SUMMARY:UHT Event — Toitu Tauira Maori
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Toitu Tauira Maori\\nRole: Event Team\\nDa
+ te: Wednesday 2026-03-04\\nTime: 17:00 – 19:00\\nHours: 2\\nPaycycle: Payc
+ ycle 2\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-06-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260306T040000Z
+DTEND:20260306T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-03-06\\nTime: 17:
+ 00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 2\\nSemester: Semester 1\\nEven
+ t on duty date: Sick 6 hours
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-09-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260309T050000Z
+DTEND:20260309T100000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Monday 2026-03-09\\nTime: 18
+ :00 – 23:00\\nHours: 5\\nPaycycle: Paycycle 2\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-10-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260310T043000Z
+DTEND:20260310T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-03-10\\nTime: 17
+ :30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 2\\nSemester: Semester 1\\nE
+ vent on duty date: Sick 6 Hours
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-13-atahu-wkh-meet-the-team-with-ice-cream@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260313T033000Z
+DTEND:20260313T063000Z
+SUMMARY:UHT Event — WKH Meet the Team with Ice Cream
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: WKH Meet the Team with Ice Cream\\nRole: E
+ vent Team\\nDate: Friday 2026-03-13\\nTime: 16:30 – 19:30\\nHours: 3\\nPay
+ cycle: Paycycle 2\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-18-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260318T040000Z
+DTEND:20260318T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-03-18\\nTime: 
+ 17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 3\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-21-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260321T060000Z
+DTEND:20260321T100000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Saturday 2026-03-21\\nTime: 
+ 19:00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 3\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-22-atahu-inter-res-volleyball@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260321T203000Z
+DTEND:20260322T030000Z
+SUMMARY:UHT Event — Inter-Res Volleyball
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Inter-Res Volleyball\\nRole: Event Team\\n
+ Date: Sunday 2026-03-22\\nTime: 09:30 – 16:00\\nHours: 6\\nPaycycle: Paycy
+ cle 3\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-25-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260325T040000Z
+DTEND:20260325T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-03-25\\nTime: 
+ 17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 3\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-27-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260327T040000Z
+DTEND:20260327T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-03-27\\nTime: 17:
+ 00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 3\\nSemester: Semester 1\\nEven
+ t on duty date: Sick (3.5 hours)
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-30-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260330T033000Z
+DTEND:20260330T100000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Monday 2026-03-30\\nTime: 16
+ :30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 4\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-31-atahu-inter-res-debating@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260331T040000Z
+DTEND:20260331T093000Z
+SUMMARY:UHT Event — Inter-Res Debating
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Inter-Res Debating\\nRole: Event Team\\nDa
+ te: Tuesday 2026-03-31\\nTime: 17:00 – 22:30\\nHours: 5\\nPaycycle: Paycyc
+ le 4\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-04-11-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260411T043000Z
+DTEND:20260411T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-04-11\\nTime: 1
+ 6:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 4\\nSemester: Semester 1\\n
+ Event on duty date: SICK 6 HRS
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-04-13-atahu-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260413T060000Z
+DTEND:20260413T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Monday 2026-04-13\\nTime: 
+ 18:00 – 23:00\\nHours: 5\\nPaycycle: Paycycle 5\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-04-14-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260414T050000Z
+DTEND:20260414T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-04-14\\nTime: 17
+ :00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 5\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-04-18-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260418T043000Z
+DTEND:20260418T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-04-18\\nTime: 1
+ 6:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 5\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-04-25-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260425T043000Z
+DTEND:20260425T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Saturday 2026-04-25\\nTime: 
+ 16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 5\\nSemester: Semester 1\\
+ nEvent on duty date: Sick (5.5 hrs)
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-04-27-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260427T060000Z
+DTEND:20260427T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Monday 2026-04-27\\nTime: 18
+ :00 – 23:00\\nHours: 5\\nPaycycle: Paycycle 6\\nSemester: Semester 1\\nNot
+ es: ANZAC Day Observed
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-04-30-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260430T050000Z
+DTEND:20260430T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Thursday 2026-04-30\\nTime: 
+ 17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 6\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-05-02-atahu-capture-the-flag-domain@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260502T000000Z
+DTEND:20260502T040000Z
+SUMMARY:UHT Event — Capture the Flag - Domain
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Capture the Flag - Domain\\nRole: Event Te
+ am\\nDate: Saturday 2026-05-02\\nTime: 12:00 – 16:00\\nHours: 4\\nPaycycle
+ : Paycycle 6\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-07-atahu-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260507T070000Z
+DTEND:20260507T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Thursday 2026-05-07\\nTime
+ : 19:00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 6\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-05-09-atahu-arts-culture-day@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260509T070000Z
+DTEND:20260509T103000Z
+SUMMARY:UHT Event — Arts & Culture Day
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Arts & Culture Day\\nRole: Event Team\\nDa
+ te: Saturday 2026-05-09\\nTime: 19:00 – 22:30\\nHours: 3.5\\nPaycycle: Pay
+ cycle 6\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-05-10-atahu-inter-res-swimming-carnival@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260509T210000Z
+DTEND:20260510T040000Z
+SUMMARY:UHT Event — Inter-Res Swimming Carnival
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Inter-Res Swimming Carnival\\nRole: Event 
+ Team\\nDate: Sunday 2026-05-10\\nTime: 09:00 – 16:00\\nHours: 6.5\\nPaycyc
+ le: Paycycle 6\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-14-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260514T050000Z
+DTEND:20260514T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Thursday 2026-05-14\\nTime: 1
+ 7:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 7\\nSemester: Semester 1\\nEv
+ ent on duty date: UH Talent Quest
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-05-14-atahu-uh-talent-quest@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260514T070000Z
+DTEND:20260514T103000Z
+SUMMARY:UHT Event — UH Talent Quest
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: UH Talent Quest\\nRole: Event Team\\nDate:
+  Thursday 2026-05-14\\nTime: 19:00 – 22:30\\nHours: 3.5\\nPaycycle: Paycyc
+ le 7\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-19-atahu-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260519T040000Z
+DTEND:20260519T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Tuesday 2026-05-19\\nTime:
+  16:00 – 23:00\\nHours: 7\\nPaycycle: Paycycle 7\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-22-atahu-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260522T040000Z
+DTEND:20260522T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Friday 2026-05-22\\nTime: 
+ 16:00 – 23:00\\nHours: 7\\nPaycycle: Paycycle 7\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-05-23-atahu-uh-shave-day@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260523T030000Z
+DTEND:20260523T050000Z
+SUMMARY:UHT Event — UH Shave Day
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: UH Shave Day\\nRole: Event Team\\nDate: Sa
+ turday 2026-05-23\\nTime: 15:00 – 17:00\\nHours: 2\\nPaycycle: Paycycle 7\
+ \nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-05-24-atahu-inter-res-indoor-netball@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260523T210000Z
+DTEND:20260524T040000Z
+SUMMARY:UHT Event — Inter-Res Indoor Netball
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Inter-Res Indoor Netball\\nRole: Event Tea
+ m\\nDate: Sunday 2026-05-24\\nTime: 09:00 – 16:00\\nHours: 6.5\\nPaycycle:
+  Paycycle 7\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-28-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260528T050000Z
+DTEND:20260528T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Thursday 2026-05-28\\nTime: 
+ 17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 8\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-30-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260530T050000Z
+DTEND:20260530T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Saturday 2026-05-30\\nTime: 
+ 17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 8\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-03-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260603T053000Z
+DTEND:20260603T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Wednesday 2026-06-03\\nTime:
+  17:30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 8\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-06-05-atahu-uh-eos-event@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260605T050000Z
+DTEND:20260605T110000Z
+SUMMARY:UHT Event — UH EOS Event
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: UH EOS Event\\nRole: Event Team\\nDate: Fr
+ iday 2026-06-05\\nTime: 17:00 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 8\
+ \nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-07-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260607T050000Z
+DTEND:20260607T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-06-07\\nTime: 17:
+ 00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 8\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-13-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260613T043000Z
+DTEND:20260613T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Saturday 2026-06-13\\nTime: 
+ 16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 9\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-20-atahu-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260620T043000Z
+DTEND:20260620T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Saturday 2026-06-20\\nTime
+ : 16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 9\\nSemester: Semester 1
+ \\nEvent on duty date: SICK (6 hours)
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-23-atahu-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260623T043000Z
+DTEND:20260623T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Tuesday 2026-06-23\\nTime:
+  16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 10\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-25-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260625T043000Z
+DTEND:20260625T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Thursday 2026-06-25\\nTime: 1
+ 6:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 10\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-27-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260627T043000Z
+DTEND:20260627T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-06-27\\nTime: 1
+ 6:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 10\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-06-atahu-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260706T063000Z
+DTEND:20260706T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Monday 2026-07-06\\nTime: 
+ 18:30 – 23:00\\nHours: 4.5\\nPaycycle: Paycycle 11\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-07-11-atahu-wkh-potted-plants@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260711T000000Z
+DTEND:20260711T033000Z
+SUMMARY:UHT Event — WKH Potted Plants
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: WKH Potted Plants\\nRole: Event Team\\nDat
+ e: Saturday 2026-07-11\\nTime: 12:00 – 15:30\\nHours: 3.5\\nPaycycle: Payc
+ ycle 11\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-12-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260712T050000Z
+DTEND:20260712T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-07-12\\nTime: 17:
+ 00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 11\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-16-atahu-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260716T060000Z
+DTEND:20260716T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Thursday 2026-07-16\\nTime
+ : 18:00 – 23:00\\nHours: 5\\nPaycycle: Paycycle 11\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-24-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260724T043000Z
+DTEND:20260724T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Friday 2026-07-24\\nTime: 16
+ :30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 12\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-27-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260727T043000Z
+DTEND:20260727T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Monday 2026-07-27\\nTime: 16
+ :30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 12\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-29-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260729T043000Z
+DTEND:20260729T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-07-29\\nTime: 
+ 16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 12\\nSemester: Semester 2\
+ \nEvent on duty date: UHA The Price is Right
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-31-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260731T043000Z
+DTEND:20260731T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-07-31\\nTime: 16:
+ 30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 12\\nSemester: Semester 2\\nE
+ vent on duty date: UHT Tapas Tasting
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-05-atahu-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260805T043000Z
+DTEND:20260805T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Wednesday 2026-08-05\\nTim
+ e: 16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 13\\nSemester: Semester
+  2\\nEvent on duty date: UHT Bracelet Making
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-08-05-atahu-uht-bracelet-making@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260805T070000Z
+DTEND:20260805T103000Z
+SUMMARY:UHT Event — UHT Bracelet Making
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: UHT Bracelet Making\\nRole: Event Team\\nD
+ ate: Wednesday 2026-08-05\\nTime: 19:00 – 22:30\\nHours: 3.5\\nPaycycle: P
+ aycycle 13\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-08-08-atahu-inter-res-talent-quest@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260808T050000Z
+DTEND:20260808T110000Z
+SUMMARY:UHT Event — Inter-Res Talent Quest
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Inter-Res Talent Quest\\nRole: Event Team\
+ \nDate: Saturday 2026-08-08\\nTime: 17:00 – 23:00\\nHours: 5.5\\nPaycycle:
+  Paycycle 13\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-08-15-atahu-wkh-storytime-sweet-treats@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260815T000000Z
+DTEND:20260815T030000Z
+SUMMARY:UHT Event — WKH Storytime & Sweet Treats
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: WKH Storytime & Sweet Treats\\nRole: Event
+  Team\\nDate: Saturday 2026-08-15\\nTime: 12:00 – 15:00\\nHours: 3\\nPaycy
+ cle: Paycycle 13\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-16-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260816T040000Z
+DTEND:20260816T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Sunday 2026-08-16\\nTime: 16
+ :00 – 23:00\\nHours: 7\\nPaycycle: Paycycle 13\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-17-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260817T043000Z
+DTEND:20260817T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Monday 2026-08-17\\nTime: 16
+ :30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 14\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-19-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260819T080000Z
+DTEND:20260819T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-08-19\\nTime: 
+ 20:00 – 23:00\\nHours: 3\\nPaycycle: Paycycle 14\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-08-22-atahu-ball@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260822T050000Z
+DTEND:20260822T110000Z
+SUMMARY:UHT Event — Ball
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Ball\\nRole: Event Team\\nDate: Saturday 2
+ 026-08-22\\nTime: 17:00 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 14\\nSem
+ ester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-27-atahu-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260827T063000Z
+DTEND:20260827T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Thursday 2026-08-27\\nTime
+ : 18:30 – 23:00\\nHours: 4.5\\nPaycycle: Paycycle 14\\nSemester: Semester 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-08-29-atahu-manawa-mai@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260828T200000Z
+DTEND:20260829T050000Z
+SUMMARY:UHT Event — Manawa Mai
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Manawa Mai\\nRole: Event Team\\nDate: Satu
+ rday 2026-08-29\\nTime: 08:00 – 17:00\\nHours: 8.5\\nPaycycle: Paycycle 14
+ \\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-02-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260902T040000Z
+DTEND:20260902T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-09-02\\nTime: 
+ 16:00 – 23:00\\nHours: 7\\nPaycycle: Paycycle 15\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-08-atahu-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260908T040000Z
+DTEND:20260908T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Tuesday 2026-09-08\\nTime:
+  16:00 – 23:00\\nHours: 7\\nPaycycle: Paycycle 15\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-09-12-atahu-wkh-cookie-decorating@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260912T000000Z
+DTEND:20260912T030000Z
+SUMMARY:UHT Event — WKH Cookie Decorating
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: WKH Cookie Decorating\\nRole: Event Team\\
+ nDate: Saturday 2026-09-12\\nTime: 12:00 – 15:00\\nHours: 3\\nPaycycle: Pa
+ ycycle 15\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-17-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260917T043000Z
+DTEND:20260917T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Thursday 2026-09-17\\nTime: 
+ 16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 16\\nSemester: Semester 2\
+ \nEvent on duty date: Pō Ahurea Māori
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-09-17-atahu-p-ahurea-m-ori@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260917T050000Z
+DTEND:20260917T110000Z
+SUMMARY:UHT Event — Pō Ahurea Māori
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Pō Ahurea Māori\\nRole: Event Team\\nDate:
+  Thursday 2026-09-17\\nTime: 17:00 – 23:00\\nHours: 5.5\\nPaycycle: Paycyc
+ le 16\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-09-18-atahu-wkh-games-pepeha-night@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260918T043000Z
+DTEND:20260918T063000Z
+SUMMARY:UHT Event — WKH Games & Pepeha Night
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: WKH Games & Pepeha Night\\nRole: Event Tea
+ m\\nDate: Friday 2026-09-18\\nTime: 16:30 – 18:30\\nHours: 2\\nPaycycle: P
+ aycycle 16\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-09-18-atahu-poi-making@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260918T070000Z
+DTEND:20260918T103000Z
+SUMMARY:UHT Event — Poi Making
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Poi Making\\nRole: Event Team\\nDate: Frid
+ ay 2026-09-18\\nTime: 19:00 – 22:30\\nHours: 3.5\\nPaycycle: Paycycle 16\\
+ nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-09-19-atahu-social-k-o-rahi@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260918T223000Z
+DTEND:20260919T013000Z
+SUMMARY:UHT Event — Social Kī-o-Rahi
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Social Kī-o-Rahi\\nRole: Event Team\\nDate
+ : Saturday 2026-09-19\\nTime: 10:30 – 13:30\\nHours: 3\\nPaycycle: Paycycl
+ e 16\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-21-atahu-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260921T043000Z
+DTEND:20260921T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Monday 2026-09-21\\nTime: 
+ 16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 16\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-09-22-atahu-inter-res-quiz@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260922T060000Z
+DTEND:20260922T100000Z
+SUMMARY:UHT Event — Inter-Res Quiz
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Inter-Res Quiz\\nRole: Event Team\\nDate: 
+ Tuesday 2026-09-22\\nTime: 18:00 – 22:00\\nHours: 4\\nPaycycle: Paycycle 1
+ 6\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-09-24-atahu-uht-the-price-is-right@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260924T070000Z
+DTEND:20260924T103000Z
+SUMMARY:UHT Event — UHT The Price is Right
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: UHT The Price is Right\\nRole: Event Team\
+ \nDate: Thursday 2026-09-24\\nTime: 19:00 – 22:30\\nHours: 3.5\\nPaycycle:
+  Paycycle 16\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-02-atahu-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261002T043000Z
+DTEND:20261002T100000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Friday 2026-10-02\\nTime: 
+ 17:30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 17\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-10-04-atahu-inter-res-specialty-event@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261003T203000Z
+DTEND:20261004T023000Z
+SUMMARY:UHT Event — Inter-Res Specialty Event
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Inter-Res Specialty Event\\nRole: Event Te
+ am\\nDate: Sunday 2026-10-04\\nTime: 09:30 – 15:30\\nHours: 5.5\\nPaycycle
+ : Paycycle 17\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-04-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261004T050000Z
+DTEND:20261004T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-10-04\\nTime: 18:
+ 00 – 23:00\\nHours: 5\\nPaycycle: Paycycle 17\\nSemester: Semester 2\\nEve
+ nt on duty date: Inter-Res Specialty Event
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-06-atahu-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261006T040000Z
+DTEND:20261006T100000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Tuesday 2026-10-06\\nTime:
+  17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 17\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-09-atahu-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261009T063000Z
+DTEND:20261009T100000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Friday 2026-10-09\\nTime: 
+ 19:30 – 23:00\\nHours: 3.5\\nPaycycle: Paycycle 17\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-10-16-atahu-gumboot-friday@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261016T000000Z
+DTEND:20261016T030000Z
+SUMMARY:UHT Event — Gumboot Friday
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Gumboot Friday\\nRole: Event Team\\nDate: 
+ Friday 2026-10-16\\nTime: 13:00 – 16:00\\nHours: 3\\nPaycycle: Paycycle 18
+ \\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-16-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261016T033000Z
+DTEND:20261016T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-10-16\\nTime: 16:
+ 30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 18\\nSemester: Semester 2\\nE
+ vent on duty date: Gumboot Friday
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-21-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261021T033000Z
+DTEND:20261021T100000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Wednesday 2026-10-21\\nTime:
+  16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 18\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-10-23-atahu-uht-eos-event@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261023T040000Z
+DTEND:20261023T100000Z
+SUMMARY:UHT Event — UHT EOS Event
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: UHT EOS Event\\nRole: Event Team\\nDate: F
+ riday 2026-10-23\\nTime: 17:00 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 1
+ 8\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-25-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261025T030000Z
+DTEND:20261025T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-10-25\\nTime: 16:
+ 00 – 23:00\\nHours: 7\\nPaycycle: Paycycle 18\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-29-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261029T033000Z
+DTEND:20261029T100000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Thursday 2026-10-29\\nTime: 
+ 16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 19\\nSemester: Semester 2\
+ \nNotes: Exams Begin
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-31-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261031T033000Z
+DTEND:20261031T100000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Saturday 2026-10-31\\nTime: 
+ 16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 19\\nSemester: Semester 2\
+ \nEvent on duty date: WKH Trick or Treating
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-10-31-atahu-wkh-trick-or-treating@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261031T033000Z
+DTEND:20261031T063000Z
+SUMMARY:UHT Event — WKH Trick or Treating
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: WKH Trick or Treating\\nRole: Event Team\\
+ nDate: Saturday 2026-10-31\\nTime: 16:30 – 19:30\\nHours: 3\\nPaycycle: Pa
+ ycycle 19\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-11-04-atahu-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261104T033000Z
+DTEND:20261104T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-11-04\\nTime: 
+ 16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 19\\nSemester: Semester 2\
+ \nEvent on duty date: Move Out Duty - Ryan
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-11-10-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261110T060000Z
+DTEND:20261110T100000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Tuesday 2026-11-10\\nTime: 1
+ 9:00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 20\\nSemester: Semester 2\\nE
+ vent on duty date: Move Out Duty - Ky
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-11-14-atahu-move-out-duty-atahu@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261113T193000Z
+DTEND:20261114T033000Z
+SUMMARY:UHT Event — Move Out Duty - Atahu
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Move Out Duty - Atahu\\nRole: Event Team\\
+ nDate: Saturday 2026-11-14\\nTime: 08:30 – 16:30\\nHours: 7.5\\nPaycycle: 
+ Paycycle 20\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-11-17-atahu-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261117T063000Z
+DTEND:20261117T100000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Tuesday 2026-11-17\\nTime: 1
+ 9:30 – 23:00\\nHours: 3.5\\nPaycycle: Paycycle 20\\nSemester: Semester 2\\
+ nEvent on duty date: Move Out Duty -  Cameron
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-11-20-atahu-move-out-day@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261119T190000Z
+DTEND:20261120T030000Z
+SUMMARY:UHT Event — Move Out Day
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Move Out Day\\nRole: Event Team\\nDate: Fr
+ iday 2026-11-20\\nTime: 08:00 – 16:00\\nHours: 7.5\\nPaycycle: Paycycle 20
+ \\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-11-21-atahu-hall-reset@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261120T200000Z
+DTEND:20261121T040000Z
+SUMMARY:UHT Event — Hall Reset
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Hall Reset\\nRole: Event Team\\nDate: Satu
+ rday 2026-11-21\\nTime: 09:00 – 17:00\\nHours: 7.5\\nPaycycle: Paycycle 20
+ \\nSemester: Semester 2
+END:VEVENT
+END:VCALENDAR

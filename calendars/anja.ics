@@ -1,0 +1,957 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UHT RA Portal//Duty Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UHT RA Calendar — Anja
+X-WR-TIMEZONE:Pacific/Auckland
+BEGIN:VEVENT
+UID:event-2026-02-21-anja-move-in-day@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260220T190000Z
+DTEND:20260221T043000Z
+SUMMARY:UHT Event — Move In Day
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Move In Day\\nRole: Event Team\\nDate: Sat
+ urday 2026-02-21\\nTime: 08:00 – 17:30\\nHours: 9\\nPaycycle: Paycycle 1\\
+ nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-02-22-anja-hawk-hound-hunt@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260221T230000Z
+DTEND:20260222T030000Z
+SUMMARY:UHT Event — Hawk & Hound Hunt
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Hawk & Hound Hunt\\nRole: Event Team\\nDat
+ e: Sunday 2026-02-22\\nTime: 12:00 – 16:00\\nHours: 4\\nPaycycle: Paycycle
+  1\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-02-22-anja-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260222T060000Z
+DTEND:20260222T100000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Sunday 2026-02-22\\nTime: 
+ 19:00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 1\\nSemester: Semester 1\\nE
+ vent on duty date: Hawk & Hound Hunt\\nNotes: Move In Day
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-02-23-anja-uha-flatting-101@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260223T043000Z
+DTEND:20260223T063000Z
+SUMMARY:UHT Event — UHA Flatting 101
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: UHA Flatting 101\\nRole: Event Team\\nDate
+ : Monday 2026-02-23\\nTime: 17:30 – 19:30\\nHours: 2\\nPaycycle: Paycycle 
+ 1\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-02-24-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260224T040000Z
+DTEND:20260224T100000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Tuesday 2026-02-24\\nTime: 1
+ 7:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 1\\nSemester: Semester 1\\nEv
+ ent on duty date: Quiz Night
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-02-25-anja-battle-of-the-colours@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260224T230000Z
+DTEND:20260225T030000Z
+SUMMARY:UHT Event — Battle of the Colours
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Battle of the Colours\\nRole: Event Team\\
+ nDate: Wednesday 2026-02-25\\nTime: 12:00 – 16:00\\nHours: 4\\nPaycycle: P
+ aycycle 1\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-02-25-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260225T060000Z
+DTEND:20260225T100000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Wednesday 2026-02-25\\nTime:
+  19:00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 1\\nSemester: Semester 1\\n
+ Event on duty date: Battle of the Colours
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-02-26-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260226T043000Z
+DTEND:20260226T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Thursday 2026-02-26\\nTime: 1
+ 7:30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 1\\nSemester: Semester 1\\n
+ Event on duty date: CYOA - Waterfront Walk\, CYOA - Mt Eden Hike\, CYOA - 
+ Museum Trip
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-02-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260302T033000Z
+DTEND:20260302T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-03-02\\nTime: 16:
+ 30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 2\\nSemester: Semester 1\\nEv
+ ent on duty date: Toga Night\\nNotes: Semester 1 Begins
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-03-anja-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260303T033000Z
+DTEND:20260303T100000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Tuesday 2026-03-03\\nTime:
+  16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 2\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-09-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260309T033000Z
+DTEND:20260309T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-03-09\\nTime: 16:
+ 30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 2\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-10-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260310T033000Z
+DTEND:20260310T100000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Tuesday 2026-03-10\\nTime: 1
+ 6:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 2\\nSemester: Semester 1\\n
+ Event on duty date: Sick 6 Hours
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-13-anja-wkh-meet-the-team-with-ice-cream@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260313T033000Z
+DTEND:20260313T063000Z
+SUMMARY:UHT Event — WKH Meet the Team with Ice Cream
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: WKH Meet the Team with Ice Cream\\nRole: E
+ vent Team\\nDate: Friday 2026-03-13\\nTime: 16:30 – 19:30\\nHours: 3\\nPay
+ cycle: Paycycle 2\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-22-anja-inter-res-volleyball@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260321T203000Z
+DTEND:20260322T030000Z
+SUMMARY:UHT Event — Inter-Res Volleyball
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Inter-Res Volleyball\\nRole: Event Team\\n
+ Date: Sunday 2026-03-22\\nTime: 09:30 – 16:00\\nHours: 6\\nPaycycle: Paycy
+ cle 3\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-03-30-anja-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260330T040000Z
+DTEND:20260330T100000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Monday 2026-03-30\\nTime: 
+ 17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 4\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-03-31-anja-inter-res-debating@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260331T040000Z
+DTEND:20260331T093000Z
+SUMMARY:UHT Event — Inter-Res Debating
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Inter-Res Debating\\nRole: Event Team\\nDa
+ te: Tuesday 2026-03-31\\nTime: 17:00 – 22:30\\nHours: 5\\nPaycycle: Paycyc
+ le 4\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-04-05-anja-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260405T050000Z
+DTEND:20260405T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Sunday 2026-04-05\\nTime: 
+ 17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 4\\nSemester: Semester 1\\nN
+ otes: Easter Sunday
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-04-12-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260412T053000Z
+DTEND:20260412T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Sunday 2026-04-12\\nTime: 17
+ :30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 4\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-04-13-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260413T053000Z
+DTEND:20260413T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Monday 2026-04-13\\nTime: 17
+ :30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 5\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-04-14-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260414T050000Z
+DTEND:20260414T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Tuesday 2026-04-14\\nTime: 1
+ 7:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 5\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-04-22-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260422T050000Z
+DTEND:20260422T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-04-22\\nTime: 
+ 17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 5\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-04-24-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260424T053000Z
+DTEND:20260424T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Friday 2026-04-24\\nTime: 17
+ :30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 5\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-01-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260501T040000Z
+DTEND:20260501T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-05-01\\nTime: 16:
+ 00 – 23:00\\nHours: 7\\nPaycycle: Paycycle 6\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-03-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260503T070000Z
+DTEND:20260503T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-05-03\\nTime: 19:
+ 00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 6\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-08-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260508T040000Z
+DTEND:20260508T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-05-08\\nTime: 16:
+ 00 – 23:00\\nHours: 7\\nPaycycle: Paycycle 6\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-05-09-anja-arts-culture-day@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260509T070000Z
+DTEND:20260509T103000Z
+SUMMARY:UHT Event — Arts & Culture Day
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Arts & Culture Day\\nRole: Event Team\\nDa
+ te: Saturday 2026-05-09\\nTime: 19:00 – 22:30\\nHours: 3.5\\nPaycycle: Pay
+ cycle 6\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-05-10-anja-inter-res-swimming-carnival@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260509T210000Z
+DTEND:20260510T040000Z
+SUMMARY:UHT Event — Inter-Res Swimming Carnival
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Inter-Res Swimming Carnival\\nRole: Event 
+ Team\\nDate: Sunday 2026-05-10\\nTime: 09:00 – 16:00\\nHours: 6.5\\nPaycyc
+ le: Paycycle 6\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-12-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260512T050000Z
+DTEND:20260512T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Tuesday 2026-05-12\\nTime: 1
+ 7:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 7\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-05-15-anja-pink-shirt-day@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260515T073000Z
+DTEND:20260515T103000Z
+SUMMARY:UHT Event — Pink Shirt Day
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Pink Shirt Day\\nRole: Event Team\\nDate: 
+ Friday 2026-05-15\\nTime: 19:30 – 22:30\\nHours: 3\\nPaycycle: Paycycle 7\
+ \nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-18-anja-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260518T073000Z
+DTEND:20260518T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Monday 2026-05-18\\nTime: 
+ 19:30 – 23:00\\nHours: 3.5\\nPaycycle: Paycycle 7\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-19-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260519T070000Z
+DTEND:20260519T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-05-19\\nTime: 19
+ :00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 7\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-05-24-anja-inter-res-indoor-netball@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260523T210000Z
+DTEND:20260524T040000Z
+SUMMARY:UHT Event — Inter-Res Indoor Netball
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Inter-Res Indoor Netball\\nRole: Event Tea
+ m\\nDate: Sunday 2026-05-24\\nTime: 09:00 – 16:00\\nHours: 6.5\\nPaycycle:
+  Paycycle 7\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-25-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260525T050000Z
+DTEND:20260525T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-05-25\\nTime: 17:
+ 00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 8\\nSemester: Semester 1\\nEven
+ t on duty date: SICK (6 hours)
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-26-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260526T060000Z
+DTEND:20260526T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-05-26\\nTime: 18
+ :00 – 23:00\\nHours: 5\\nPaycycle: Paycycle 8\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-05-29-anja-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260529T050000Z
+DTEND:20260529T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Friday 2026-05-29\\nTime: 
+ 17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 8\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-01-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260601T050000Z
+DTEND:20260601T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-06-01\\nTime: 17:
+ 00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 8\\nSemester: Semester 1\\nNote
+ s: King's Birthday
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-05-anja-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260605T043000Z
+DTEND:20260605T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Friday 2026-06-05\\nTime: 
+ 16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 8\\nSemester: Semester 1\\
+ nEvent on duty date: UH EOS Event\\nNotes: Classes End
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-06-05-anja-uh-eos-event@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260605T050000Z
+DTEND:20260605T110000Z
+SUMMARY:UHT Event — UH EOS Event
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: UH EOS Event\\nRole: Event Team\\nDate: Fr
+ iday 2026-06-05\\nTime: 17:00 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 8\
+ \nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-12-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260612T070000Z
+DTEND:20260612T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Friday 2026-06-12\\nTime: 19
+ :00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 9\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-18-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260618T043000Z
+DTEND:20260618T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Thursday 2026-06-18\\nTime: 
+ 16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 9\\nSemester: Semester 1\\
+ nEvent on duty date: SICK (6 hours)
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-19-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260619T070000Z
+DTEND:20260619T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-06-19\\nTime: 19:
+ 00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 9\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-22-anja-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260622T043000Z
+DTEND:20260622T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Monday 2026-06-22\\nTime: 
+ 16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 10\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-28-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260628T070000Z
+DTEND:20260628T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-06-28\\nTime: 19:
+ 00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 10\\nSemester: Semester 1
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-29-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260629T043000Z
+DTEND:20260629T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-06-29\\nTime: 16:
+ 30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 10\\nSemester: Semester 1\\nN
+ otes: Exams End
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-06-30-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260630T070000Z
+DTEND:20260630T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-06-30\\nTime: 19
+ :00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 10\\nSemester: Semester 1\\nNo
+ tes: Inter-Semester Break Begins
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-10-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260710T003000Z
+DTEND:20260710T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Friday 2026-07-10\\nTime: 12
+ :30 – 23:00\\nHours: 10.5\\nPaycycle: Paycycle 11\\nSemester: Semester 2\\
+ nNotes: Matariki
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-12-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260711T203000Z
+DTEND:20260712T043000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-07-12\\nTime: 08:
+ 30 – 16:30\\nHours: 8\\nPaycycle: Paycycle 11\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-15-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260715T060000Z
+DTEND:20260715T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Wednesday 2026-07-15\\nTime:
+  18:00 – 23:00\\nHours: 5\\nPaycycle: Paycycle 11\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-19-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260719T043000Z
+DTEND:20260719T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-07-19\\nTime: 16:
+ 30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 11\\nSemester: Semester 2\\nE
+ vent on duty date: Residential Experience\\nNotes: Inter-Semester Break En
+ ds
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-23-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260723T050000Z
+DTEND:20260723T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Thursday 2026-07-23\\nTime: 1
+ 7:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 12\\nSemester: Semester 2\\nE
+ vent on duty date: Crafts Night
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-07-23-anja-crafts-night@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260723T070000Z
+DTEND:20260723T103000Z
+SUMMARY:UHT Event — Crafts Night
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Crafts Night\\nRole: Event Team\\nDate: Th
+ ursday 2026-07-23\\nTime: 19:00 – 22:30\\nHours: 3.5\\nPaycycle: Paycycle 
+ 12\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-07-25-anja-quiz-night@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260725T073000Z
+DTEND:20260725T103000Z
+SUMMARY:UHT Event — Quiz Night
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Quiz Night\\nRole: Event Team\\nDate: Satu
+ rday 2026-07-25\\nTime: 19:30 – 22:30\\nHours: 3\\nPaycycle: Paycycle 12\\
+ nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-07-29-anja-uha-the-price-is-right@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260729T050000Z
+DTEND:20260729T080000Z
+SUMMARY:UHT Event — UHA The Price is Right
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: UHA The Price is Right\\nRole: Event Team\
+ \nDate: Wednesday 2026-07-29\\nTime: 17:00 – 20:00\\nHours: 3\\nPaycycle: 
+ Paycycle 12\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-07-31-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260731T050000Z
+DTEND:20260731T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-07-31\\nTime: 17:
+ 00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 12\\nSemester: Semester 2\\nEve
+ nt on duty date: UHT Tapas Tasting
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-02-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260802T063000Z
+DTEND:20260802T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-08-02\\nTime: 18:
+ 30 – 23:00\\nHours: 4.5\\nPaycycle: Paycycle 12\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-03-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260803T050000Z
+DTEND:20260803T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-08-03\\nTime: 17:
+ 00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 13\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-08-08-anja-inter-res-talent-quest@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260808T050000Z
+DTEND:20260808T110000Z
+SUMMARY:UHT Event — Inter-Res Talent Quest
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Inter-Res Talent Quest\\nRole: Event Team\
+ \nDate: Saturday 2026-08-08\\nTime: 17:00 – 23:00\\nHours: 5.5\\nPaycycle:
+  Paycycle 13\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-08-13-anja-uha-bracelet-making@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260813T050000Z
+DTEND:20260813T080000Z
+SUMMARY:UHT Event — UHA Bracelet Making
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: UHA Bracelet Making\\nRole: Event Team\\nD
+ ate: Thursday 2026-08-13\\nTime: 17:00 – 20:00\\nHours: 3\\nPaycycle: Payc
+ ycle 13\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-15-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260815T043000Z
+DTEND:20260815T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Saturday 2026-08-15\\nTime: 
+ 16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 13\\nSemester: Semester 2\
+ \nEvent on duty date: WKH Storytime & Sweet Treats
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-22-anja-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260822T050000Z
+DTEND:20260822T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Saturday 2026-08-22\\nTime
+ : 17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 14\\nSemester: Semester 2\
+ \nEvent on duty date: Ball
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-24-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260824T083000Z
+DTEND:20260824T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-08-24\\nTime: 20:
+ 30 – 23:00\\nHours: 2.5\\nPaycycle: Paycycle 14\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-27-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260827T050000Z
+DTEND:20260827T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Thursday 2026-08-27\\nTime: 
+ 17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 14\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-08-29-anja-manawa-mai@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260828T200000Z
+DTEND:20260829T050000Z
+SUMMARY:UHT Event — Manawa Mai
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Manawa Mai\\nRole: Event Team\\nDate: Satu
+ rday 2026-08-29\\nTime: 08:00 – 17:00\\nHours: 8.5\\nPaycycle: Paycycle 14
+ \\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-08-29-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260829T070000Z
+DTEND:20260829T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Saturday 2026-08-29\\nTime: 
+ 19:00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 14\\nSemester: Semester 2\\n
+ Event on duty date: Manawa Mai
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-06-anja-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260906T043000Z
+DTEND:20260906T110000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Sunday 2026-09-06\\nTime: 
+ 16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 15\\nSemester: Semester 2\
+ \nEvent on duty date: STEPtember Count
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-09-12-anja-wkh-cookie-decorating@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260912T000000Z
+DTEND:20260912T030000Z
+SUMMARY:UHT Event — WKH Cookie Decorating
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: WKH Cookie Decorating\\nRole: Event Team\\
+ nDate: Saturday 2026-09-12\\nTime: 12:00 – 15:00\\nHours: 3\\nPaycycle: Pa
+ ycycle 15\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-12-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260912T053000Z
+DTEND:20260912T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Saturday 2026-09-12\\nTime: 
+ 17:30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 15\\nSemester: Semester 2\
+ \nEvent on duty date: WKH Cookie Decorating
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-14-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260914T050000Z
+DTEND:20260914T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Monday 2026-09-14\\nTime: 17
+ :00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 16\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-09-15-anja-m-ori-quiz-night@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260915T070000Z
+DTEND:20260915T103000Z
+SUMMARY:UHT Event — Māori Quiz Night
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Māori Quiz Night\\nRole: Event Team\\nDate
+ : Tuesday 2026-09-15\\nTime: 19:00 – 22:30\\nHours: 3.5\\nPaycycle: Paycyc
+ le 16\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-09-17-anja-p-ahurea-m-ori@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260917T050000Z
+DTEND:20260917T110000Z
+SUMMARY:UHT Event — Pō Ahurea Māori
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Pō Ahurea Māori\\nRole: Event Team\\nDate:
+  Thursday 2026-09-17\\nTime: 17:00 – 23:00\\nHours: 5.5\\nPaycycle: Paycyc
+ le 16\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-19-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260919T053000Z
+DTEND:20260919T110000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-09-19\\nTime: 1
+ 7:30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 16\\nSemester: Semester 2\\
+ nEvent on duty date: Social Kī-o-Rahi
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-24-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260924T050000Z
+DTEND:20260924T110000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Thursday 2026-09-24\\nTime: 
+ 17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 16\\nSemester: Semester 2\\n
+ Event on duty date: UHT The Price is Right
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-09-29-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20260929T033000Z
+DTEND:20260929T100000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Tuesday 2026-09-29\\nTime: 1
+ 6:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 17\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-03-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261003T033000Z
+DTEND:20261003T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-10-03\\nTime: 1
+ 6:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 17\\nSemester: Semester 2\\
+ nEvent on duty date: Inter-Res Talent Quest
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-10-04-anja-inter-res-specialty-event@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261003T203000Z
+DTEND:20261004T023000Z
+SUMMARY:UHT Event — Inter-Res Specialty Event
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Inter-Res Specialty Event\\nRole: Event Te
+ am\\nDate: Sunday 2026-10-04\\nTime: 09:30 – 15:30\\nHours: 5.5\\nPaycycle
+ : Paycycle 17\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-10-07-anja-sc-eoy-event@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261007T040000Z
+DTEND:20261007T100000Z
+SUMMARY:UHT Event — SC EOY Event
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: SC EOY Event\\nRole: Event Team\\nDate: We
+ dnesday 2026-10-07\\nTime: 17:00 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle
+  17\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-14-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261014T040000Z
+DTEND:20261014T100000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Wednesday 2026-10-14\\nTime:
+  17:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 18\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-10-16-anja-gumboot-friday@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261016T000000Z
+DTEND:20261016T030000Z
+SUMMARY:UHT Event — Gumboot Friday
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Gumboot Friday\\nRole: Event Team\\nDate: 
+ Friday 2026-10-16\\nTime: 13:00 – 16:00\\nHours: 3\\nPaycycle: Paycycle 18
+ \\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-18-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261018T033000Z
+DTEND:20261018T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-10-18\\nTime: 16:
+ 30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 18\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-20-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261020T030000Z
+DTEND:20261020T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-10-20\\nTime: 16
+ :00 – 23:00\\nHours: 7\\nPaycycle: Paycycle 18\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-23-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261023T033000Z
+DTEND:20261023T100000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Friday 2026-10-23\\nTime: 16
+ :30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 18\\nSemester: Semester 2\\n
+ Event on duty date: UHT EOS Event\\nNotes: Classes End
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-10-30-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261030T043000Z
+DTEND:20261030T100000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Friday 2026-10-30\\nTime: 17
+ :30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 19\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-11-05-anja-move-out-duty-anja@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261104T193000Z
+DTEND:20261105T033000Z
+SUMMARY:UHT Event — Move Out Duty - Anja
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Move Out Duty - Anja\\nRole: Event Team\\n
+ Date: Thursday 2026-11-05\\nTime: 08:30 – 16:30\\nHours: 7.5\\nPaycycle: P
+ aycycle 19\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-11-06-anja-backup@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261106T063000Z
+DTEND:20261106T100000Z
+SUMMARY:UHT Duty — Backup
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-11-06\\nTime: 19:
+ 30 – 23:00\\nHours: 3.5\\nPaycycle: Paycycle 19\\nSemester: Semester 2\\nE
+ vent on duty date: Move Out Duty - Maddy
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-11-15-anja-primary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261115T033000Z
+DTEND:20261115T100000Z
+SUMMARY:UHT Duty — Primary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Sunday 2026-11-15\\nTime: 16
+ :30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 20\\nSemester: Semester 2\\n
+ Event on duty date: Move Out Duty -  Leo
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-11-18-anja-manager-tasks@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261118T040000Z
+DTEND:20261118T070000Z
+SUMMARY:UHT Event — Manager Tasks
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Manager Tasks\\nRole: Event Team\\nDate: W
+ ednesday 2026-11-18\\nTime: 17:00 – 20:00\\nHours: 3\\nPaycycle: Paycycle 
+ 20\\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:duty-2026-11-19-anja-secondary@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261119T053000Z
+DTEND:20261119T100000Z
+SUMMARY:UHT Duty — Secondary
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Thursday 2026-11-19\\nTime
+ : 18:30 – 23:00\\nHours: 4.5\\nPaycycle: Paycycle 20\\nSemester: Semester 
+ 2\\nEvent on duty date: Move Out Duty - Aaron\, Manager Tasks
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-11-20-anja-move-out-day@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261119T190000Z
+DTEND:20261120T030000Z
+SUMMARY:UHT Event — Move Out Day
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Move Out Day\\nRole: Event Team\\nDate: Fr
+ iday 2026-11-20\\nTime: 08:00 – 16:00\\nHours: 7.5\\nPaycycle: Paycycle 20
+ \\nSemester: Semester 2
+END:VEVENT
+BEGIN:VEVENT
+UID:event-2026-11-21-anja-hall-reset@uht-ra-portal
+DTSTAMP:20260616T085343Z
+DTSTART:20261120T200000Z
+DTEND:20261121T040000Z
+SUMMARY:UHT Event — Hall Reset
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Hall Reset\\nRole: Event Team\\nDate: Satu
+ rday 2026-11-21\\nTime: 09:00 – 17:00\\nHours: 7.5\\nPaycycle: Paycycle 20
+ \\nSemester: Semester 2
+END:VEVENT
+END:VCALENDAR
