@@ -204,7 +204,13 @@ function makeIcs(displayName, events) {
     "CALSCALE:GREGORIAN",
     "METHOD:PUBLISH",
     `X-WR-CALNAME:${escapeIcs(`UHT RA Calendar — ${displayName}`)}`,
-    "X-WR-TIMEZONE:Pacific/Auckland"
+    "X-WR-TIMEZONE:Pacific/Auckland",
+
+  // Best-effort refresh hints for subscribed calendar apps.
+  // Source roster updates twice daily, so two-hour checks are enough.
+  // Calendar apps may still ignore these and use their own refresh schedule.
+    "REFRESH-INTERVAL;VALUE=DURATION:PT2H",
+    "X-PUBLISHED-TTL:PT2H"
   ];
 
   events
