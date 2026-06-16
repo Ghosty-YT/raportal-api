@@ -3,11 +3,8 @@ name: Update Duty Roster JSON
 on:
   workflow_dispatch:
   schedule:
-    # 10:30am Auckland time
     - cron: "30 10 * * *"
       timezone: "Pacific/Auckland"
-
-    # 6:30pm Auckland time
     - cron: "30 18 * * *"
       timezone: "Pacific/Auckland"
 
@@ -17,9 +14,6 @@ permissions:
 concurrency:
   group: update-duty-roster-json
   cancel-in-progress: true
-
-env:
-  ROSTER_FILE: duty-shifts-updated-event-team.min.json
 
 jobs:
   update-roster:
@@ -42,222 +36,62 @@ jobs:
           npm install playwright
           npx playwright install --with-deps chromium
 
-      - name: Download roster JSON using browser
-        run: |
-          node <<'NODE'
-          const fs = require("fs");
-          const { chromium } = require("playwright");
-
-          const sharepointUrl = process.env.SHAREPOINT_ROSTER_URL;
-          const outputFile = process.env.ROSTER_FILE || "duty-shifts-updated-event-team.min.json";
-
-          if (!sharepointUrl) {
-            throw new Error("Missing SHAREPOINT_ROSTER_URL secret.");
-          }
-
-          function withoutDownloadParam(rawUrl) {
-            const url = new URL(rawUrl);
-            url.searchParams.delete("download");
-            return url.toString();
-          }
-
-          async function saveDownload(download, outputFile) {
-            await download.saveAs(outputFile);
-
-            const size = fs.statSync(outputFile).size;
-            console.log(`Downloaded file size: ${size} bytes`);
-
-            if (size === 0) {
-              throw new Error("Downloaded file is empty.");
-            }
-          }
-
-          async function main() {
-            const browser = await chromium.launch({
-              headless: true
-            });
-
-            const context = await browser.newContext({
-              acceptDownloads: true,
-              userAgent:
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-              viewport: { width: 1366, height: 900 }
-            });
-
-            const page = await context.newPage();
-
-            console.log("Attempt 1: open direct download URL in browser.");
-
-            let downloaded = false;
-
-            try {
-              const download = await Promise.race([
-                page.waitForEvent("download", { timeout: 45000 }),
-                page.goto(sharepointUrl, {
-                  waitUntil: "domcontentloaded",
-                  timeout: 60000
-                }).then(() => null).catch(() => null)
-              ]);
-
-              if (download) {
-                await saveDownload(download, outputFile);
-                downloaded = true;
-              }
-            } catch (error) {
-              console.log("Direct browser-download attempt did not complete:", error.message);
-            }
-
-            if (!downloaded) {
-              console.log("Attempt 2: open SharePoint viewer and click Download.");
-
-              const viewerUrl = withoutDownloadParam(sharepointUrl);
-
-              await page.goto(viewerUrl, {
-                waitUntil: "domcontentloaded",
-                timeout: 60000
-              });
-
-              await page.waitForTimeout(5000);
-
-              const possibleButtons = [
-                page.getByRole("button", { name: /download/i }),
-                page.locator('[aria-label*="Download"]').first(),
-                page.locator('button:has-text("Download")').first(),
-                page.locator('a:has-text("Download")').first()
-              ];
-
-              let clicked = false;
-
-              for (const locator of possibleButtons) {
-                try {
-                  await locator.waitFor({ state: "visible", timeout: 10000 });
-
-                  const downloadPromise = page.waitForEvent("download", {
-                    timeout: 60000
-                  });
-
-                  await locator.click();
-
-                  const download = await downloadPromise;
-                  await saveDownload(download, outputFile);
-
-                  clicked = true;
-                  downloaded = true;
-                  break;
-                } catch (error) {
-                  console.log("Download button attempt failed:", error.message);
-                }
-              }
-
-              if (!clicked) {
-                const htmlPreview = await page.content();
-                const safePreview = htmlPreview
-                  .slice(0, 1000)
-                  .replace(/\s+/g, " ")
-                  .replace(/https?:\/\/[^\s"'<>]+/g, "[URL hidden]");
-
-                console.log("Could not find/click Download. Page preview:");
-                console.log(safePreview);
-
-                await page.screenshot({
-                  path: "sharepoint-debug.png",
-                  fullPage: true
-                });
-
-                throw new Error("Browser could not download the SharePoint file.");
-              }
-            }
-
-            await browser.close();
-          }
-
-          main().catch(error => {
-            console.error(error);
-            process.exit(1);
-          });
-          NODE
+      - name: Download Sem 1 roster JSON from SharePoint
+        run: node scripts/download-sharepoint.js
         env:
-          SHAREPOINT_ROSTER_URL: ${{ secrets.SHAREPOINT_ROSTER_URL }}
+          SHAREPOINT_URL: ${{ secrets.SHAREPOINT_SEM1_URL }}
+          OUTPUT_FILE: sem1-source.json
 
-      - name: Validate roster JSON
+      - name: Download Sem 2 roster JSON from SharePoint
+        run: node scripts/download-sharepoint.js
+        env:
+          SHAREPOINT_URL: ${{ secrets.SHAREPOINT_SEM2_URL }}
+          OUTPUT_FILE: sem2-source.json
+
+      - name: Validate source JSON files
         run: |
-          node <<'NODE'
-          const fs = require("fs");
-
-          const filePath = process.env.ROSTER_FILE;
-          const text = fs.readFileSync(filePath, "utf8").trim();
-
-          if (!text) {
-            throw new Error("Downloaded file is empty.");
+          node -e "
+          const fs = require('fs');
+          for (const file of ['sem1-source.json', 'sem2-source.json']) {
+            const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+            if (!Array.isArray(data.shifts)) throw new Error(file + ' missing shifts array');
+            if (!Array.isArray(data.paycycle_entries)) throw new Error(file + ' missing paycycle_entries array');
+            if (!Array.isArray(data.event_team)) throw new Error(file + ' missing event_team array');
+            console.log(file, {
+              shifts: data.shifts.length,
+              paycycle_entries: data.paycycle_entries.length,
+              event_team: data.event_team.length
+            });
           }
+          "
 
-          if (
-            text.startsWith("<!DOCTYPE") ||
-            text.startsWith("<html") ||
-            text.includes("<body") ||
-            text.includes("Sign in") ||
-            text.includes("Access denied")
-          ) {
-            throw new Error("Downloaded HTML/login/error page instead of JSON.");
-          }
+      - name: Merge Sem 1 and Sem 2 JSON
+        run: node scripts/merge-roster-json.js
 
-          let data;
-          try {
-            data = JSON.parse(text);
-          } catch (error) {
-            throw new Error("Downloaded file is not valid JSON: " + error.message);
-          }
+      - name: Generate RA calendar ICS files
+        run: node scripts/generate-ics.js
+        env:
+          BASE_CALENDAR_URL: https://raw.githubusercontent.com/Ghosty-YT/raportal-api/main/calendars
 
-          if (!data || typeof data !== "object" || Array.isArray(data)) {
-            throw new Error("Roster JSON must be a top-level object.");
-          }
-
-          if (!Array.isArray(data.shifts)) {
-            throw new Error("Missing or invalid shifts array.");
-          }
-
-          if (!Array.isArray(data.paycycle_entries)) {
-            throw new Error("Missing or invalid paycycle_entries array.");
-          }
-
-          if (!Array.isArray(data.event_team)) {
-            throw new Error("Missing or invalid event_team array.");
-          }
-
-          if (data.shifts.length === 0) {
-            throw new Error("shifts array is empty.");
-          }
-
-          if (data.paycycle_entries.length === 0) {
-            throw new Error("paycycle_entries array is empty.");
-          }
-
-          fs.writeFileSync(filePath, JSON.stringify(data));
-
-          console.log("Valid roster JSON.");
-          console.log("shifts:", data.shifts.length);
-          console.log("paycycle_entries:", data.paycycle_entries.length);
-          console.log("event_team:", data.event_team.length);
-          NODE
-
-      - name: Upload SharePoint debug screenshot if failed
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: sharepoint-debug
-          path: sharepoint-debug.png
-          if-no-files-found: ignore
+      - name: Save source JSON copies
+        run: |
+          mkdir -p sources
+          cp sem1-source.json sources/duty-shifts-sem1.min.json
+          cp sem2-source.json sources/duty-shifts-sem2.min.json
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add "${ROSTER_FILE}"
+          git add duty-shifts-updated-event-team.min.json
+          git add calendars
+          git add sources/duty-shifts-sem1.min.json
+          git add sources/duty-shifts-sem2.min.json
 
           if git diff --cached --quiet; then
-            echo "No roster changes to commit."
+            echo "No roster/calendar changes to commit."
           else
-            git commit -m "Auto-update duty roster"
+            git commit -m "Auto-update roster and calendars"
             git push
           fi
