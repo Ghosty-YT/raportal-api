@@ -10,11 +10,16 @@ const CALENDAR_BASE_URL =
   process.env.BASE_CALENDAR_URL ||
   "https://raw.githubusercontent.com/Ghosty-YT/raportal-api/main/calendars";
 
-function normalizeName(value) {
+function normalizeText(value) {
   return String(value || "")
     .trim()
     .toLowerCase()
+    .replace(/[–—]/g, "-")
     .replace(/\s+/g, " ");
+}
+
+function normalizeName(value) {
+  return normalizeText(value);
 }
 
 function slugName(value) {
@@ -44,6 +49,13 @@ function foldLine(line) {
   return chunks.join("\r\n");
 }
 
+function compactUtcDateTime(date) {
+  return date
+    .toISOString()
+    .replace(/[-:]/g, "")
+    .replace(/\.\d{3}Z$/, "Z");
+}
+
 function icsDateTime(date, time) {
   if (!date || !time) return "";
 
@@ -52,18 +64,25 @@ function icsDateTime(date, time) {
 
   if (isNaN(localDate.getTime())) return "";
 
-  return localDate
-    .toISOString()
-    .replace(/[-:]/g, "")
-    .replace(/\.\d{3}Z$/, "Z");
+  return compactUtcDateTime(localDate);
 }
 
-function getStartEnd(person) {
-  let start = person.start_time || "";
-  let end = person.end_time || "";
+function icsAllDayDate(date) {
+  return String(date || "").replace(/-/g, "");
+}
 
-  if ((!start || !end) && person.time) {
-    const parts = String(person.time).split(/\s*[–—-]\s*/);
+function addDaysIso(date, days) {
+  const d = new Date(`${date}T00:00:00`);
+  d.setDate(d.getDate() + days);
+  return d.toISOString().slice(0, 10);
+}
+
+function getStartEnd(personOrEntry) {
+  let start = personOrEntry.start_time || "";
+  let end = personOrEntry.end_time || "";
+
+  if ((!start || !end) && personOrEntry.time) {
+    const parts = String(personOrEntry.time).split(/\s*[–—-]\s*/);
     if (parts.length === 2) {
       start = start || parts[0].trim();
       end = end || parts[1].trim();
@@ -71,6 +90,63 @@ function getStartEnd(person) {
   }
 
   return { start, end };
+}
+
+function isAbsenceTask(task) {
+  const text = normalizeText(task);
+
+  return (
+    text.includes("lwop") ||
+    text.includes("leave without pay") ||
+    text === "sick" ||
+    text.startsWith("sick ") ||
+    text.includes("sick leave")
+  );
+}
+
+function isTotalTask(task) {
+  const text = normalizeText(task);
+
+  return (
+    text === "total" ||
+    text.endsWith(" total") ||
+    text.includes("total hours")
+  );
+}
+
+function isDutyTask(task) {
+  return normalizeText(task) === "duty";
+}
+
+function isAllowedOtherWorkTask(task) {
+  const text = normalizeText(task);
+
+  return (
+    text.includes("ra meeting") ||
+    text.includes("ra training")
+  );
+}
+
+function shouldExcludeOtherWorkTask(task) {
+  const text = normalizeText(task);
+
+  if (!text) return true;
+  if (isAbsenceTask(text)) return true;
+  if (isTotalTask(text)) return true;
+  if (isDutyTask(text)) return true;
+
+  // These should NOT go into ICS.
+  if (text.includes("manager")) return true;
+  if (text === "admin" || text.includes("admin")) return true;
+  if (text.includes("roll call")) return true;
+  if (text.includes("floor meeting")) return true;
+  if (text.includes("uta floor meeting")) return true;
+  if (text.includes("flat chat")) return true;
+  if (text.includes("1:1")) return true;
+  if (text.includes("one on one")) return true;
+
+  // Only RA Meeting and RA Training are allowed as extra work.
+  return !isAllowedOtherWorkTask(text);
 }
 
 function addEvent(calendarMap, raName, event) {
@@ -81,15 +157,21 @@ function addEvent(calendarMap, raName, event) {
   if (!calendarMap[key]) {
     calendarMap[key] = {
       displayName: raName,
-      events: []
+      events: [],
+      seen: new Set()
     };
   }
 
+  if (calendarMap[key].seen.has(event.dedupeKey)) {
+    return;
+  }
+
+  calendarMap[key].seen.add(event.dedupeKey);
   calendarMap[key].events.push(event);
 }
 
-function buildUid(type, date, raName, label) {
-  return `${type}-${date}-${slugName(raName)}-${slugName(label)}@uht-ra-portal`;
+function buildUid(type, date, raName, label, extra = "") {
+  return `${type}-${date}-${slugName(raName)}-${slugName(label)}-${slugName(extra)}@uht-ra-portal`;
 }
 
 function makeDescription(lines) {
@@ -98,11 +180,22 @@ function makeDescription(lines) {
     .join("\\n");
 }
 
+function timedEventLines(event) {
+  return [
+    `DTSTART:${event.dtstart}`,
+    `DTEND:${event.dtend}`
+  ];
+}
+
+function allDayEventLines(event) {
+  return [
+    `DTSTART;VALUE=DATE:${event.dtstartDate}`,
+    `DTEND;VALUE=DATE:${event.dtendDate}`
+  ];
+}
+
 function makeIcs(displayName, events) {
-  const now = new Date()
-    .toISOString()
-    .replace(/[-:]/g, "")
-    .replace(/\.\d{3}Z$/, "Z");
+  const now = compactUtcDateTime(new Date());
 
   const lines = [
     "BEGIN:VCALENDAR",
@@ -115,13 +208,19 @@ function makeIcs(displayName, events) {
   ];
 
   events
-    .sort((a, b) => String(a.dtstart).localeCompare(String(b.dtstart)))
+    .sort((a, b) => {
+      const aSort = a.dtstart || a.dtstartDate || "";
+      const bSort = b.dtstart || b.dtstartDate || "";
+      return String(aSort).localeCompare(String(bSort));
+    })
     .forEach(event => {
       lines.push("BEGIN:VEVENT");
       lines.push(`UID:${escapeIcs(event.uid)}`);
       lines.push(`DTSTAMP:${now}`);
-      lines.push(`DTSTART:${event.dtstart}`);
-      lines.push(`DTEND:${event.dtend}`);
+
+      const dateLines = event.isAllDay ? allDayEventLines(event) : timedEventLines(event);
+      dateLines.forEach(line => lines.push(line));
+
       lines.push(`SUMMARY:${escapeIcs(event.summary)}`);
       lines.push(`LOCATION:${escapeIcs(event.location || "University Hall Towers")}`);
       lines.push(`DESCRIPTION:${escapeIcs(event.description)}`);
@@ -133,6 +232,59 @@ function makeIcs(displayName, events) {
   return lines.map(foldLine).join("\r\n") + "\r\n";
 }
 
+function createTimedOrAllDayEvent({
+  type,
+  date,
+  raName,
+  label,
+  summary,
+  location,
+  description,
+  personOrEntry,
+  dedupeExtra
+}) {
+  const { start, end } = getStartEnd(personOrEntry);
+  const dtstart = icsDateTime(date, start);
+  const dtend = icsDateTime(date, end);
+
+  const dedupeKey = [
+    type,
+    date,
+    normalizeName(raName),
+    normalizeText(label),
+    normalizeText(start),
+    normalizeText(end),
+    String(personOrEntry.hours || ""),
+    normalizeText(dedupeExtra || "")
+  ].join("|");
+
+  if (dtstart && dtend) {
+    return {
+      isAllDay: false,
+      uid: buildUid(type, date, raName, label, dedupeExtra),
+      dedupeKey,
+      dtstart,
+      dtend,
+      summary,
+      location,
+      description
+    };
+  }
+
+  // RA Meeting / RA Training often only have date + hours, no start/end time.
+  // In that case, make an all-day calendar reminder.
+  return {
+    isAllDay: true,
+    uid: buildUid(type, date, raName, label, dedupeExtra),
+    dedupeKey,
+    dtstartDate: icsAllDayDate(date),
+    dtendDate: icsAllDayDate(addDaysIso(date, 1)),
+    summary,
+    location,
+    description
+  };
+}
+
 function main() {
   const data = JSON.parse(fs.readFileSync(INPUT_FILE, "utf8"));
 
@@ -142,69 +294,98 @@ function main() {
 
   const calendarMap = {};
 
-  // Duty shifts
+  // 1. Duty shifts
   (data.shifts || []).forEach(shift => {
     (shift.people || []).forEach(person => {
-      const { start, end } = getStartEnd(person);
-      const dtstart = icsDateTime(shift.date, start);
-      const dtend = icsDateTime(shift.date, end);
-
-      if (!dtstart || !dtend) return;
-
       const role = person.role || "Duty";
-      const summary = `UHT Duty — ${role}`;
+      const label = `Duty ${role}`;
 
-      addEvent(calendarMap, person.name, {
-        uid: buildUid("duty", shift.date, person.name, role),
-        dtstart,
-        dtend,
-        summary,
+      const event = createTimedOrAllDayEvent({
+        type: "duty",
+        date: shift.date,
+        raName: person.name,
+        label,
+        summary: `UHT Duty — ${role}`,
         location: "University Hall Towers",
+        personOrEntry: person,
+        dedupeExtra: role,
         description: makeDescription([
           `Type: Duty`,
           `Role: ${role}`,
           `Date: ${shift.day || ""} ${shift.date}`,
-          `Time: ${person.time || `${start} – ${end}`}`,
-          `Hours: ${person.hours || ""}`,
-          `Paycycle: ${shift.pay_cycle || ""}`,
-          `Semester: ${shift.semester || ""}`,
+          person.time ? `Time: ${person.time}` : "",
+          person.hours ? `Hours: ${person.hours}` : "",
+          shift.pay_cycle ? `Paycycle: ${shift.pay_cycle}` : "",
+          shift.semester ? `Semester: ${shift.semester}` : "",
           shift.events ? `Event on duty date: ${shift.events}` : "",
           shift.notes ? `Notes: ${shift.notes}` : ""
         ])
       });
+
+      addEvent(calendarMap, person.name, event);
     });
   });
 
-  // Event shifts
+  // 2. Event team shifts
   (data.event_team || []).forEach(record => {
     (record.people || []).forEach(person => {
-      const { start, end } = getStartEnd(person);
-      const dtstart = icsDateTime(record.date, start);
-      const dtend = icsDateTime(record.date, end);
-
-      if (!dtstart || !dtend) return;
-
       const eventName = record.event_name || "Event";
       const role = person.role || "Event Team";
 
-      addEvent(calendarMap, person.name, {
-        uid: buildUid("event", record.date, person.name, eventName),
-        dtstart,
-        dtend,
+      const event = createTimedOrAllDayEvent({
+        type: "event",
+        date: record.date,
+        raName: person.name,
+        label: eventName,
         summary: `UHT Event — ${eventName}`,
         location: "University Hall Towers",
+        personOrEntry: person,
+        dedupeExtra: eventName,
         description: makeDescription([
           `Type: Event`,
           `Event: ${eventName}`,
           `Role: ${role}`,
           `Date: ${record.day || ""} ${record.date}`,
-          `Time: ${person.time || `${start} – ${end}`}`,
-          `Hours: ${person.hours || ""}`,
-          `Paycycle: ${record.pay_cycle || ""}`,
-          `Semester: ${record.semester || ""}`
+          person.time ? `Time: ${person.time}` : "",
+          person.hours ? `Hours: ${person.hours}` : "",
+          record.pay_cycle ? `Paycycle: ${record.pay_cycle}` : "",
+          record.semester ? `Semester: ${record.semester}` : ""
         ])
       });
+
+      addEvent(calendarMap, person.name, event);
     });
+  });
+
+  // 3. Allowed other work from paycycle_entries
+  // Only RA Meeting and RA Training are included.
+  (data.paycycle_entries || []).forEach(entry => {
+    const task = entry.task || entry.original_task || "";
+
+    if (shouldExcludeOtherWorkTask(task)) return;
+
+    const event = createTimedOrAllDayEvent({
+      type: "work",
+      date: entry.date,
+      raName: entry.name,
+      label: task,
+      summary: `UHT Work — ${task}`,
+      location: "University Hall Towers",
+      personOrEntry: entry,
+      dedupeExtra: task,
+      description: makeDescription([
+        `Type: Other Work`,
+        `Task: ${task}`,
+        `Date: ${entry.day || ""} ${entry.date}`,
+        entry.time ? `Time: ${entry.time}` : "",
+        entry.hours ? `Hours: ${entry.hours}` : "",
+        entry.pay_cycle ? `Paycycle: ${entry.pay_cycle}` : "",
+        entry.semester ? `Semester: ${entry.semester}` : "",
+        entry.source_sheet ? `Source: ${entry.source_sheet}` : ""
+      ])
+    });
+
+    addEvent(calendarMap, entry.name, event);
   });
 
   const index = [];
