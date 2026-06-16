@@ -138,9 +138,18 @@ function applyDefaultTimesForOtherWork(entry) {
   if (task.includes("ra training")) {
     return {
       ...entry,
-      time: entry.time || "08:30 – 16:30",
-      start_time: entry.start_time || "08:30",
-      end_time: entry.end_time || "16:30"
+      time: "08:30 – 16:30",
+      start_time: "08:30",
+      end_time: "16:30"
+    };
+  }
+
+  if (task.includes("ra meeting")) {
+    return {
+      ...entry,
+      time: "19:00 – 20:00",
+      start_time: "19:00",
+      end_time: "20:00"
     };
   }
 
