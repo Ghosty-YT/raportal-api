@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT2H
 X-PUBLISHED-TTL:PT2H
 BEGIN:VEVENT
 UID:work-2026-02-16-rosalyn-ra-training-ra-training@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260215T193000Z
 DTEND:20260216T033000Z
 SUMMARY:UHT Work — RA Training
@@ -20,7 +20,7 @@ DESCRIPTION:Type: Other Work\\nTask: RA Training\\nDate: Monday 2026-02-16\
 END:VEVENT
 BEGIN:VEVENT
 UID:work-2026-02-17-rosalyn-ra-training-ra-training@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260216T193000Z
 DTEND:20260217T033000Z
 SUMMARY:UHT Work — RA Training
@@ -31,7 +31,7 @@ DESCRIPTION:Type: Other Work\\nTask: RA Training\\nDate: Tuesday 2026-02-17
 END:VEVENT
 BEGIN:VEVENT
 UID:work-2026-02-18-rosalyn-ra-training-ra-training@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260217T193000Z
 DTEND:20260218T033000Z
 SUMMARY:UHT Work — RA Training
@@ -42,7 +42,7 @@ DESCRIPTION:Type: Other Work\\nTask: RA Training\\nDate: Wednesday 2026-02-
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-02-21-rosalyn-move-in-day-move-in-day@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260220T190000Z
 DTEND:20260221T043000Z
 SUMMARY:UHT Event — Move In Day
@@ -53,7 +53,7 @@ DESCRIPTION:Type: Event\\nEvent: Move In Day\\nRole: Event Team\\nDate: Sat
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-02-22-rosalyn-hawk-hound-hunt-hawk-hound-hunt@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260221T230000Z
 DTEND:20260222T030000Z
 SUMMARY:UHT Event — Hawk & Hound Hunt
@@ -64,7 +64,7 @@ DESCRIPTION:Type: Event\\nEvent: Hawk & Hound Hunt\\nRole: Event Team\\nDat
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-02-23-rosalyn-unismart-unismart@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260223T000000Z
 DTEND:20260223T030000Z
 SUMMARY:UHT Event — UniSmart
@@ -75,7 +75,7 @@ DESCRIPTION:Type: Event\\nEvent: UniSmart\\nRole: Event Team\\nDate: Monday
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-02-23-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260223T070000Z
 DTEND:20260223T100000Z
 SUMMARY:UHT Duty — Backup
@@ -87,7 +87,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-02-25-rosalyn-battle-of-the-colours-battle-of-the-colours@uh
  t-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260224T230000Z
 DTEND:20260225T030000Z
 SUMMARY:UHT Event — Battle of the Colours
@@ -99,7 +99,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-02-26-rosalyn-cyoa-museum-trip-cyoa-museum-trip@uht-ra-porta
  l
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260225T220000Z
 DTEND:20260226T000000Z
 SUMMARY:UHT Event — CYOA - Museum Trip
@@ -110,7 +110,7 @@ DESCRIPTION:Type: Event\\nEvent: CYOA - Museum Trip\\nRole: Event Team\\nDa
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-02-27-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260227T040000Z
 DTEND:20260227T100000Z
 SUMMARY:UHT Duty — Secondary
@@ -121,7 +121,7 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Friday 2026-02-27\\nTime:
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-02-28-rosalyn-wecan-wecan@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260228T010000Z
 DTEND:20260228T030000Z
 SUMMARY:UHT Event — WECan
@@ -132,7 +132,7 @@ DESCRIPTION:Type: Event\\nEvent: WECan\\nRole: Event Team\\nDate: Saturday
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-03-01-rosalyn-halls-day-out-halls-day-out@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260228T230000Z
 DTEND:20260301T030000Z
 SUMMARY:UHT Event — Halls Day Out
@@ -143,7 +143,7 @@ DESCRIPTION:Type: Event\\nEvent: Halls Day Out\\nRole: Event Team\\nDate: S
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-03-02-rosalyn-toga-night-toga-night@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260302T053000Z
 DTEND:20260302T100000Z
 SUMMARY:UHT Event — Toga Night
@@ -154,17 +154,18 @@ DESCRIPTION:Type: Event\\nEvent: Toga Night\\nRole: Event Team\\nDate: Mond
 END:VEVENT
 BEGIN:VEVENT
 UID:work-2026-03-03-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260303
-DTEND;VALUE=DATE:20260304
+DTSTAMP:20260616T125706Z
+DTSTART:20260303T060000Z
+DTEND:20260303T070000Z
 SUMMARY:UHT Work — RA Meeting
 LOCATION:University Hall Towers
 DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-03-03\
- \nHours: 1\\nPaycycle: Paycycle 2\\nSemester: Semester 1\\nSource: Admin
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 2\\nSemester: Semest
+ er 1\\nSource: Admin
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-03-04-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260304T080000Z
 DTEND:20260304T100000Z
 SUMMARY:UHT Duty — Backup
@@ -175,7 +176,7 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-03-04\\nTime:
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-03-07-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260307T033000Z
 DTEND:20260307T100000Z
 SUMMARY:UHT Duty — Secondary
@@ -185,17 +186,18 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Saturday 2026-03-07\\nTime
 END:VEVENT
 BEGIN:VEVENT
 UID:work-2026-03-10-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260310
-DTEND;VALUE=DATE:20260311
+DTSTAMP:20260616T125706Z
+DTSTART:20260310T060000Z
+DTEND:20260310T070000Z
 SUMMARY:UHT Work — RA Meeting
 LOCATION:University Hall Towers
 DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-03-10\
- \nHours: 1\\nPaycycle: Paycycle 2\\nSemester: Semester 1\\nSource: Admin
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 2\\nSemester: Semest
+ er 1\\nSource: Admin
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-03-12-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260312T033000Z
 DTEND:20260312T100000Z
 SUMMARY:UHT Duty — Backup
@@ -206,7 +208,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-03-13-rosalyn-wkh-meet-the-team-with-ice-cream-wkh-meet-the-
  team-with-ice-cream@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260313T033000Z
 DTEND:20260313T063000Z
 SUMMARY:UHT Event — WKH Meet the Team with Ice Cream
@@ -217,7 +219,7 @@ DESCRIPTION:Type: Event\\nEvent: WKH Meet the Team with Ice Cream\\nRole: E
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-03-14-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260314T033000Z
 DTEND:20260314T100000Z
 SUMMARY:UHT Duty — Backup
@@ -228,17 +230,18 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-03-14\\nTime: 1
 END:VEVENT
 BEGIN:VEVENT
 UID:work-2026-03-17-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260317
-DTEND;VALUE=DATE:20260318
+DTSTAMP:20260616T125706Z
+DTSTART:20260317T060000Z
+DTEND:20260317T070000Z
 SUMMARY:UHT Work — RA Meeting
 LOCATION:University Hall Towers
 DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-03-17\
- \nHours: 1\\nPaycycle: Paycycle 3\\nSemester: Semester 1\\nSource: Admin
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 3\\nSemester: Semest
+ er 1\\nSource: Admin
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-03-18-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260318T063000Z
 DTEND:20260318T100000Z
 SUMMARY:UHT Duty — Primary
@@ -249,7 +252,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-03-22-rosalyn-inter-res-volleyball-inter-res-volleyball@uht-
  ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260321T203000Z
 DTEND:20260322T030000Z
 SUMMARY:UHT Event — Inter-Res Volleyball
@@ -260,17 +263,18 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Volleyball\\nRole: Event Team\\n
 END:VEVENT
 BEGIN:VEVENT
 UID:work-2026-03-24-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260324
-DTEND;VALUE=DATE:20260325
+DTSTAMP:20260616T125706Z
+DTSTART:20260324T060000Z
+DTEND:20260324T070000Z
 SUMMARY:UHT Work — RA Meeting
 LOCATION:University Hall Towers
 DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-03-24\
- \nHours: 1\\nPaycycle: Paycycle 3\\nSemester: Semester 1\\nSource: Admin
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 3\\nSemester: Semest
+ er 1\\nSource: Admin
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-03-25-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260325T040000Z
 DTEND:20260325T100000Z
 SUMMARY:UHT Duty — Primary
@@ -281,7 +285,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-03-28-rosalyn-green-your-room-flat-green-your-room-flat@uht-
  ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART;VALUE=DATE:20260328
 DTEND;VALUE=DATE:20260329
 SUMMARY:UHT Event — Green Your Room/Flat
@@ -292,7 +296,7 @@ DESCRIPTION:Type: Event\\nEvent: Green Your Room/Flat\\nRole: Event Team\\n
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-03-28-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260328T033000Z
 DTEND:20260328T100000Z
 SUMMARY:UHT Duty — Primary
@@ -302,19 +306,9 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Saturday 2026-03-28\\nTime:
  nEvent on duty date: Green Your Room/Flat
 END:VEVENT
 BEGIN:VEVENT
-UID:work-2026-03-31-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260331
-DTEND;VALUE=DATE:20260401
-SUMMARY:UHT Work — RA Meeting
-LOCATION:University Hall Towers
-DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-03-31\
- \nHours: 1\\nPaycycle: Paycycle 4\\nSemester: Semester 1\\nSource: Admin
-END:VEVENT
-BEGIN:VEVENT
 UID:event-2026-03-31-rosalyn-inter-res-debating-inter-res-debating@uht-ra-p
  ortal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260331T040000Z
 DTEND:20260331T093000Z
 SUMMARY:UHT Event — Inter-Res Debating
@@ -324,8 +318,19 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Debating\\nRole: Event Team\\nDa
  le 4\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
+UID:work-2026-03-31-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T125706Z
+DTSTART:20260331T060000Z
+DTEND:20260331T070000Z
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-03-31\
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 4\\nSemester: Semest
+ er 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
 UID:duty-2026-04-02-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260402T033000Z
 DTEND:20260402T100000Z
 SUMMARY:UHT Duty — Primary
@@ -336,7 +341,7 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Thursday 2026-04-02\\nTime:
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-04-04-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260404T033000Z
 DTEND:20260404T100000Z
 SUMMARY:UHT Duty — Backup
@@ -346,7 +351,7 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-04-04\\nTime: 1
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-04-08-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260408T043000Z
 DTEND:20260408T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -357,7 +362,7 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Wednesday 2026-04-08\\nTim
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-04-17-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260417T043000Z
 DTEND:20260417T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -367,7 +372,7 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Friday 2026-04-17\\nTime:
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-04-19-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260419T043000Z
 DTEND:20260419T110000Z
 SUMMARY:UHT Duty — Backup
@@ -377,18 +382,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-04-19\\nTime: 16:
  tes: Mid-Semester Break Ends
 END:VEVENT
 BEGIN:VEVENT
-UID:work-2026-04-21-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260421
-DTEND;VALUE=DATE:20260422
-SUMMARY:UHT Work — RA Meeting
-LOCATION:University Hall Towers
-DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-04-21\
- \nHours: 1\\nPaycycle: Paycycle 5\\nSemester: Semester 1\\nSource: Admin
-END:VEVENT
-BEGIN:VEVENT
 UID:duty-2026-04-21-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260421T050000Z
 DTEND:20260421T110000Z
 SUMMARY:UHT Duty — Backup
@@ -397,8 +392,19 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-04-21\\nTime: 17
  :00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 5\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
+UID:work-2026-04-21-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T125706Z
+DTSTART:20260421T070000Z
+DTEND:20260421T080000Z
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-04-21\
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 5\\nSemester: Semest
+ er 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
 UID:duty-2026-04-23-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260423T050000Z
 DTEND:20260423T110000Z
 SUMMARY:UHT Duty — Backup
@@ -407,18 +413,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Thursday 2026-04-23\\nTime: 1
  7:00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 5\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:work-2026-04-28-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260428
-DTEND;VALUE=DATE:20260429
-SUMMARY:UHT Work — RA Meeting
-LOCATION:University Hall Towers
-DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-04-28\
- \nHours: 1\\nPaycycle: Paycycle 6\\nSemester: Semester 1\\nSource: Admin
-END:VEVENT
-BEGIN:VEVENT
 UID:duty-2026-04-28-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260428T070000Z
 DTEND:20260428T110000Z
 SUMMARY:UHT Duty — Backup
@@ -427,9 +423,20 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-04-28\\nTime: 19
  :00 – 23:00\\nHours: 4\\nPaycycle: Paycycle 6\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
+UID:work-2026-04-28-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T125706Z
+DTSTART:20260428T070000Z
+DTEND:20260428T080000Z
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-04-28\
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 6\\nSemester: Semest
+ er 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
 UID:event-2026-05-02-rosalyn-capture-the-flag-domain-capture-the-flag-domai
  n@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260502T000000Z
 DTEND:20260502T040000Z
 SUMMARY:UHT Event — Capture the Flag - Domain
@@ -440,7 +447,7 @@ DESCRIPTION:Type: Event\\nEvent: Capture the Flag - Domain\\nRole: Event Te
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-05-06-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260506T050000Z
 DTEND:20260506T110000Z
 SUMMARY:UHT Duty — Primary
@@ -451,7 +458,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-05-09-rosalyn-arts-culture-day-arts-culture-day@uht-ra-porta
  l
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260509T070000Z
 DTEND:20260509T103000Z
 SUMMARY:UHT Event — Arts & Culture Day
@@ -463,7 +470,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-05-10-rosalyn-inter-res-swimming-carnival-inter-res-swimming
  -carnival@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260509T210000Z
 DTEND:20260510T040000Z
 SUMMARY:UHT Event — Inter-Res Swimming Carnival
@@ -474,7 +481,7 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Swimming Carnival\\nRole: Event
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-05-10-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260510T050000Z
 DTEND:20260510T110000Z
 SUMMARY:UHT Duty — Backup
@@ -485,17 +492,18 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-05-10\\nTime: 17:
 END:VEVENT
 BEGIN:VEVENT
 UID:work-2026-05-12-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260512
-DTEND;VALUE=DATE:20260513
+DTSTAMP:20260616T125706Z
+DTSTART:20260512T070000Z
+DTEND:20260512T080000Z
 SUMMARY:UHT Work — RA Meeting
 LOCATION:University Hall Towers
 DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-05-12\
- \nHours: 1\\nPaycycle: Paycycle 7\\nSemester: Semester 1\\nSource: Admin
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 7\\nSemester: Semest
+ er 1\\nSource: Admin
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-05-14-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260514T050000Z
 DTEND:20260514T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -506,7 +514,7 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Thursday 2026-05-14\\nTime
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-05-15-rosalyn-pink-shirt-day-pink-shirt-day@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260515T073000Z
 DTEND:20260515T103000Z
 SUMMARY:UHT Event — Pink Shirt Day
@@ -518,7 +526,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-05-16-rosalyn-wkh-pink-cupcake-decorating-wkh-pink-cupcake-d
  ecorating@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART;VALUE=DATE:20260516
 DTEND;VALUE=DATE:20260517
 SUMMARY:UHT Event — WKH Pink Cupcake Decorating
@@ -529,7 +537,7 @@ DESCRIPTION:Type: Event\\nEvent: WKH Pink Cupcake Decorating\\nRole: Floor
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-05-16-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260516T073000Z
 DTEND:20260516T110000Z
 SUMMARY:UHT Duty — Primary
@@ -540,17 +548,18 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Saturday 2026-05-16\\nTime:
 END:VEVENT
 BEGIN:VEVENT
 UID:work-2026-05-19-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260519
-DTEND;VALUE=DATE:20260520
+DTSTAMP:20260616T125706Z
+DTSTART:20260519T070000Z
+DTEND:20260519T080000Z
 SUMMARY:UHT Work — RA Meeting
 LOCATION:University Hall Towers
 DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-05-19\
- \nHours: 1\\nPaycycle: Paycycle 7\\nSemester: Semester 1\\nSource: Admin
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 7\\nSemester: Semest
+ er 1\\nSource: Admin
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-05-23-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260523T050000Z
 DTEND:20260523T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -562,7 +571,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-05-24-rosalyn-inter-res-indoor-netball-inter-res-indoor-netb
  all@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260523T210000Z
 DTEND:20260524T040000Z
 SUMMARY:UHT Event — Inter-Res Indoor Netball
@@ -572,18 +581,8 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Indoor Netball\\nRole: Event Tea
   Paycycle 7\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
-UID:work-2026-05-26-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260526
-DTEND;VALUE=DATE:20260527
-SUMMARY:UHT Work — RA Meeting
-LOCATION:University Hall Towers
-DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-05-26\
- \nHours: 1\\nPaycycle: Paycycle 8\\nSemester: Semester 1\\nSource: Admin
-END:VEVENT
-BEGIN:VEVENT
 UID:duty-2026-05-26-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260526T043000Z
 DTEND:20260526T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -592,8 +591,19 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Tuesday 2026-05-26\\nTime:
   16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 8\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
+UID:work-2026-05-26-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T125706Z
+DTSTART:20260526T070000Z
+DTEND:20260526T080000Z
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-05-26\
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 8\\nSemester: Semest
+ er 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
 UID:duty-2026-05-28-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260528T043000Z
 DTEND:20260528T110000Z
 SUMMARY:UHT Duty — Backup
@@ -603,7 +613,7 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Thursday 2026-05-28\\nTime: 1
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-06-01-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260601T050000Z
 DTEND:20260601T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -613,18 +623,8 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Monday 2026-06-01\\nTime:
  otes: King's Birthday
 END:VEVENT
 BEGIN:VEVENT
-UID:work-2026-06-02-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260602
-DTEND;VALUE=DATE:20260603
-SUMMARY:UHT Work — RA Meeting
-LOCATION:University Hall Towers
-DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-06-02\
- \nHours: 1\\nPaycycle: Paycycle 8\\nSemester: Semester 1\\nSource: Admin
-END:VEVENT
-BEGIN:VEVENT
 UID:duty-2026-06-02-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260602T043000Z
 DTEND:20260602T110000Z
 SUMMARY:UHT Duty — Primary
@@ -633,8 +633,19 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Tuesday 2026-06-02\\nTime: 1
  6:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 8\\nSemester: Semester 1
 END:VEVENT
 BEGIN:VEVENT
+UID:work-2026-06-02-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T125706Z
+DTSTART:20260602T070000Z
+DTEND:20260602T080000Z
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-06-02\
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 8\\nSemester: Semest
+ er 1\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
 UID:event-2026-06-05-rosalyn-uh-eos-event-uh-eos-event@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260605T050000Z
 DTEND:20260605T110000Z
 SUMMARY:UHT Event — UH EOS Event
@@ -645,7 +656,7 @@ DESCRIPTION:Type: Event\\nEvent: UH EOS Event\\nRole: Event Team\\nDate: Fr
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-06-11-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260611T043000Z
 DTEND:20260611T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -656,7 +667,7 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Thursday 2026-06-11\\nTime
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-06-18-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260618T043000Z
 DTEND:20260618T110000Z
 SUMMARY:UHT Duty — Backup
@@ -666,7 +677,7 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Thursday 2026-06-18\\nTime: 1
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-06-21-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260621T043000Z
 DTEND:20260621T110000Z
 SUMMARY:UHT Duty — Primary
@@ -676,7 +687,7 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Sunday 2026-06-21\\nTime: 16
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-06-25-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260625T043000Z
 DTEND:20260625T110000Z
 SUMMARY:UHT Duty — Backup
@@ -686,7 +697,7 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Thursday 2026-06-25\\nTime: 1
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-06-28-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260628T043000Z
 DTEND:20260628T110000Z
 SUMMARY:UHT Duty — Backup
@@ -696,7 +707,7 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Sunday 2026-06-28\\nTime: 16:
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-07-01-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260701T043000Z
 DTEND:20260701T110000Z
 SUMMARY:UHT Duty — Backup
@@ -706,7 +717,7 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-07-01\\nTime:
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-07-03-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260703T043000Z
 DTEND:20260703T110000Z
 SUMMARY:UHT Duty — Primary
@@ -716,7 +727,7 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Friday 2026-07-03\\nTime: 16
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-07-08-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260708T043000Z
 DTEND:20260708T110000Z
 SUMMARY:UHT Duty — Backup
@@ -726,7 +737,7 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Wednesday 2026-07-08\\nTime:
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-07-12-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260712T043000Z
 DTEND:20260712T110000Z
 SUMMARY:UHT Duty — Primary
@@ -736,7 +747,7 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Sunday 2026-07-12\\nTime: 16
 END:VEVENT
 BEGIN:VEVENT
 UID:work-2026-07-14-rosalyn-ra-training-ra-training@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260713T203000Z
 DTEND:20260714T043000Z
 SUMMARY:UHT Work — RA Training
@@ -747,7 +758,7 @@ DESCRIPTION:Type: Other Work\\nTask: RA Training\\nDate: Tuesday 2026-07-14
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-07-15-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260715T050000Z
 DTEND:20260715T110000Z
 SUMMARY:UHT Duty — Backup
@@ -758,7 +769,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-07-19-rosalyn-residential-experience-residential-experience@
  uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART;VALUE=DATE:20260719
 DTEND;VALUE=DATE:20260720
 SUMMARY:UHT Event — Residential Experience
@@ -769,17 +780,18 @@ DESCRIPTION:Type: Event\\nEvent: Residential Experience\\nRole: Event Team\
 END:VEVENT
 BEGIN:VEVENT
 UID:work-2026-07-21-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260721
-DTEND;VALUE=DATE:20260722
+DTSTAMP:20260616T125706Z
+DTSTART:20260721T070000Z
+DTEND:20260721T080000Z
 SUMMARY:UHT Work — RA Meeting
 LOCATION:University Hall Towers
 DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-07-21\
- \nHours: 1\\nPaycycle: Paycycle 12\\nSemester: Semester 2\\nSource: Admin
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 12\\nSemester: Semes
+ ter 2\\nSource: Admin
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-07-23-rosalyn-crafts-night-crafts-night@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260723T070000Z
 DTEND:20260723T103000Z
 SUMMARY:UHT Event — Crafts Night
@@ -790,7 +802,7 @@ DESCRIPTION:Type: Event\\nEvent: Crafts Night\\nRole: Event Team\\nDate: Th
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-07-24-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260724T083000Z
 DTEND:20260724T110000Z
 SUMMARY:UHT Duty — Backup
@@ -800,7 +812,7 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Friday 2026-07-24\\nTime: 20:
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-07-25-rosalyn-quiz-night-quiz-night@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART;VALUE=DATE:20260725
 DTEND;VALUE=DATE:20260726
 SUMMARY:UHT Event — Quiz Night
@@ -811,7 +823,7 @@ DESCRIPTION:Type: Event\\nEvent: Quiz Night\\nRole: Appreciation Week\\nDat
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-07-25-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260725T043000Z
 DTEND:20260725T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -822,17 +834,18 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Saturday 2026-07-25\\nTime
 END:VEVENT
 BEGIN:VEVENT
 UID:work-2026-07-28-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260728
-DTEND;VALUE=DATE:20260729
+DTSTAMP:20260616T125706Z
+DTSTART:20260728T070000Z
+DTEND:20260728T080000Z
 SUMMARY:UHT Work — RA Meeting
 LOCATION:University Hall Towers
 DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-07-28\
- \nHours: 1\\nPaycycle: Paycycle 12\\nSemester: Semester 2\\nSource: Admin
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 12\\nSemester: Semes
+ ter 2\\nSource: Admin
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-07-30-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260730T043000Z
 DTEND:20260730T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -843,7 +856,7 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Thursday 2026-07-30\\nTime
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-08-01-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260801T043000Z
 DTEND:20260801T110000Z
 SUMMARY:UHT Duty — Backup
@@ -853,17 +866,18 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Saturday 2026-08-01\\nTime: 1
 END:VEVENT
 BEGIN:VEVENT
 UID:work-2026-08-04-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260804
-DTEND;VALUE=DATE:20260805
+DTSTAMP:20260616T125706Z
+DTSTART:20260804T070000Z
+DTEND:20260804T080000Z
 SUMMARY:UHT Work — RA Meeting
 LOCATION:University Hall Towers
 DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-08-04\
- \nHours: 1\\nPaycycle: Paycycle 13\\nSemester: Semester 2\\nSource: Admin
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 13\\nSemester: Semes
+ ter 2\\nSource: Admin
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-08-05-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260805T050000Z
 DTEND:20260805T110000Z
 SUMMARY:UHT Duty — Backup
@@ -875,7 +889,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-08-08-rosalyn-inter-res-talent-quest-inter-res-talent-quest@
  uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260808T050000Z
 DTEND:20260808T110000Z
 SUMMARY:UHT Event — Inter-Res Talent Quest
@@ -886,7 +900,7 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Talent Quest\\nRole: Event Team\
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-08-08-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260808T053000Z
 DTEND:20260808T110000Z
 SUMMARY:UHT Duty — Primary
@@ -897,7 +911,7 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Saturday 2026-08-08\\nTime:
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-08-10-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260810T050000Z
 DTEND:20260810T110000Z
 SUMMARY:UHT Duty — Backup
@@ -906,18 +920,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-08-10\\nTime: 17:
  00 – 23:00\\nHours: 6\\nPaycycle: Paycycle 13\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:work-2026-08-11-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260811
-DTEND;VALUE=DATE:20260812
-SUMMARY:UHT Work — RA Meeting
-LOCATION:University Hall Towers
-DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-08-11\
- \nHours: 1\\nPaycycle: Paycycle 13\\nSemester: Semester 2\\nSource: Admin
-END:VEVENT
-BEGIN:VEVENT
 UID:duty-2026-08-11-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260811T043000Z
 DTEND:20260811T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -926,8 +930,19 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Tuesday 2026-08-11\\nTime:
   16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 13\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
+UID:work-2026-08-11-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T125706Z
+DTSTART:20260811T070000Z
+DTEND:20260811T080000Z
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-08-11\
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 13\\nSemester: Semes
+ ter 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
 UID:duty-2026-08-17-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260817T060000Z
 DTEND:20260817T110000Z
 SUMMARY:UHT Duty — Backup
@@ -936,19 +951,9 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-08-17\\nTime: 18:
  00 – 23:00\\nHours: 5\\nPaycycle: Paycycle 14\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:work-2026-08-18-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260818
-DTEND;VALUE=DATE:20260819
-SUMMARY:UHT Work — RA Meeting
-LOCATION:University Hall Towers
-DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-08-18\
- \nHours: 1\\nPaycycle: Paycycle 14\\nSemester: Semester 2\\nSource: Admin
-END:VEVENT
-BEGIN:VEVENT
 UID:event-2026-08-18-rosalyn-whitaker-cup-mario-kart-whitaker-cup-mario-kar
  t@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260818T060000Z
 DTEND:20260818T100000Z
 SUMMARY:UHT Event — Whitaker Cup Mario Kart
@@ -958,8 +963,19 @@ DESCRIPTION:Type: Event\\nEvent: Whitaker Cup Mario Kart\\nRole: Event Team
  aycycle 14\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
+UID:work-2026-08-18-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T125706Z
+DTSTART:20260818T070000Z
+DTEND:20260818T080000Z
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-08-18\
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 14\\nSemester: Semes
+ ter 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
 UID:event-2026-08-22-rosalyn-ball-ball@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260822T050000Z
 DTEND:20260822T110000Z
 SUMMARY:UHT Event — Ball
@@ -970,17 +986,18 @@ DESCRIPTION:Type: Event\\nEvent: Ball\\nRole: Event Team\\nDate: Saturday 2
 END:VEVENT
 BEGIN:VEVENT
 UID:work-2026-08-25-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260825
-DTEND;VALUE=DATE:20260826
+DTSTAMP:20260616T125706Z
+DTSTART:20260825T070000Z
+DTEND:20260825T080000Z
 SUMMARY:UHT Work — RA Meeting
 LOCATION:University Hall Towers
 DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-08-25\
- \nHours: 1\\nPaycycle: Paycycle 14\\nSemester: Semester 2\\nSource: Admin
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 14\\nSemester: Semes
+ ter 2\\nSource: Admin
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-08-26-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260826T060000Z
 DTEND:20260826T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -990,7 +1007,7 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Wednesday 2026-08-26\\nTim
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-08-29-rosalyn-manawa-mai-manawa-mai@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260828T200000Z
 DTEND:20260829T050000Z
 SUMMARY:UHT Event — Manawa Mai
@@ -1001,7 +1018,7 @@ DESCRIPTION:Type: Event\\nEvent: Manawa Mai\\nRole: Event Team\\nDate: Satu
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-09-04-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260904T053000Z
 DTEND:20260904T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -1012,7 +1029,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-09-06-rosalyn-steptember-count-steptember-count@uht-ra-porta
  l
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260907
 SUMMARY:UHT Event — STEPtember Count
@@ -1023,7 +1040,7 @@ DESCRIPTION:Type: Event\\nEvent: STEPtember Count\\nRole: Event Team\\nDate
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-09-07-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260907T050000Z
 DTEND:20260907T110000Z
 SUMMARY:UHT Duty — Primary
@@ -1033,7 +1050,7 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Monday 2026-09-07\\nTime: 17
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-09-11-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260911T050000Z
 DTEND:20260911T110000Z
 SUMMARY:UHT Duty — Secondary
@@ -1044,7 +1061,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-09-13-rosalyn-steptember-count-steptember-count@uht-ra-porta
  l
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260914
 SUMMARY:UHT Event — STEPtember Count
@@ -1055,17 +1072,18 @@ DESCRIPTION:Type: Event\\nEvent: STEPtember Count\\nRole: Event Team\\nDate
 END:VEVENT
 BEGIN:VEVENT
 UID:work-2026-09-15-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
+DTSTAMP:20260616T125706Z
+DTSTART:20260915T070000Z
+DTEND:20260915T080000Z
 SUMMARY:UHT Work — RA Meeting
 LOCATION:University Hall Towers
 DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-09-15\
- \nHours: 1\\nPaycycle: Paycycle 16\\nSemester: Semester 2\\nSource: Admin
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 16\\nSemester: Semes
+ ter 2\\nSource: Admin
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-09-15-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260915T073000Z
 DTEND:20260915T110000Z
 SUMMARY:UHT Duty — Backup
@@ -1076,7 +1094,7 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Tuesday 2026-09-15\\nTime: 19
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-09-17-rosalyn-p-ahurea-m-ori-p-ahurea-m-ori@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260917T050000Z
 DTEND:20260917T110000Z
 SUMMARY:UHT Event — Pō Ahurea Māori
@@ -1087,7 +1105,7 @@ DESCRIPTION:Type: Event\\nEvent: Pō Ahurea Māori\\nRole: Event Team\\nDate:
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-09-18-rosalyn-poi-making-poi-making@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260918T070000Z
 DTEND:20260918T103000Z
 SUMMARY:UHT Event — Poi Making
@@ -1099,7 +1117,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-09-20-rosalyn-steptember-count-steptember-count@uht-ra-porta
  l
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:UHT Event — STEPtember Count
@@ -1110,7 +1128,7 @@ DESCRIPTION:Type: Event\\nEvent: STEPtember Count\\nRole: Event Team\\nDate
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-09-22-rosalyn-inter-res-quiz-inter-res-quiz@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260922T060000Z
 DTEND:20260922T100000Z
 SUMMARY:UHT Event — Inter-Res Quiz
@@ -1121,7 +1139,7 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Quiz\\nRole: Event Team\\nDate:
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-09-23-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260923T060000Z
 DTEND:20260923T110000Z
 SUMMARY:UHT Duty — Primary
@@ -1132,7 +1150,7 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Wednesday 2026-09-23\\nTime:
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-09-26-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260926T060000Z
 DTEND:20260926T110000Z
 SUMMARY:UHT Duty — Primary
@@ -1143,7 +1161,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-09-27-rosalyn-steptember-stair-race-steptember-stair-race@uh
  t-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260927T013000Z
 DTEND:20260927T030000Z
 SUMMARY:UHT Event — STEPtember Stair Race
@@ -1154,17 +1172,18 @@ DESCRIPTION:Type: Event\\nEvent: STEPtember Stair Race\\nRole: Event Team\\
 END:VEVENT
 BEGIN:VEVENT
 UID:work-2026-09-29-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
+DTSTAMP:20260616T125706Z
+DTSTART:20260929T060000Z
+DTEND:20260929T070000Z
 SUMMARY:UHT Work — RA Meeting
 LOCATION:University Hall Towers
 DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-09-29\
- \nHours: 1\\nPaycycle: Paycycle 17\\nSemester: Semester 2\\nSource: Admin
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 17\\nSemester: Semes
+ ter 2\\nSource: Admin
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-09-30-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20260930T033000Z
 DTEND:20260930T100000Z
 SUMMARY:UHT Duty — Backup
@@ -1175,7 +1194,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-10-03-rosalyn-inter-res-talent-quest-inter-res-talent-quest@
  uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:UHT Event — Inter-Res Talent Quest
@@ -1186,7 +1205,7 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Talent Quest\\nRole: STEPtember
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-10-03-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261003T040000Z
 DTEND:20261003T100000Z
 SUMMARY:UHT Duty — Primary
@@ -1198,7 +1217,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-10-04-rosalyn-inter-res-specialty-event-inter-res-specialty-
  event@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261003T203000Z
 DTEND:20261004T023000Z
 SUMMARY:UHT Event — Inter-Res Specialty Event
@@ -1209,7 +1228,7 @@ DESCRIPTION:Type: Event\\nEvent: Inter-Res Specialty Event\\nRole: Event Te
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-10-05-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261005T033000Z
 DTEND:20261005T100000Z
 SUMMARY:UHT Duty — Secondary
@@ -1219,17 +1238,18 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Monday 2026-10-05\\nTime:
 END:VEVENT
 BEGIN:VEVENT
 UID:work-2026-10-06-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20261006
-DTEND;VALUE=DATE:20261007
+DTSTAMP:20260616T125706Z
+DTSTART:20261006T060000Z
+DTEND:20261006T070000Z
 SUMMARY:UHT Work — RA Meeting
 LOCATION:University Hall Towers
 DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-10-06\
- \nHours: 1\\nPaycycle: Paycycle 17\\nSemester: Semester 2\\nSource: Admin
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 17\\nSemester: Semes
+ ter 2\\nSource: Admin
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-10-12-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261012T063000Z
 DTEND:20261012T100000Z
 SUMMARY:UHT Duty — Backup
@@ -1238,18 +1258,8 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Monday 2026-10-12\\nTime: 19:
  30 – 23:00\\nHours: 3.5\\nPaycycle: Paycycle 18\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:work-2026-10-13-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-SUMMARY:UHT Work — RA Meeting
-LOCATION:University Hall Towers
-DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-10-13\
- \nHours: 1\\nPaycycle: Paycycle 18\\nSemester: Semester 2\\nSource: Admin
-END:VEVENT
-BEGIN:VEVENT
 UID:duty-2026-10-13-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261013T033000Z
 DTEND:20261013T100000Z
 SUMMARY:UHT Duty — Secondary
@@ -1258,8 +1268,19 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Tuesday 2026-10-13\\nTime:
   16:30 – 23:00\\nHours: 6.5\\nPaycycle: Paycycle 18\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
+UID:work-2026-10-13-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T125706Z
+DTSTART:20261013T060000Z
+DTEND:20261013T070000Z
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-10-13\
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 18\\nSemester: Semes
+ ter 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
 UID:duty-2026-10-15-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261015T033000Z
 DTEND:20261015T100000Z
 SUMMARY:UHT Duty — Backup
@@ -1269,7 +1290,7 @@ DESCRIPTION:Type: Duty\\nRole: Backup\\nDate: Thursday 2026-10-15\\nTime: 1
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-10-16-rosalyn-gumboot-friday-gumboot-friday@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261016T000000Z
 DTEND:20261016T030000Z
 SUMMARY:UHT Event — Gumboot Friday
@@ -1279,18 +1300,8 @@ DESCRIPTION:Type: Event\\nEvent: Gumboot Friday\\nRole: Event Team\\nDate:
  \\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
-UID:work-2026-10-20-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
-DTSTAMP:20260616T120020Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
-SUMMARY:UHT Work — RA Meeting
-LOCATION:University Hall Towers
-DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-10-20\
- \nHours: 1\\nPaycycle: Paycycle 18\\nSemester: Semester 2\\nSource: Admin
-END:VEVENT
-BEGIN:VEVENT
 UID:duty-2026-10-20-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261020T043000Z
 DTEND:20261020T100000Z
 SUMMARY:UHT Duty — Primary
@@ -1299,8 +1310,19 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Tuesday 2026-10-20\\nTime: 1
  7:30 – 23:00\\nHours: 5.5\\nPaycycle: Paycycle 18\\nSemester: Semester 2
 END:VEVENT
 BEGIN:VEVENT
+UID:work-2026-10-20-rosalyn-ra-meeting-ra-meeting@uht-ra-portal
+DTSTAMP:20260616T125706Z
+DTSTART:20261020T060000Z
+DTEND:20261020T070000Z
+SUMMARY:UHT Work — RA Meeting
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Other Work\\nTask: RA Meeting\\nDate: Tuesday 2026-10-20\
+ \nTime: 19:00 – 20:00\\nHours: 1\\nPaycycle: Paycycle 18\\nSemester: Semes
+ ter 2\\nSource: Admin
+END:VEVENT
+BEGIN:VEVENT
 UID:event-2026-10-23-rosalyn-uht-eos-event-uht-eos-event@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261023T040000Z
 DTEND:20261023T100000Z
 SUMMARY:UHT Event — UHT EOS Event
@@ -1311,7 +1333,7 @@ DESCRIPTION:Type: Event\\nEvent: UHT EOS Event\\nRole: Event Team\\nDate: F
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-10-29-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261029T043000Z
 DTEND:20261029T100000Z
 SUMMARY:UHT Duty — Secondary
@@ -1323,7 +1345,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-10-31-rosalyn-wkh-trick-or-treating-wkh-trick-or-treating@uh
  t-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261031T033000Z
 DTEND:20261031T063000Z
 SUMMARY:UHT Event — WKH Trick or Treating
@@ -1334,7 +1356,7 @@ DESCRIPTION:Type: Event\\nEvent: WKH Trick or Treating\\nRole: Event Team\\
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-11-01-rosalyn-duty-secondary-secondary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261101T060000Z
 DTEND:20261101T100000Z
 SUMMARY:UHT Duty — Secondary
@@ -1344,7 +1366,7 @@ DESCRIPTION:Type: Duty\\nRole: Secondary\\nDate: Sunday 2026-11-01\\nTime:
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-11-06-rosalyn-duty-backup-backup@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261106T033000Z
 DTEND:20261106T100000Z
 SUMMARY:UHT Duty — Backup
@@ -1356,7 +1378,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-11-08-rosalyn-move-out-duty-matthew-move-out-duty-matthew@uh
  t-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:UHT Event — Move Out Duty - Matthew
@@ -1368,7 +1390,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-11-16-rosalyn-move-out-duty-rosalyn-move-out-duty-rosalyn@uh
  t-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261115T193000Z
 DTEND:20261116T033000Z
 SUMMARY:UHT Event — Move Out Duty -  Rosalyn
@@ -1379,7 +1401,7 @@ DESCRIPTION:Type: Event\\nEvent: Move Out Duty -  Rosalyn\\nRole: Event Tea
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-11-18-rosalyn-manager-tasks-manager-tasks@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261118T040000Z
 DTEND:20261118T070000Z
 SUMMARY:UHT Event — Manager Tasks
@@ -1390,7 +1412,7 @@ DESCRIPTION:Type: Event\\nEvent: Manager Tasks\\nRole: Event Team\\nDate: W
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-11-20-rosalyn-move-out-day-move-out-day@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261119T190000Z
 DTEND:20261120T030000Z
 SUMMARY:UHT Event — Move Out Day
@@ -1401,7 +1423,7 @@ DESCRIPTION:Type: Event\\nEvent: Move Out Day\\nRole: Event Team\\nDate: Fr
 END:VEVENT
 BEGIN:VEVENT
 UID:duty-2026-11-20-rosalyn-duty-primary-primary@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261120T050000Z
 DTEND:20261120T100000Z
 SUMMARY:UHT Duty — Primary
@@ -1412,7 +1434,7 @@ DESCRIPTION:Type: Duty\\nRole: Primary\\nDate: Friday 2026-11-20\\nTime: 18
 END:VEVENT
 BEGIN:VEVENT
 UID:event-2026-11-21-rosalyn-hall-reset-hall-reset@uht-ra-portal
-DTSTAMP:20260616T120020Z
+DTSTAMP:20260616T125706Z
 DTSTART:20261120T200000Z
 DTEND:20261121T040000Z
 SUMMARY:UHT Event — Hall Reset
