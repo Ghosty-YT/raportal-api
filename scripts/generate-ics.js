@@ -72,9 +72,14 @@ function icsAllDayDate(date) {
 }
 
 function addDaysIso(date, days) {
-  const d = new Date(`${date}T00:00:00`);
-  d.setDate(d.getDate() + days);
-  return d.toISOString().slice(0, 10);
+  const [year, month, day] = String(date || "")
+    .split("-")
+    .map(Number);
+
+  if (!year || !month || !day) return date;
+
+  const utcDate = new Date(Date.UTC(year, month - 1, day + days));
+  return utcDate.toISOString().slice(0, 10);
 }
 
 function getStartEnd(personOrEntry) {
@@ -125,6 +130,21 @@ function isAllowedOtherWorkTask(task) {
     text.includes("ra meeting") ||
     text.includes("ra training")
   );
+}
+
+function applyDefaultTimesForOtherWork(entry) {
+  const task = normalizeText(entry.task || entry.original_task || "");
+
+  if (task.includes("ra training")) {
+    return {
+      ...entry,
+      time: entry.time || "08:30 – 16:30",
+      start_time: entry.start_time || "08:30",
+      end_time: entry.end_time || "16:30"
+    };
+  }
+
+  return entry;
 }
 
 function shouldExcludeOtherWorkTask(task) {
@@ -370,28 +390,30 @@ function main() {
 
     if (shouldExcludeOtherWorkTask(task)) return;
 
+    const timedEntry = applyDefaultTimesForOtherWork(entry);
+
     const event = createTimedOrAllDayEvent({
       type: "work",
-      date: entry.date,
-      raName: entry.name,
+      date: timedEntry.date,
+      raName: timedEntry.name,
       label: task,
       summary: `UHT Work — ${task}`,
       location: "University Hall Towers",
-      personOrEntry: entry,
+      personOrEntry: timedEntry,
       dedupeExtra: task,
       description: makeDescription([
         `Type: Other Work`,
         `Task: ${task}`,
-        `Date: ${entry.day || ""} ${entry.date}`,
-        entry.time ? `Time: ${entry.time}` : "",
-        entry.hours ? `Hours: ${entry.hours}` : "",
-        entry.pay_cycle ? `Paycycle: ${entry.pay_cycle}` : "",
-        entry.semester ? `Semester: ${entry.semester}` : "",
-        entry.source_sheet ? `Source: ${entry.source_sheet}` : ""
+        `Date: ${timedEntry.day || ""} ${timedEntry.date}`,
+        timedEntry.time ? `Time: ${timedEntry.time}` : "",
+        timedEntry.hours ? `Hours: ${timedEntry.hours}` : "",
+        timedEntry.pay_cycle ? `Paycycle: ${timedEntry.pay_cycle}` : "",
+        timedEntry.semester ? `Semester: ${timedEntry.semester}` : "",
+        timedEntry.source_sheet ? `Source: ${timedEntry.source_sheet}` : ""
       ])
     });
 
-    addEvent(calendarMap, entry.name, event);
+    addEvent(calendarMap, timedEntry.name, event);
   });
 
   const index = [];
