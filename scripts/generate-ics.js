@@ -147,6 +147,30 @@ function applyDefaultTimesForOtherWork(entry) {
   return entry;
 }
 
+function isExcludedCalendarPerson(person) {
+  if (!person) return true;
+
+  const fields = [
+    person.role,
+    person.task,
+    person.status,
+    person.note,
+    person.notes,
+    person.event_name,
+    person.original_event_name
+  ];
+
+  return fields.some(value => {
+    const text = normalizeText(value);
+    return isAbsenceTask(text) || isTotalTask(text);
+  });
+}
+
+function isExcludedCalendarEventName(value) {
+  const text = normalizeText(value);
+  return isAbsenceTask(text) || isTotalTask(text);
+}
+
 function shouldExcludeOtherWorkTask(task) {
   const text = normalizeText(task);
 
@@ -352,10 +376,16 @@ function main() {
     });
   });
 
-  // 2. Event team shifts
-  (data.event_team || []).forEach(record => {
-    (record.people || []).forEach(person => {
-      const eventName = record.event_name || "Event";
+// 2. Event team shifts
+(data.event_team || []).forEach(record => {
+  const eventName = record.event_name || "Event";
+
+  // Do not generate calendar events for Sick/LWOP/Total rows that were parsed as events.
+  if (isExcludedCalendarEventName(eventName)) return;
+
+  (record.people || [])
+    .filter(person => !isExcludedCalendarPerson(person))
+    .forEach(person => {
       const role = person.role || "Event Team";
 
       const event = createTimedOrAllDayEvent({
@@ -381,7 +411,7 @@ function main() {
 
       addEvent(calendarMap, person.name, event);
     });
-  });
+});
 
   // 3. Allowed other work from paycycle_entries
   // Only RA Meeting and RA Training are included.
