@@ -4,14 +4,14 @@
     "normalized_name": "aaron",
     "file": "aaron.ics",
     "url": "https://raw.githubusercontent.com/Ghosty-YT/raportal-api/main/calendars/aaron.ics",
-    "event_count": 131
+    "event_count": 125
   },
   {
     "name": "Alex",
     "normalized_name": "alex",
     "file": "alex.ics",
     "url": "https://raw.githubusercontent.com/Ghosty-YT/raportal-api/main/calendars/alex.ics",
-    "event_count": 129
+    "event_count": 125
   },
   {
     "name": "Anja",
@@ -46,7 +46,7 @@
     "normalized_name": "ky",
     "file": "ky.ics",
     "url": "https://raw.githubusercontent.com/Ghosty-YT/raportal-api/main/calendars/ky.ics",
-    "event_count": 129
+    "event_count": 126
   },
   {
     "name": "Leo",
@@ -60,7 +60,7 @@
     "normalized_name": "maddy",
     "file": "maddy.ics",
     "url": "https://raw.githubusercontent.com/Ghosty-YT/raportal-api/main/calendars/maddy.ics",
-    "event_count": 132
+    "event_count": 131
   },
   {
     "name": "Matilde",
@@ -88,7 +88,7 @@
     "normalized_name": "rosalyn",
     "file": "rosalyn.ics",
     "url": "https://raw.githubusercontent.com/Ghosty-YT/raportal-api/main/calendars/rosalyn.ics",
-    "event_count": 133
+    "event_count": 132
   },
   {
     "name": "Rose",
@@ -109,6 +109,6 @@
     "normalized_name": "takai",
     "file": "takai.ics",
     "url": "https://raw.githubusercontent.com/Ghosty-YT/raportal-api/main/calendars/takai.ics",
-    "event_count": 135
+    "event_count": 130
   }
 ]
