@@ -4,8 +4,8 @@ const SEM1_FILE = "sem1-source.json";
 const SEM2_FILE = "sem2-source.json";
 const OUTPUT_FILE = "duty-shifts-updated-event-team.min.json";
 
-const SEM1_END = "2026-07-04";
-const SEM2_START = "2026-07-05";
+const SEM1_END = "2026-07-05";
+const SEM2_START = "2026-07-06";
 
 function readJson(path) {
   const text = fs.readFileSync(path, "utf8");
