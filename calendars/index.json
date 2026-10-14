@@ -4,7 +4,7 @@
     "normalized_name": "aaron",
     "file": "aaron.ics",
     "url": "https://raw.githubusercontent.com/Ghosty-YT/raportal-api/main/calendars/aaron.ics",
-    "event_count": 122
+    "event_count": 121
   },
   {
     "name": "Alex",
@@ -109,7 +109,7 @@
     "normalized_name": "ryan",
     "file": "ryan.ics",
     "url": "https://raw.githubusercontent.com/Ghosty-YT/raportal-api/main/calendars/ryan.ics",
-    "event_count": 126
+    "event_count": 125
   },
   {
     "name": "Snow",
@@ -123,6 +123,6 @@
     "normalized_name": "takai",
     "file": "takai.ics",
     "url": "https://raw.githubusercontent.com/Ghosty-YT/raportal-api/main/calendars/takai.ics",
-    "event_count": 122
+    "event_count": 121
   }
 ]
