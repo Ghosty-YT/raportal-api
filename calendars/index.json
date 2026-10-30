@@ -95,7 +95,7 @@
     "normalized_name": "rosalyn",
     "file": "rosalyn.ics",
     "url": "https://raw.githubusercontent.com/Ghosty-YT/raportal-api/main/calendars/rosalyn.ics",
-    "event_count": 134
+    "event_count": 135
   },
   {
     "name": "Rose",
@@ -123,6 +123,6 @@
     "normalized_name": "takai",
     "file": "takai.ics",
     "url": "https://raw.githubusercontent.com/Ghosty-YT/raportal-api/main/calendars/takai.ics",
-    "event_count": 121
+    "event_count": 120
   }
 ]
