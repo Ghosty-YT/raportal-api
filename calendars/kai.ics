@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UHT RA Portal//Duty Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:UHT RA Calendar — Kai
+X-WR-TIMEZONE:Pacific/Auckland
+REFRESH-INTERVAL;VALUE=DURATION:PT2H
+X-PUBLISHED-TTL:PT2H
+BEGIN:VEVENT
+UID:event-2026-11-15-kai-move-out-duty-ky-move-out-duty-ky@uht-ra-portal
+DTSTAMP:20261110T034003Z
+DTSTART:20261114T193000Z
+DTEND:20261115T033000Z
+SUMMARY:UHT Event — Move Out Duty -  Ky
+LOCATION:University Hall Towers
+DESCRIPTION:Type: Event\\nEvent: Move Out Duty -  Ky\\nRole: Event Team\\nD
+ ate: Sunday 2026-11-15\\nTime: 08:30 – 16:30\\nHours: 7.5\\nPaycycle: Payc
+ ycle 20\\nSemester: Semester 2
+END:VEVENT
+END:VCALENDAR
